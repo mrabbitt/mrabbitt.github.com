@@ -2,7 +2,7 @@
 .. title: oneis3.com
 .. slug: oneis3com
 .. date: 2013/01/12 23:26:58
-.. tags: Github Nikola
+.. tags: Github, Nikola
 .. link: 
 .. description: 
 -->

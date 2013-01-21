@@ -3,10 +3,10 @@
 .. slug: confluence-numbered-heading-bookmarklet
 .. date: 2013/01/20 19:42:27
 .. tags: Confluence, bookmarklet, JavaScript
-.. link: 
-.. description: 
+.. link:
+.. description:
 -->
-Unfortunately, the [Numbered Heading Confluence plugin](https://marketplace.atlassian.com/plugins/nl.avisi.confluence.plugins.numberedheadings) isn't available for the Atlassian OnDemand, and Atlassian doesn't seem to be in any hurry to implement [CONF-1732](https://jira.atlassian.com/browse/CONF-1732), so I put together this poor-man's hack:
+Unfortunately, the [Numbered Heading Confluence plugin](https://marketplace.atlassian.com/plugins/nl.avisi.confluence.plugins.numberedheadings) isn't available for [Atlassian OnDemand](https://confluence.atlassian.com/display/AOD/Atlassian+OnDemand+Plugin+Policy#AtlassianOnDemandPluginPolicy-Confluence), and Atlassian doesn't seem to be in any hurry to implement [CONF-1732](https://jira.atlassian.com/browse/CONF-1732), so I put together this poor-man's hack:
 
 This bookmarklet adds hierarchical section numbers to the section headers on the current confluence page. Note that it does not permanently change the content of the page; it only transforms the displayed HTML until the page is re-loaded. One of these days I'll figure out how to get this to work as a [user script](http://userscripts.org/).
 

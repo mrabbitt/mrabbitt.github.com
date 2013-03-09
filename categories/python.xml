@@ -1,2 +1,195 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>&#9312;ne is 3 (Python)</title><link>http://oneis3.com</link><description>One is 3</description><lastBuildDate>Sat, 02 Feb 2013 18:24:26 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Python Script to download Splunk Documentation PDFs</title><link>http://oneis3.com/posts/python-script-to-download-splunk-documentation-pdfs.html</link><description>&lt;head&gt;&lt;script src="https://gist.github.com/4121269.js"&gt;&lt;/script&gt;&lt;/head&gt;</description><guid>http://oneis3.com/posts/python-script-to-download-splunk-documentation-pdfs.html</guid><pubDate>Tue, 20 Nov 2012 16:33:00 GMT</pubDate></item></channel></rss>
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>①ne is 3 (Python)</title><link>http://oneis3.com</link><description>One is 3</description><lastBuildDate>Sat, 09 Mar 2013 01:41:31 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Python Markdown Extension for Inline Gist</title><link>http://oneis3.com/posts/python-markdown-extension-for-inline-gist.html</link><description>&lt;body&gt;&lt;p&gt;As discussed in &lt;a href="https://groups.google.com/d/topic/nikola-discuss/ScaJGcTGBBY/discussion"&gt;this thread on the Nikola forum&lt;/a&gt;, I'd wanted a way add a custom inline "gist" directive to Nikola which I could use in my markdown posts to include the full contents of the gist in a &lt;code&gt;&amp;lt;noscript&amp;gt;&lt;/code&gt; tag.  This makes gist contents available in the site RSS feed and when viewing the site with Javascript disabled.  Here's a gist (of course) with the Python Markdown extension that makes this possible:&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;&lt;div class="gist"&gt;
+&lt;script src="https://gist.github.com/5080027.js"&gt;&lt;/script&gt;&lt;noscript&gt;
+&lt;pre&gt;# -*- coding: utf-8 -*-
+#
+# Copyright (c) 2013 Michael Rabbitt.
+#
+# Permission is hereby granted, free of charge, to any person obtaining a
+# copy of this software and associated documentation files (the
+# "Software"), to deal in the Software without restriction, including
+# without limitation the rights to use, copy, modify, merge, publish,
+# distribute, sublicense, and/or sell copies of the Software, and to
+# permit persons to whom the Software is furnished to do so, subject to
+# the following conditions:
+#
+# The above copyright notice and this permission notice shall be included
+# in all copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+# OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+# MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+# IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+# CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+# TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+# SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+#
+# Inspired by "[Python] reStructuredText GitHub Gist directive"
+# (https://gist.github.com/brianhsu/1407759), public domain by Brian Hsu
+'''
+Extension to Python Markdown for Embedded Gists (gist.github.com)
+
+Basic Example:
+
+    &amp;gt;&amp;gt;&amp;gt; import markdown
+    &amp;gt;&amp;gt;&amp;gt; text = """
+    ... Text of the gist:
+    ... [:gist: 4747847]
+    ... """
+    &amp;gt;&amp;gt;&amp;gt; html = markdown.markdown(text, ['gist'])
+    &amp;gt;&amp;gt;&amp;gt; print html
+    &amp;lt;p&amp;gt;Text of the gist:
+    &amp;lt;div class="gist"&amp;gt;
+    &amp;lt;script src="https://gist.github.com/4747847.js"&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;noscript&amp;gt;
+    &amp;lt;pre&amp;gt;import this&amp;lt;/pre&amp;gt;
+    &amp;lt;/noscript&amp;gt;
+    &amp;lt;/div&amp;gt;
+    &amp;lt;/p&amp;gt;
+
+Example with filename:
+
+    &amp;gt;&amp;gt;&amp;gt; import markdown
+    &amp;gt;&amp;gt;&amp;gt; text = """
+    ... Text of the gist:
+    ... [:gist: 4747847 zen.py]
+    ... """
+    &amp;gt;&amp;gt;&amp;gt; html = markdown.markdown(text, ['gist'])
+    &amp;gt;&amp;gt;&amp;gt; print html
+    &amp;lt;p&amp;gt;Text of the gist:
+    &amp;lt;div class="gist"&amp;gt;
+    &amp;lt;script src="https://gist.github.com/4747847.js?file=zen.py"&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;noscript&amp;gt;
+    &amp;lt;pre&amp;gt;import this&amp;lt;/pre&amp;gt;
+    &amp;lt;/noscript&amp;gt;
+    &amp;lt;/div&amp;gt;
+    &amp;lt;/p&amp;gt;
+
+Example using reStructuredText syntax:
+
+    &amp;gt;&amp;gt;&amp;gt; import markdown
+    &amp;gt;&amp;gt;&amp;gt; text = """
+    ... Text of the gist:
+    ... .. gist:: 4747847 zen.py
+    ... """
+    &amp;gt;&amp;gt;&amp;gt; html = markdown.markdown(text, ['gist'])
+    &amp;gt;&amp;gt;&amp;gt; print html
+    &amp;lt;p&amp;gt;Text of the gist:
+    &amp;lt;div class="gist"&amp;gt;
+    &amp;lt;script src="https://gist.github.com/4747847.js?file=zen.py"&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;noscript&amp;gt;
+    &amp;lt;pre&amp;gt;import this&amp;lt;/pre&amp;gt;
+    &amp;lt;/noscript&amp;gt;
+    &amp;lt;/div&amp;gt;
+    &amp;lt;/p&amp;gt;
+'''
+from __future__ import unicode_literals
+import warnings
+from markdown.extensions import Extension
+from markdown.inlinepatterns import Pattern
+from markdown.util import AtomicString
+from markdown.util import etree
+
+try:
+    import requests
+except ImportError:
+    requests = None  # NOQA
+
+GIST_JS_URL = "https://gist.github.com/{0}.js"
+GIST_FILE_JS_URL = "https://gist.github.com/{0}.js?file={1}"
+GIST_RAW_URL = "https://raw.github.com/gist/{0}"
+GIST_FILE_RAW_URL = "https://raw.github.com/gist/{0}/{1}"
+
+GIST_MD_RE = r'\[:gist:\s*(?P&amp;lt;gist_id&amp;gt;\d+)(?:\s*(?P&amp;lt;filename&amp;gt;.+?))?\]'
+GIST_RST_RE = r'(?m)^\.\.\s*gist::\s*(?P&amp;lt;gist_id&amp;gt;\d+)(?:\s*(?P&amp;lt;filename&amp;gt;.+))\s*$'
+
+
+class GistPattern(Pattern):
+    """ InlinePattern for footnote markers in a document's body text. """
+
+    def __init__(self, pattern, configs):
+        Pattern.__init__(self, pattern)
+
+    def get_raw_gist_with_filename(self, gist_id, filename):
+        url = GIST_FILE_RAW_URL.format(gist_id, filename)
+        return requests.get(url).text
+
+    def get_raw_gist(self, gist_id):
+        url = GIST_RAW_URL.format(gist_id)
+        return requests.get(url).text
+
+    def handleMatch(self, m):
+        gist_id = m.group('gist_id')
+        gist_file = m.group('filename')
+
+        gist_elem = etree.Element('div')
+        gist_elem.set('class', 'gist')
+        script_elem = etree.SubElement(gist_elem, 'script')
+
+        if gist_file:
+            script_elem.set('src', GIST_FILE_JS_URL.format(
+                gist_id, gist_file))
+
+        else:
+            script_elem.set('src', GIST_JS_URL.format(
+                gist_id))
+
+        if requests:
+            if gist_file:
+                raw_gist = (self.get_raw_gist_with_filename(
+                    gist_id, gist_file))
+                script_elem.set('src', GIST_FILE_JS_URL.format(
+                    gist_id, gist_file))
+
+            else:
+                raw_gist = (self.get_raw_gist(gist_id))
+                script_elem.set('src', GIST_JS_URL.format(
+                    gist_id))
+
+            # Insert source as &amp;lt;pre/&amp;gt; within &amp;lt;noscript&amp;gt;
+            noscript_elem = etree.SubElement(gist_elem, 'noscript')
+            pre_elem = etree.SubElement(noscript_elem, 'pre')
+            pre_elem.text = AtomicString(raw_gist)
+
+        else:
+            warnings.warn('"requests" package not installed.  '
+                          'Please install to add inline gist source.')
+
+        return gist_elem
+
+
+class GistExtension(Extension):
+    def __init__(self, configs={}):
+        # set extension defaults
+        self.config = {}
+
+        # Override defaults with user settings
+        for key, value in configs:
+            self.setConfig(key, value)
+
+    def extendMarkdown(self, md, md_globals):
+        gist_md_pattern = GistPattern(GIST_MD_RE, self.getConfigs())
+        gist_md_pattern.md = md
+        md.inlinePatterns.add('gist', gist_md_pattern, "&amp;lt;not_strong")
+
+        gist_rst_pattern = GistPattern(GIST_RST_RE, self.getConfigs())
+        gist_rst_pattern.md = md
+        md.inlinePatterns.add('gist-rst', gist_rst_pattern, "&amp;gt;gist")
+
+        md.registerExtension(self)
+
+
+def makeExtension(configs=None):
+    return GistExtension(configs)
+
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod(optionflags=(doctest.NORMALIZE_WHITESPACE +
+                                 doctest.REPORT_NDIFF))
+&lt;/pre&gt;
+&lt;/noscript&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I'll be sending a push request shortly to get this integrated into Nikola.  Thanks to Roberto Alsina for already &lt;code&gt;gist&lt;/code&gt; support to reStructuredText posts in Nikola.&lt;/p&gt;&lt;/body&gt;</description><guid>http://oneis3.com/posts/python-markdown-extension-for-inline-gist.html</guid><pubDate>Mon, 04 Mar 2013 00:23:36 GMT</pubDate></item><item><title>Python Script to download Splunk Documentation PDFs</title><link>http://oneis3.com/posts/python-script-to-download-splunk-documentation-pdfs.html</link><description>&lt;head&gt;&lt;script src="https://gist.github.com/4121269.js"&gt;&lt;/script&gt;&lt;/head&gt;</description><guid>http://oneis3.com/posts/python-script-to-download-splunk-documentation-pdfs.html</guid><pubDate>Tue, 20 Nov 2012 16:33:00 GMT</pubDate></item></channel></rss>

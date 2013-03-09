@@ -1,20 +1,213 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>&#9312;ne is 3</title><link>http://oneis3.com</link><description>One is 3</description><lastBuildDate>Sat, 02 Feb 2013 18:24:26 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Confluence numbered heading bookmarklet</title><link>http://oneis3.com/posts/confluence-numbered-heading-bookmarklet.html</link><description>&lt;p&gt;Unfortunately, the &lt;a href="https://marketplace.atlassian.com/plugins/nl.avisi.confluence.plugins.numberedheadings"&gt;Numbered Heading Confluence plugin&lt;/a&gt; isn't available for &lt;a href="https://confluence.atlassian.com/display/AOD/Atlassian+OnDemand+Plugin+Policy#AtlassianOnDemandPluginPolicy-Confluence"&gt;Atlassian OnDemand&lt;/a&gt;, and Atlassian doesn't seem to be in any hurry to implement &lt;a href="https://jira.atlassian.com/browse/CONF-1732"&gt;CONF-1732&lt;/a&gt;, so I put together this poor-man's hack:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>①ne is 3</title><link>http://oneis3.com</link><description>One is 3</description><lastBuildDate>Sat, 09 Mar 2013 01:41:31 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Python Markdown Extension for Inline Gist</title><link>http://oneis3.com/posts/python-markdown-extension-for-inline-gist.html</link><description>&lt;body&gt;&lt;p&gt;As discussed in &lt;a href="https://groups.google.com/d/topic/nikola-discuss/ScaJGcTGBBY/discussion"&gt;this thread on the Nikola forum&lt;/a&gt;, I'd wanted a way add a custom inline "gist" directive to Nikola which I could use in my markdown posts to include the full contents of the gist in a &lt;code&gt;&amp;lt;noscript&amp;gt;&lt;/code&gt; tag.  This makes gist contents available in the site RSS feed and when viewing the site with Javascript disabled.  Here's a gist (of course) with the Python Markdown extension that makes this possible:&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;&lt;div class="gist"&gt;
+&lt;script src="https://gist.github.com/5080027.js"&gt;&lt;/script&gt;&lt;noscript&gt;
+&lt;pre&gt;# -*- coding: utf-8 -*-
+#
+# Copyright (c) 2013 Michael Rabbitt.
+#
+# Permission is hereby granted, free of charge, to any person obtaining a
+# copy of this software and associated documentation files (the
+# "Software"), to deal in the Software without restriction, including
+# without limitation the rights to use, copy, modify, merge, publish,
+# distribute, sublicense, and/or sell copies of the Software, and to
+# permit persons to whom the Software is furnished to do so, subject to
+# the following conditions:
+#
+# The above copyright notice and this permission notice shall be included
+# in all copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+# OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+# MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+# IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+# CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+# TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+# SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+#
+# Inspired by "[Python] reStructuredText GitHub Gist directive"
+# (https://gist.github.com/brianhsu/1407759), public domain by Brian Hsu
+'''
+Extension to Python Markdown for Embedded Gists (gist.github.com)
+
+Basic Example:
+
+    &amp;gt;&amp;gt;&amp;gt; import markdown
+    &amp;gt;&amp;gt;&amp;gt; text = """
+    ... Text of the gist:
+    ... [:gist: 4747847]
+    ... """
+    &amp;gt;&amp;gt;&amp;gt; html = markdown.markdown(text, ['gist'])
+    &amp;gt;&amp;gt;&amp;gt; print html
+    &amp;lt;p&amp;gt;Text of the gist:
+    &amp;lt;div class="gist"&amp;gt;
+    &amp;lt;script src="https://gist.github.com/4747847.js"&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;noscript&amp;gt;
+    &amp;lt;pre&amp;gt;import this&amp;lt;/pre&amp;gt;
+    &amp;lt;/noscript&amp;gt;
+    &amp;lt;/div&amp;gt;
+    &amp;lt;/p&amp;gt;
+
+Example with filename:
+
+    &amp;gt;&amp;gt;&amp;gt; import markdown
+    &amp;gt;&amp;gt;&amp;gt; text = """
+    ... Text of the gist:
+    ... [:gist: 4747847 zen.py]
+    ... """
+    &amp;gt;&amp;gt;&amp;gt; html = markdown.markdown(text, ['gist'])
+    &amp;gt;&amp;gt;&amp;gt; print html
+    &amp;lt;p&amp;gt;Text of the gist:
+    &amp;lt;div class="gist"&amp;gt;
+    &amp;lt;script src="https://gist.github.com/4747847.js?file=zen.py"&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;noscript&amp;gt;
+    &amp;lt;pre&amp;gt;import this&amp;lt;/pre&amp;gt;
+    &amp;lt;/noscript&amp;gt;
+    &amp;lt;/div&amp;gt;
+    &amp;lt;/p&amp;gt;
+
+Example using reStructuredText syntax:
+
+    &amp;gt;&amp;gt;&amp;gt; import markdown
+    &amp;gt;&amp;gt;&amp;gt; text = """
+    ... Text of the gist:
+    ... .. gist:: 4747847 zen.py
+    ... """
+    &amp;gt;&amp;gt;&amp;gt; html = markdown.markdown(text, ['gist'])
+    &amp;gt;&amp;gt;&amp;gt; print html
+    &amp;lt;p&amp;gt;Text of the gist:
+    &amp;lt;div class="gist"&amp;gt;
+    &amp;lt;script src="https://gist.github.com/4747847.js?file=zen.py"&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;noscript&amp;gt;
+    &amp;lt;pre&amp;gt;import this&amp;lt;/pre&amp;gt;
+    &amp;lt;/noscript&amp;gt;
+    &amp;lt;/div&amp;gt;
+    &amp;lt;/p&amp;gt;
+'''
+from __future__ import unicode_literals
+import warnings
+from markdown.extensions import Extension
+from markdown.inlinepatterns import Pattern
+from markdown.util import AtomicString
+from markdown.util import etree
+
+try:
+    import requests
+except ImportError:
+    requests = None  # NOQA
+
+GIST_JS_URL = "https://gist.github.com/{0}.js"
+GIST_FILE_JS_URL = "https://gist.github.com/{0}.js?file={1}"
+GIST_RAW_URL = "https://raw.github.com/gist/{0}"
+GIST_FILE_RAW_URL = "https://raw.github.com/gist/{0}/{1}"
+
+GIST_MD_RE = r'\[:gist:\s*(?P&amp;lt;gist_id&amp;gt;\d+)(?:\s*(?P&amp;lt;filename&amp;gt;.+?))?\]'
+GIST_RST_RE = r'(?m)^\.\.\s*gist::\s*(?P&amp;lt;gist_id&amp;gt;\d+)(?:\s*(?P&amp;lt;filename&amp;gt;.+))\s*$'
+
+
+class GistPattern(Pattern):
+    """ InlinePattern for footnote markers in a document's body text. """
+
+    def __init__(self, pattern, configs):
+        Pattern.__init__(self, pattern)
+
+    def get_raw_gist_with_filename(self, gist_id, filename):
+        url = GIST_FILE_RAW_URL.format(gist_id, filename)
+        return requests.get(url).text
+
+    def get_raw_gist(self, gist_id):
+        url = GIST_RAW_URL.format(gist_id)
+        return requests.get(url).text
+
+    def handleMatch(self, m):
+        gist_id = m.group('gist_id')
+        gist_file = m.group('filename')
+
+        gist_elem = etree.Element('div')
+        gist_elem.set('class', 'gist')
+        script_elem = etree.SubElement(gist_elem, 'script')
+
+        if gist_file:
+            script_elem.set('src', GIST_FILE_JS_URL.format(
+                gist_id, gist_file))
+
+        else:
+            script_elem.set('src', GIST_JS_URL.format(
+                gist_id))
+
+        if requests:
+            if gist_file:
+                raw_gist = (self.get_raw_gist_with_filename(
+                    gist_id, gist_file))
+                script_elem.set('src', GIST_FILE_JS_URL.format(
+                    gist_id, gist_file))
+
+            else:
+                raw_gist = (self.get_raw_gist(gist_id))
+                script_elem.set('src', GIST_JS_URL.format(
+                    gist_id))
+
+            # Insert source as &amp;lt;pre/&amp;gt; within &amp;lt;noscript&amp;gt;
+            noscript_elem = etree.SubElement(gist_elem, 'noscript')
+            pre_elem = etree.SubElement(noscript_elem, 'pre')
+            pre_elem.text = AtomicString(raw_gist)
+
+        else:
+            warnings.warn('"requests" package not installed.  '
+                          'Please install to add inline gist source.')
+
+        return gist_elem
+
+
+class GistExtension(Extension):
+    def __init__(self, configs={}):
+        # set extension defaults
+        self.config = {}
+
+        # Override defaults with user settings
+        for key, value in configs:
+            self.setConfig(key, value)
+
+    def extendMarkdown(self, md, md_globals):
+        gist_md_pattern = GistPattern(GIST_MD_RE, self.getConfigs())
+        gist_md_pattern.md = md
+        md.inlinePatterns.add('gist', gist_md_pattern, "&amp;lt;not_strong")
+
+        gist_rst_pattern = GistPattern(GIST_RST_RE, self.getConfigs())
+        gist_rst_pattern.md = md
+        md.inlinePatterns.add('gist-rst', gist_rst_pattern, "&amp;gt;gist")
+
+        md.registerExtension(self)
+
+
+def makeExtension(configs=None):
+    return GistExtension(configs)
+
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod(optionflags=(doctest.NORMALIZE_WHITESPACE +
+                                 doctest.REPORT_NDIFF))
+&lt;/pre&gt;
+&lt;/noscript&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I'll be sending a push request shortly to get this integrated into Nikola.  Thanks to Roberto Alsina for already &lt;code&gt;gist&lt;/code&gt; support to reStructuredText posts in Nikola.&lt;/p&gt;&lt;/body&gt;</description><guid>http://oneis3.com/posts/python-markdown-extension-for-inline-gist.html</guid><pubDate>Mon, 04 Mar 2013 00:23:36 GMT</pubDate></item><item><title>Confluence numbered heading bookmarklet</title><link>http://oneis3.com/posts/confluence-numbered-heading-bookmarklet.html</link><description>&lt;body&gt;&lt;p&gt;Unfortunately, the &lt;a href="https://marketplace.atlassian.com/plugins/nl.avisi.confluence.plugins.numberedheadings"&gt;Numbered Heading Confluence plugin&lt;/a&gt; isn't available for &lt;a href="https://confluence.atlassian.com/display/AOD/Atlassian+OnDemand+Plugin+Policy#AtlassianOnDemandPluginPolicy-Confluence"&gt;Atlassian OnDemand&lt;/a&gt;, and Atlassian doesn't seem to be in any hurry to implement &lt;a href="https://jira.atlassian.com/browse/CONF-1732"&gt;CONF-1732&lt;/a&gt;, so I put together this poor-man's hack:&lt;/p&gt;
 &lt;p&gt;This bookmarklet adds hierarchical section numbers to the section headers on the current confluence page. Note that it does not permanently change the content of the page; it only transforms the displayed HTML until the page is re-loaded. One of these days I'll figure out how to get this to work as a &lt;a href="http://userscripts.org/"&gt;user script&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a href="javascript:%28function%28%29%2520%7Bfunction%2520addSectionNumber%2520%28elem%2C%2520sectionNumber%2C%2520parentSection%2C%2520level%29%2520%7Bvar%2520sectionNumberStr%2520%3D%2520%2527%2527%3Bvar%2520sectionSpan%3Bif%2520%28level%2520%3E%25201%29%2520%7BsectionNumberStr%2520%3D%2520parentSection%2520%2B%2520%2527.%2527%2520%2B%2520sectionNumber%3B%7D%2520else%2520if%2520%28level%2520%3E%25200%29%2520%7BsectionNumberStr%2520%3D%2520sectionNumber.toString%28%29%3B%7Dif%2520%28level%2520%3E%25200%2520%26%26%2520jQuery%28elem%29.find%28%2527.section-number%2527%29.length%2520%3D%3D%3D%25200%2520%29%2520%7BsectionSpan%2520%3D%2520jQuery%28%2527%3Cspan%2520class%3D%2522section-number%2522%3E%2527%29.text%28sectionNumberStr%2520%2B%2520%2527%2520%2527%29%3BjQuery%28elem%29.prepend%28sectionSpan%29%3B%7Dif%2520%28%2520level%2520%3D%3D%3D%25200%2520%29%2520%7BjQuery%28elem%29.find%28%2527h1%2527%29.each%28%2520function%28index%2C%2520element%29%2520%7BaddSectionNumber%28element%2C%2520%28index%2520%2B%25201%29%2C%2520sectionNumberStr%2C%2520%28level%2520%2B%25201%29%29%3B%7D%29%3B%7D%2520else%2520if%2520%28%2520level%2520%3C%25206%2520%29%2520%7BjQuery%28elem%29.nextUntil%28%2527h%2527%2520%2B%2520level%2C%2520%2527h%2527%2520%2B%2520level%2520%2B%2520%2527%2Ch%2527%2520%2B%2520%28level%2520%2B%25201%29%29.each%28%2520function%28index%2C%2520element%29%2520%7BaddSectionNumber%28element%2C%2520%28index%2520%2B%25201%29%2C%2520sectionNumberStr%2C%2520%28level%2520%2B%25201%29%29%3B%7D%29%3B%7Dreturn%3B%7DaddSectionNumber%28jQuery%28%2527%23main-content%2527%29.first%28%29%2C%25200%2C%2520%2527%2527%2C%25200%29%3B%7D%29%28%29%3B"&gt;Confluence numbered section header bookmarklet&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Source:&lt;/p&gt;
-&lt;script src="https://gist.github.com/4582903.js"&gt;&lt;/script&gt;</description><guid>http://oneis3.com/posts/confluence-numbered-heading-bookmarklet.html</guid><pubDate>Sun, 20 Jan 2013 19:42:27 GMT</pubDate></item><item><title>oneis3.com</title><link>http://oneis3.com/posts/oneis3com.html</link><description>&lt;p&gt;Today I set up a new coding blog on &lt;a href="http://www.oneis3.com"&gt;oneis3.com&lt;/a&gt;.  I've tinkered in the past with Blogger and Tumblr, but this time I decided to go with a different solution which gives me more control of my content.  This site is generated using &lt;a href="http://nikola.ralsina.com.ar"&gt;Nikola&lt;/a&gt;, a static site generator implemented in Python.  Hosting is provided via &lt;a href="http://pages.github.com"&gt;Github Pages&lt;/a&gt; (see the &lt;a href="https://github.com/mrabbitt/mrabbitt.github.com"&gt;mrabbitt.github.com repo&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;I've been writing lots of little Python scripts and JavaScript bookmarklets lately which I hope to share here.  Perhaps some &lt;a href="http://grails.org"&gt;Grails&lt;/a&gt;/&lt;a href="http://groovy.codehaus.org"&gt;Groovy&lt;/a&gt;/Java discoveries from my day job will also find there way here.&lt;/p&gt;</description><guid>http://oneis3.com/posts/oneis3com.html</guid><pubDate>Sat, 12 Jan 2013 23:26:58 GMT</pubDate></item><item><title>Python Script to download Splunk Documentation PDFs</title><link>http://oneis3.com/posts/python-script-to-download-splunk-documentation-pdfs.html</link><description>&lt;head&gt;&lt;script src="https://gist.github.com/4121269.js"&gt;&lt;/script&gt;&lt;/head&gt;</description><guid>http://oneis3.com/posts/python-script-to-download-splunk-documentation-pdfs.html</guid><pubDate>Tue, 20 Nov 2012 16:33:00 GMT</pubDate></item><item><title>Open in SourceTree from IntelliJ IDEA</title><link>http://oneis3.com/posts/open-in-sourcetree-from-intellij-idea.html</link><description>&lt;p&gt;I'm quite fond of &lt;a href="http://www.sourcetreeapp.com/"&gt;SourceTree&lt;/a&gt; for managing Git repositories (it does Mercurial as well).  SourceTree comes with an &lt;code&gt;stree&lt;/code&gt; command to open repositories from the command line.  I wanted to set up an &lt;a href="http://www.jetbrains.com/idea/webhelp/external-tools.html"&gt;external tool in IntelliJ IDEA&lt;/a&gt; to the repo containing the current source file, &lt;code&gt;stree&lt;/code&gt; only works if you call it without any arguments with a current working directory of the root level of a repo, or if you pass the path to the root level of a repo as an argument.  This is fine if you have only a single Git source root in your IntelliJ project:  You can just use call &lt;code&gt;stree&lt;/code&gt; directly with the &lt;code&gt;$ProjectFileDir$&lt;/code&gt; macro as a parameter.  But if you have multiple modules in your project with different Git source roots, it gets more difficult.  I tried using the &lt;code&gt;$ModuleFileDir$&lt;/code&gt; macro, but this seems to the directory where the &lt;code&gt;.iml&lt;/code&gt; file for the module is stored, which is not the source root of the module.&lt;/p&gt;
+&lt;script src="https://gist.github.com/4582903.js"&gt;&lt;/script&gt;&lt;/body&gt;</description><guid>http://oneis3.com/posts/confluence-numbered-heading-bookmarklet.html</guid><pubDate>Sun, 20 Jan 2013 19:42:27 GMT</pubDate></item><item><title>oneis3.com</title><link>http://oneis3.com/posts/oneis3com.html</link><description>&lt;body&gt;&lt;p&gt;Today I set up a new coding blog on &lt;a href="http://www.oneis3.com"&gt;oneis3.com&lt;/a&gt;.  I've tinkered in the past with Blogger and Tumblr, but this time I decided to go with a different solution which gives me more control of my content.  This site is generated using &lt;a href="http://nikola.ralsina.com.ar"&gt;Nikola&lt;/a&gt;, a static site generator implemented in Python.  Hosting is provided via &lt;a href="http://pages.github.com"&gt;Github Pages&lt;/a&gt; (see the &lt;a href="https://github.com/mrabbitt/mrabbitt.github.com"&gt;mrabbitt.github.com repo&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;I've been writing lots of little Python scripts and JavaScript bookmarklets lately which I hope to share here.  Perhaps some &lt;a href="http://grails.org"&gt;Grails&lt;/a&gt;/&lt;a href="http://groovy.codehaus.org"&gt;Groovy&lt;/a&gt;/Java discoveries from my day job will also find there way here.&lt;/p&gt;&lt;/body&gt;</description><guid>http://oneis3.com/posts/oneis3com.html</guid><pubDate>Sat, 12 Jan 2013 23:26:58 GMT</pubDate></item><item><title>Python Script to download Splunk Documentation PDFs</title><link>http://oneis3.com/posts/python-script-to-download-splunk-documentation-pdfs.html</link><description>&lt;head&gt;&lt;script src="https://gist.github.com/4121269.js"&gt;&lt;/script&gt;&lt;/head&gt;</description><guid>http://oneis3.com/posts/python-script-to-download-splunk-documentation-pdfs.html</guid><pubDate>Tue, 20 Nov 2012 16:33:00 GMT</pubDate></item><item><title>Open in SourceTree from IntelliJ IDEA</title><link>http://oneis3.com/posts/open-in-sourcetree-from-intellij-idea.html</link><description>&lt;body&gt;&lt;p&gt;I'm quite fond of &lt;a href="http://www.sourcetreeapp.com/"&gt;SourceTree&lt;/a&gt; for managing Git repositories (it does Mercurial as well).  SourceTree comes with an &lt;code&gt;stree&lt;/code&gt; command to open repositories from the command line.  I wanted to set up an &lt;a href="http://www.jetbrains.com/idea/webhelp/external-tools.html"&gt;external tool in IntelliJ IDEA&lt;/a&gt; to the repo containing the current source file, &lt;code&gt;stree&lt;/code&gt; only works if you call it without any arguments with a current working directory of the root level of a repo, or if you pass the path to the root level of a repo as an argument.  This is fine if you have only a single Git source root in your IntelliJ project:  You can just use call &lt;code&gt;stree&lt;/code&gt; directly with the &lt;code&gt;$ProjectFileDir$&lt;/code&gt; macro as a parameter.  But if you have multiple modules in your project with different Git source roots, it gets more difficult.  I tried using the &lt;code&gt;$ModuleFileDir$&lt;/code&gt; macro, but this seems to the directory where the &lt;code&gt;.iml&lt;/code&gt; file for the module is stored, which is not the source root of the module.&lt;/p&gt;
 &lt;p&gt;So, I ended up writing a small wrapper for &lt;code&gt;stree&lt;/code&gt; which can take the path to any file or directory within a Git or Mercurial repo as an argument and invokes &lt;code&gt;stree&lt;/code&gt; with the path to the root of the repo:&lt;/p&gt;
-&lt;script src="https://gist.github.com/3051104.js"&gt;&lt;/script&gt;</description><guid>http://oneis3.com/posts/open-in-sourcetree-from-intellij-idea.html</guid><pubDate>Thu, 05 Jul 2012 12:11:00 GMT</pubDate></item><item><title>Diff-ing .zip files with FileMerge</title><link>http://oneis3.com/posts/diff-ing-zip-files-with-filemerge.html</link><description>&lt;p&gt;This isn't particularly elegant, but you can use the FileMerge application that comes with Mac OS X developer tools to compare the contents of zip files using a custom filter.&lt;/p&gt;
+&lt;script src="https://gist.github.com/3051104.js"&gt;&lt;/script&gt;&lt;/body&gt;</description><guid>http://oneis3.com/posts/open-in-sourcetree-from-intellij-idea.html</guid><pubDate>Thu, 05 Jul 2012 12:11:00 GMT</pubDate></item><item><title>Diff-ing .zip files with FileMerge</title><link>http://oneis3.com/posts/diff-ing-zip-files-with-filemerge.html</link><description>&lt;body&gt;&lt;p&gt;This isn't particularly elegant, but you can use the FileMerge application that comes with Mac OS X developer tools to compare the contents of zip files using a custom filter.&lt;/p&gt;
 &lt;p&gt;Create a script &lt;code&gt;~/bin/zip_filemerge_filter.bash&lt;/code&gt; with contents:&lt;/p&gt;
-&lt;div class="code"&gt;&lt;pre&gt;&lt;span class="c"&gt;##&lt;/span&gt;
-&lt;span class="c"&gt;#  List the size, CR-32 checksum, and file path of each file in a zip archive,&lt;/span&gt;
-&lt;span class="c"&gt;#  sorted in order by file path.&lt;/span&gt;
-&lt;span class="c"&gt;##&lt;/span&gt;
-&lt;span class="nb"&gt;unzip&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;v&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;l&lt;/span&gt; &lt;span class="s"&gt;"${1}"&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="nb"&gt;cut&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;c&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;9&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;59&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;49&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;57&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="nb"&gt;sort&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;k3&lt;/span&gt;
-&lt;span class="nb"&gt;exit&lt;/span&gt; $?
-&lt;span class="n"&gt;Make&lt;/span&gt; &lt;span class="n"&gt;the&lt;/span&gt; &lt;span class="n"&gt;script&lt;/span&gt; &lt;span class="n"&gt;executable&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;chmod&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt; &lt;span class="o"&gt;~/&lt;/span&gt;&lt;span class="n"&gt;bin&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;zip_filemerge_filter&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;bash&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;
+&lt;div class="code"&gt;&lt;pre&gt;##
+#  List the size, CR-32 checksum, and file path of each file in a zip archive,
+#  sorted in order by file path.
+##
+unzip -v -l "&lt;span class="cp"&gt;${&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="cp"&gt;}&lt;/span&gt;" | cut -c 1-9,59-,49-57 | sort -k3
+exit $?
+Make the script executable (chmod +x ~/bin/zip_filemerge_filter.bash).
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -26,4 +219,4 @@
 &lt;/ul&gt;&lt;p&gt;Then use FileMerge (or the command line &lt;code&gt;opendiff&lt;/code&gt; wrapper) to compare two .zip files.&lt;/p&gt;
 &lt;p&gt;This won't let you diff the contents of files within the zip archives, but will let you quickly see which files appear within one only archive and which files exist in both but have different content (i.e. different size and/or checksum).&lt;/p&gt;
 &lt;p&gt;(&lt;em&gt;Cross-posted on
-&lt;a href="http://stackoverflow.com/questions/587442/is-there-a-safe-way-to-run-a-diff-on-two-zip-compressed-files/4429169#4429169"&gt;StackOverflow&lt;/a&gt; and &lt;a href="http://michaelrabbitt.blogspot.com/2010/12/diff-ing-zip-files-with-filemerge.html"&gt;my old blogger blog&lt;/a&gt;.&lt;/em&gt;)&lt;/p&gt;</description><guid>http://oneis3.com/posts/diff-ing-zip-files-with-filemerge.html</guid><pubDate>Mon, 13 Dec 2010 10:36:00 GMT</pubDate></item></channel></rss>
+&lt;a href="http://stackoverflow.com/questions/587442/is-there-a-safe-way-to-run-a-diff-on-two-zip-compressed-files/4429169#4429169"&gt;StackOverflow&lt;/a&gt; and &lt;a href="http://michaelrabbitt.blogspot.com/2010/12/diff-ing-zip-files-with-filemerge.html"&gt;my old blogger blog&lt;/a&gt;.&lt;/em&gt;)&lt;/p&gt;&lt;/body&gt;</description><guid>http://oneis3.com/posts/diff-ing-zip-files-with-filemerge.html</guid><pubDate>Mon, 13 Dec 2010 10:36:00 GMT</pubDate></item></channel></rss>

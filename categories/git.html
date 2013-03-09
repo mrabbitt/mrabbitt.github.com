@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta charset="utf-8"><meta name="title" content="①ne is 3 ▶ Posts about git"><meta name="description" content="One is 3"><meta name="author" content="Michael Rabbitt"><title>①ne is 3 ▶ Posts about git</title><!-- Le styles --><link href="../assets/css/bootstrap.css" rel="stylesheet" type="text/css"><link href="../assets/css/rst.css" rel="stylesheet" type="text/css"><link href="../assets/css/code.css" rel="stylesheet" type="text/css"><link href="../assets/css/colorbox.css" rel="stylesheet" type="text/css"><link href="../assets/css/slides.css" rel="stylesheet" type="text/css"><link href="../assets/css/theme.css" rel="stylesheet" type="text/css"><link href="../assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css"><link href="../assets/css/custom.css" rel="stylesheet" type="text/css"><script src="../assets/js/jquery-1.7.2.min.js" type="text/javascript"></script><script src="../assets/js/jquery.colorbox-min.js" type="text/javascript"></script><script src="../assets/js/slides.min.jquery.js" type="text/javascript"></script><script src="../assets/js/bootstrap.min.js" type="text/javascript"></script><!-- Le HTML5 shim, for IE6-8 support of HTML5 elements --><!--[if lt IE 9]>
+<!DOCTYPE html><html lang="en"><head><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta charset="utf-8"><meta name="description" content="One is 3"><meta name="author" content="Michael Rabbitt"><title>①ne is 3 ▶ Posts about git</title><link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"><link href="../assets/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"><link href="../assets/css/rst.css" rel="stylesheet" type="text/css"><link href="../assets/css/code.css" rel="stylesheet" type="text/css"><link href="../assets/css/colorbox.css" rel="stylesheet" type="text/css"><link href="../assets/css/slides.css" rel="stylesheet" type="text/css"><link href="../assets/css/theme.css" rel="stylesheet" type="text/css"><link href="../assets/css/custom.css" rel="stylesheet" type="text/css"><!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
     <![endif]--><link rel="alternate" type="application/rss+xml" title="RSS for tag git (en)" href="git.xml"></head><body id="oneis3">
 <!-- Menubar -->
@@ -35,18 +35,17 @@
         <div class="postbox">
         <h1><a href="../posts/open-in-sourcetree-from-intellij-idea.html">Open in SourceTree from IntelliJ IDEA</a>
         <small>  
-             Posted: 2012-07-05 12:11
-        </small></h1>
-        <hr><div><p>I'm quite fond of <a href="http://www.sourcetreeapp.com/">SourceTree</a> for managing Git repositories (it does Mercurial as well).  SourceTree comes with an <code>stree</code> command to open repositories from the command line.  I wanted to set up an <a href="http://www.jetbrains.com/idea/webhelp/external-tools.html">external tool in IntelliJ IDEA</a> to the repo containing the current source file, <code>stree</code> only works if you call it without any arguments with a current working directory of the root level of a repo, or if you pass the path to the root level of a repo as an argument.  This is fine if you have only a single Git source root in your IntelliJ project:  You can just use call <code>stree</code> directly with the <code>$ProjectFileDir$</code> macro as a parameter.  But if you have multiple modules in your project with different Git source roots, it gets more difficult.  I tried using the <code>$ModuleFileDir$</code> macro, but this seems to the directory where the <code>.iml</code> file for the module is stored, which is not the source root of the module.</p>
+             Posted: <time class="published" datetime="2012-07-05T12:11:00">2012-07-05 12:11</time></small></h1>
+        <hr><p>I'm quite fond of <a href="http://www.sourcetreeapp.com/">SourceTree</a> for managing Git repositories (it does Mercurial as well).  SourceTree comes with an <code>stree</code> command to open repositories from the command line.  I wanted to set up an <a href="http://www.jetbrains.com/idea/webhelp/external-tools.html">external tool in IntelliJ IDEA</a> to the repo containing the current source file, <code>stree</code> only works if you call it without any arguments with a current working directory of the root level of a repo, or if you pass the path to the root level of a repo as an argument.  This is fine if you have only a single Git source root in your IntelliJ project:  You can just use call <code>stree</code> directly with the <code>$ProjectFileDir$</code> macro as a parameter.  But if you have multiple modules in your project with different Git source roots, it gets more difficult.  I tried using the <code>$ModuleFileDir$</code> macro, but this seems to the directory where the <code>.iml</code> file for the module is stored, which is not the source root of the module.</p>
 <p>So, I ended up writing a small wrapper for <code>stree</code> which can take the path to any file or directory within a Git or Mercurial repo as an argument and invokes <code>stree</code> with the path to the root of the repo:</p>
-<script src="https://gist.github.com/3051104.js"></script></div>
-        
-    <p>
+<script src="https://gist.github.com/3051104.js"></script><p>
 
         </p></div>
     
 <div>
 <ul class="pager"></ul></div>
+
+    
 
     
 
@@ -72,4 +71,4 @@
             + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
-</script><script type="text/javascript">jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"80%",maxHeight:"80%",scalePhotos:true});</script></body></html>
+</script><script src="../assets/js/jquery-1.7.2.min.js" type="text/javascript"></script><script src="../assets/js/bootstrap.min.js" type="text/javascript"></script><script src="../assets/js/jquery.colorbox-min.js" type="text/javascript"></script><script src="../assets/js/slides.min.jquery.js" type="text/javascript"></script><script type="text/javascript">jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"80%",maxHeight:"80%",scalePhotos:true});</script></body></html>

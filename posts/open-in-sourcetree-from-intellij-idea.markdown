@@ -11,4 +11,4 @@ I'm quite fond of [SourceTree](http://www.sourcetreeapp.com/) for managing Git r
 
 So, I ended up writing a small wrapper for `stree` which can take the path to any file or directory within a Git or Mercurial repo as an argument and invokes `stree` with the path to the root of the repo:
 
-<script src="https://gist.github.com/3051104.js"></script>
+[:gist: 3051104]

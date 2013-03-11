@@ -14,4 +14,4 @@ This bookmarklet adds hierarchical section numbers to the section headers on the
 
 Source:
 
-<script src="https://gist.github.com/4582903.js"></script>
+[:gist: 4582903]

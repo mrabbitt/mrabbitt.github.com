@@ -7,4 +7,4 @@
 .. description: 
 -->
 
-<script src="https://gist.github.com/4121269.js"></script>
+[:gist: 4121269]

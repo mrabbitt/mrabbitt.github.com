@@ -12,3 +12,5 @@ As discussed in [this thread on the Nikola forum](https://groups.google.com/d/to
 [:gist: 5080027]
 
 I'll be sending a push request shortly to get this integrated into Nikola.  Thanks to Roberto Alsina for already `gist` support to reStructuredText posts in Nikola.
+
+_Update: [Pull request accepted](https://github.com/ralsina/nikola/pull/380)!_

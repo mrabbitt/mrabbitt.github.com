@@ -38,7 +38,31 @@
              Posted: <time class="published" datetime="2012-07-05T12:11:00">2012-07-05 12:11</time></small></h1>
         <hr><p>I'm quite fond of <a href="http://www.sourcetreeapp.com/">SourceTree</a> for managing Git repositories (it does Mercurial as well).  SourceTree comes with an <code>stree</code> command to open repositories from the command line.  I wanted to set up an <a href="http://www.jetbrains.com/idea/webhelp/external-tools.html">external tool in IntelliJ IDEA</a> to the repo containing the current source file, <code>stree</code> only works if you call it without any arguments with a current working directory of the root level of a repo, or if you pass the path to the root level of a repo as an argument.  This is fine if you have only a single Git source root in your IntelliJ project:  You can just use call <code>stree</code> directly with the <code>$ProjectFileDir$</code> macro as a parameter.  But if you have multiple modules in your project with different Git source roots, it gets more difficult.  I tried using the <code>$ModuleFileDir$</code> macro, but this seems to the directory where the <code>.iml</code> file for the module is stored, which is not the source root of the module.</p>
 <p>So, I ended up writing a small wrapper for <code>stree</code> which can take the path to any file or directory within a Git or Mercurial repo as an argument and invokes <code>stree</code> with the path to the root of the repo:</p>
-<script src="https://gist.github.com/3051104.js"></script><p>
+<p>
+</p><div class="gist">
+<script src="https://gist.github.com/3051104.js"></script><noscript>
+<pre>#!/bin/bash -e
+
+getRepoRoot()
+{
+    local target=$1
+    if [ -d "${target}" ] ; then
+        cd "${target}"
+    elif [ -f "${target}" ] ; then
+        cd "$(dirname ${target})"
+    fi
+
+    echo $(git rev-parse --show-toplevel 2&gt;/dev/null || hg root 2&gt;/dev/null)
+}
+
+repo_root_path=$(getRepoRoot "${1:-${PWD}}")
+stree "${repo_root_path}"
+</pre>
+</noscript>
+</div>
+
+            
+    <p>
 
         </p></div>
     

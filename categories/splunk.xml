@@ -1,2 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>①ne is 3 (Splunk)</title><link>http://oneis3.com</link><description>One is 3</description><lastBuildDate>Sat, 09 Mar 2013 01:41:31 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Python Script to download Splunk Documentation PDFs</title><link>http://oneis3.com/posts/python-script-to-download-splunk-documentation-pdfs.html</link><description>&lt;head&gt;&lt;script src="https://gist.github.com/4121269.js"&gt;&lt;/script&gt;&lt;/head&gt;</description><guid>http://oneis3.com/posts/python-script-to-download-splunk-documentation-pdfs.html</guid><pubDate>Tue, 20 Nov 2012 16:33:00 GMT</pubDate></item></channel></rss>
+<rss version="2.0"><channel><title>①ne is 3 (Splunk)</title><link>http://oneis3.com</link><description>One is 3</description><lastBuildDate>Sun, 10 Mar 2013 20:20:51 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Python Script to download Splunk Documentation PDFs</title><link>http://oneis3.com/posts/python-script-to-download-splunk-documentation-pdfs.html</link><description>&lt;body&gt;&lt;p&gt;
+&lt;/p&gt;&lt;div class="gist"&gt;
+&lt;script src="https://gist.github.com/4121269.js"&gt;&lt;/script&gt;&lt;noscript&gt;
+&lt;pre&gt;#!/usr/bin/env python
+'''
+Script to download all PDF files for a particular version of Splunk documentation.
+
+Requirements:
+    requests:  http://docs.python-requests.org
+    beautifulsoup4:  http://www.crummy.com/software/BeautifulSoup/
+
+(pip install -U requests beautifulsoup4)
+
+Author:  Michael Rabbitt (https://github.com/mrabbitt)
+'''
+from __future__ import unicode_literals, print_function
+import os.path
+import shutil
+import re
+import sys
+import tempfile
+import requests
+from bs4 import BeautifulSoup
+
+manual_link_regex = re.compile(r'^/Documentation/Splunk/([\d.]+)/([^/]+)/(.+)$')
+filename_regex = re.compile(r'filename="([^"]+)"')
+
+def getDownloadFileName(response, default_name):
+    '''Determines file name from a response object based on its headers
+    Rerverts to `default_name` if no name is suggested by the response headers.'''
+    if response.headers.has_key('content-disposition'):
+        match = filename_regex.match(response.headers['content-disposition'])
+        if match:
+            return match.group(1)
+    return default_name
+
+def main(download_directory, target_version):
+    response = requests.get('http://docs.splunk.com/Documentation/Splunk/{0}'.format(target_version))
+    page = BeautifulSoup(response.text)
+    manual_links = [div.find('a') for div in page.find_all('div', class_='manualmodule')]
+
+    for manual_link in manual_links:
+        match = manual_link_regex.match(manual_link.attrs['href'])
+        doc_description = manual_link.text.strip()
+        (version, section, docname) =  match.groups()
+
+        pdf_url = 'http://docs.splunk.com/index.php?title=Documentation:Splunk:{0}:{1}:{2}&amp;amp;action=pdfbook'.format(section, docname, version)
+        print('Downloading "{0}" from &amp;lt;{1}&amp;gt;...'.format(doc_description, pdf_url))
+        pdf_response = requests.get(pdf_url)
+
+        file_name = getDownloadFileName(pdf_response, 'Splunk-{0}-{1}.pdf'.format(version, section))
+
+        with tempfile.NamedTemporaryFile(suffix=file_name, delete=False) as temp_file:
+            temp_file.write(pdf_response.content)
+
+            target_path = os.path.join(download_directory, file_name)
+            print('Moving temporary file to {0}'.format(target_path))
+            shutil.move(temp_file.name, target_path)
+
+    print('Complete')
+
+if __name__ == '__main__':
+    if len(sys.argv) == 3:
+        download_directory = sys.argv[1]
+        target_version = sys.argv[2] if len(sys.argv) == 3 else 'latest'
+
+        if os.path.isdir(download_directory):
+            main(download_directory, target_version)
+        else:
+            print('No such directory: {0}'.format(download_directory), file=sys.stderr)
+
+    else:
+        print('''Usage: {0} PATH_TO_DOWNLOAD_DIR VERSION'''.format(os.path.basename(__file__)), file=sys.stderr)&lt;/pre&gt;
+&lt;/noscript&gt;
+&lt;/div&gt;
+&lt;/body&gt;</description><guid>http://oneis3.com/posts/python-script-to-download-splunk-documentation-pdfs.html</guid><pubDate>Tue, 20 Nov 2012 16:33:00 GMT</pubDate></item></channel></rss>

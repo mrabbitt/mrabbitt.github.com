@@ -1,6 +1,6 @@
-<!DOCTYPE html><html lang="en"><head><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta charset="utf-8"><meta name="description" content="One is 3"><meta name="author" content="Michael Rabbitt"><title>①ne is 3 ▶ Posts about migrated_from_tumblr</title><link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"><link href="../assets/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"><link href="../assets/css/rst.css" rel="stylesheet" type="text/css"><link href="../assets/css/code.css" rel="stylesheet" type="text/css"><link href="../assets/css/colorbox.css" rel="stylesheet" type="text/css"><link href="../assets/css/slides.css" rel="stylesheet" type="text/css"><link href="../assets/css/theme.css" rel="stylesheet" type="text/css"><link href="../assets/css/custom.css" rel="stylesheet" type="text/css"><!--[if lt IE 9]>
+<!DOCTYPE html><html lang="en"><head><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta charset="utf-8"><meta name="description" content="One is 3"><meta name="author" content="Michael Rabbitt"><title>①ne is 3 ▶ Posts about migrated_from_tumblr</title><link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"><link href="../assets/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"><link href="../assets/css/rst.css" rel="stylesheet" type="text/css"><link href="../assets/css/code.css" rel="stylesheet" type="text/css"><link href="../assets/css/colorbox.css" rel="stylesheet" type="text/css"><link href="../assets/css/theme.css" rel="stylesheet" type="text/css"><link href="../assets/css/custom.css" rel="stylesheet" type="text/css"><!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
-    <![endif]--><link rel="alternate" type="application/rss+xml" title="RSS for tag migrated_from_tumblr (en)" href="migrated_from_tumblr.xml"></head><body id="oneis3">
+    <![endif]--><link rel="alternate" type="application/rss+xml" title="RSS (en)" href="../rss.xml"><link rel="alternate" type="application/rss+xml" title="RSS for tag migrated_from_tumblr" href="migrated_from_tumblr.xml"></head><body id="oneis3">
 <!-- Menubar -->
 <div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
@@ -19,9 +19,14 @@
             <!-- Everything you want hidden at 940px or less, place within here -->
             <div class="nav-collapse collapse">
                 <ul class="nav"><li><a href="../archive.html">Archives</a>
-            </li><li><a href="index.html">Tags</a>
+                </li><li><a href="index.html">Tags</a>
+                </li><li><a href="../rss.xml">RSS</a>
 
-                </li></ul><ul class="nav pull-right"></ul></div>
+                </li></ul><!-- Custom search --><form method="get" id="search" action="http://duckduckgo.com/" class="navbar-form pull-right">
+    <input type="hidden" name="sites" value="http://oneis3.com/"><input type="hidden" name="k8" value="#444444"><input type="hidden" name="k9" value="#D51920"><input type="hidden" name="kt" value="h"><input type="text" name="q" maxlength="255" placeholder="Search…" class="span2" style="margin-top: 4px;"><input type="submit" value="DuckDuckGo Search" style="visibility: hidden;"></form>
+<!-- End of custom search -->
+
+                <ul class="nav pull-right"></ul></div>
         </div>
     </div>
 </div>
@@ -32,140 +37,24 @@
     <div class="span2"></div>
     <div class="span8">
     
+        <!--Body content-->
         <div class="postbox">
-        <h1><a href="../posts/python-script-to-download-splunk-documentation-pdfs.html">Python Script to download Splunk Documentation PDFs</a>
-        <small>  
-             Posted: <time class="published" datetime="2012-11-20T16:33:00">2012-11-20 16:33</time></small></h1>
-        <hr><p>
-</p><div class="gist">
-<script src="https://gist.github.com/4121269.js"></script><noscript>
-<pre>#!/usr/bin/env python
-'''
-Script to download all PDF files for a particular version of Splunk documentation.
-
-Requirements:
-    requests:  http://docs.python-requests.org
-    beautifulsoup4:  http://www.crummy.com/software/BeautifulSoup/
-
-(pip install -U requests beautifulsoup4)
-
-Author:  Michael Rabbitt (https://github.com/mrabbitt)
-'''
-from __future__ import unicode_literals, print_function
-import os.path
-import shutil
-import re
-import sys
-import tempfile
-import requests
-from bs4 import BeautifulSoup
-
-manual_link_regex = re.compile(r'^/Documentation/Splunk/([\d.]+)/([^/]+)/(.+)$')
-filename_regex = re.compile(r'filename="([^"]+)"')
-
-def getDownloadFileName(response, default_name):
-    '''Determines file name from a response object based on its headers
-    Rerverts to `default_name` if no name is suggested by the response headers.'''
-    if response.headers.has_key('content-disposition'):
-        match = filename_regex.match(response.headers['content-disposition'])
-        if match:
-            return match.group(1)
-    return default_name
-
-def main(download_directory, target_version):
-    response = requests.get('http://docs.splunk.com/Documentation/Splunk/{0}'.format(target_version))
-    page = BeautifulSoup(response.text)
-    manual_links = [div.find('a') for div in page.find_all('div', class_='manualmodule')]
-
-    for manual_link in manual_links:
-        match = manual_link_regex.match(manual_link.attrs['href'])
-        doc_description = manual_link.text.strip()
-        (version, section, docname) =  match.groups()
-
-        pdf_url = 'http://docs.splunk.com/index.php?title=Documentation:Splunk:{0}:{1}:{2}&amp;action=pdfbook'.format(section, docname, version)
-        print('Downloading "{0}" from &lt;{1}&gt;...'.format(doc_description, pdf_url))
-        pdf_response = requests.get(pdf_url)
-
-        file_name = getDownloadFileName(pdf_response, 'Splunk-{0}-{1}.pdf'.format(version, section))
-
-        with tempfile.NamedTemporaryFile(suffix=file_name, delete=False) as temp_file:
-            temp_file.write(pdf_response.content)
-
-            target_path = os.path.join(download_directory, file_name)
-            print('Moving temporary file to {0}'.format(target_path))
-            shutil.move(temp_file.name, target_path)
-
-    print('Complete')
-
-if __name__ == '__main__':
-    if len(sys.argv) == 3:
-        download_directory = sys.argv[1]
-        target_version = sys.argv[2] if len(sys.argv) == 3 else 'latest'
-
-        if os.path.isdir(download_directory):
-            main(download_directory, target_version)
-        else:
-            print('No such directory: {0}'.format(download_directory), file=sys.stderr)
-
-    else:
-        print('''Usage: {0} PATH_TO_DOWNLOAD_DIR VERSION'''.format(os.path.basename(__file__)), file=sys.stderr)</pre>
-</noscript>
-</div>
-
-            
-    <p>
-
-        </p></div>
-        <div class="postbox">
-        <h1><a href="../posts/open-in-sourcetree-from-intellij-idea.html">Open in SourceTree from IntelliJ IDEA</a>
-        <small>  
-             Posted: <time class="published" datetime="2012-07-05T12:11:00">2012-07-05 12:11</time></small></h1>
-        <hr><p>I'm quite fond of <a href="http://www.sourcetreeapp.com/">SourceTree</a> for managing Git repositories (it does Mercurial as well).  SourceTree comes with an <code>stree</code> command to open repositories from the command line.  I wanted to set up an <a href="http://www.jetbrains.com/idea/webhelp/external-tools.html">external tool in IntelliJ IDEA</a> to the repo containing the current source file, <code>stree</code> only works if you call it without any arguments with a current working directory of the root level of a repo, or if you pass the path to the root level of a repo as an argument.  This is fine if you have only a single Git source root in your IntelliJ project:  You can just use call <code>stree</code> directly with the <code>$ProjectFileDir$</code> macro as a parameter.  But if you have multiple modules in your project with different Git source roots, it gets more difficult.  I tried using the <code>$ModuleFileDir$</code> macro, but this seems to the directory where the <code>.iml</code> file for the module is stored, which is not the source root of the module.</p>
-<p>So, I ended up writing a small wrapper for <code>stree</code> which can take the path to any file or directory within a Git or Mercurial repo as an argument and invokes <code>stree</code> with the path to the root of the repo:</p>
-<p>
-</p><div class="gist">
-<script src="https://gist.github.com/3051104.js"></script><noscript>
-<pre>#!/bin/bash -e
-
-getRepoRoot()
-{
-    local target=$1
-    if [ -d "${target}" ] ; then
-        cd "${target}"
-    elif [ -f "${target}" ] ; then
-        cd "$(dirname ${target})"
-    fi
-
-    echo $(git rev-parse --show-toplevel 2&gt;/dev/null || hg root 2&gt;/dev/null)
-}
-
-repo_root_path=$(getRepoRoot "${1:-${PWD}}")
-stree "${repo_root_path}"
-</pre>
-</noscript>
-</div>
-
-            
-    <p>
-
-        </p></div>
-    
-<div>
-<ul class="pager"></ul></div>
-
-    
-
-    
-
+        <h1>Posts about migrated_from_tumblr</h1>
+            <a href="migrated_from_tumblr.xml">RSS</a>
+        <br><ul class="unstyled"><li><a href="../posts/python-script-to-download-splunk-documentation-pdfs.html">[2012-11-20 16:33] Python Script to download Splunk Documentation PDFs</a>
+            </li><li><a href="../posts/open-in-sourcetree-from-intellij-idea.html">[2012-07-05 12:11] Open in SourceTree from IntelliJ IDEA</a>
+        </li></ul></div>
+        <!--End of body content-->
 
     </div>
     </div>
     <!--End of body content-->
 </div>
 <div class="footerbox">
-    Contents © 2013 Michael Rabbitt - Powered by <a href="http://nikola.ralsina.com.ar">Nikola</a>
+    Contents © 2010-2013 Michael Rabbitt - Powered by <a href="http://getnikola.com">Nikola</a>
 </div>
 
+	
 
 
 <script type="text/javascript">
@@ -179,4 +68,4 @@ stree "${repo_root_path}"
             + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
-</script><script src="../assets/js/jquery-1.7.2.min.js" type="text/javascript"></script><script src="../assets/js/bootstrap.min.js" type="text/javascript"></script><script src="../assets/js/jquery.colorbox-min.js" type="text/javascript"></script><script src="../assets/js/slides.min.jquery.js" type="text/javascript"></script><script type="text/javascript">jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"80%",maxHeight:"80%",scalePhotos:true});</script></body></html>
+</script><script src="../assets/js/jquery-1.10.2.min.js" type="text/javascript"></script><script src="../assets/js/bootstrap.min.js" type="text/javascript"></script><script src="../assets/js/jquery.colorbox-min.js" type="text/javascript"></script><script type="text/javascript">jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"80%",maxHeight:"80%",scalePhotos:true});</script></body></html>

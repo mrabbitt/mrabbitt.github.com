@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>①ne is 3 (Markdown)</title><link>http://oneis3.com</link><description>One is 3</description><lastBuildDate>Sun, 10 Mar 2013 20:20:51 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Python Markdown Extension for Inline Gist</title><link>http://oneis3.com/posts/python-markdown-extension-for-inline-gist.html</link><description>&lt;body&gt;&lt;p&gt;As discussed in &lt;a href="https://groups.google.com/d/topic/nikola-discuss/ScaJGcTGBBY/discussion"&gt;this thread on the Nikola forum&lt;/a&gt;, I'd wanted a way add a custom inline "gist" directive to Nikola which I could use in my markdown posts to include the full contents of the gist in a &lt;code&gt;&amp;lt;noscript&amp;gt;&lt;/code&gt; tag.  This makes gist contents available in the site RSS feed and when viewing the site with Javascript disabled.  Here's a gist (of course) with the Python Markdown extension that makes this possible:&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>①ne is 3 (Markdown)</title><link>http://oneis3.com/</link><description>One is 3</description><atom:link href="http://oneis3.com/categories/markdown.xml" type="application/rss+xml" rel="self"></atom:link><lastBuildDate>Mon, 16 Sep 2013 00:57:01 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Python Markdown Extension for Inline Gist</title><link>http://oneis3.com//posts/python-markdown-extension-for-inline-gist.html</link><description>&lt;p&gt;As discussed in &lt;a href="https://groups.google.com/d/topic/nikola-discuss/ScaJGcTGBBY/discussion"&gt;this thread on the Nikola forum&lt;/a&gt;, I'd wanted a way add a custom inline "gist" directive to Nikola which I could use in my markdown posts to include the full contents of the gist in a &lt;code&gt;&amp;lt;noscript&amp;gt;&lt;/code&gt; tag.  This makes gist contents available in the site RSS feed and when viewing the site with Javascript disabled.  Here's a gist (of course) with the Python Markdown extension that makes this possible:&lt;/p&gt;
 &lt;p&gt;
 &lt;/p&gt;&lt;div class="gist"&gt;
 &lt;script src="https://gist.github.com/5080027.js"&gt;&lt;/script&gt;&lt;noscript&gt;
@@ -25,6 +25,9 @@
 # CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 # TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 # SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+#
+# Warning: URL formats of "raw" gists are undocummented and subject to change.
+# See also:  http://developer.github.com/v3/gists/
 #
 # Inspired by "[Python] reStructuredText GitHub Gist directive"
 # (https://gist.github.com/brianhsu/1407759), public domain by Brian Hsu
@@ -84,6 +87,41 @@ Example using reStructuredText syntax:
     &amp;lt;/noscript&amp;gt;
     &amp;lt;/div&amp;gt;
     &amp;lt;/p&amp;gt;
+
+Error Case: non-existent Gist ID:
+
+    &amp;gt;&amp;gt;&amp;gt; import markdown
+    &amp;gt;&amp;gt;&amp;gt; text = """
+    ... Text of the gist:
+    ... [:gist: 0]
+    ... """
+    &amp;gt;&amp;gt;&amp;gt; html = markdown.markdown(text, ['gist'])
+    &amp;gt;&amp;gt;&amp;gt; print(html)
+    &amp;lt;p&amp;gt;Text of the gist:
+    &amp;lt;div class="gist"&amp;gt;
+    &amp;lt;script src="https://gist.github.com/0.js"&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;noscript&amp;gt;&amp;lt;!-- WARNING: Received a 404 response from Gist URL: \
+    https://gist.github.com/raw/0 --&amp;gt;&amp;lt;/noscript&amp;gt;
+    &amp;lt;/div&amp;gt;
+    &amp;lt;/p&amp;gt;
+
+Error Case:  non-existent file:
+
+    &amp;gt;&amp;gt;&amp;gt; import markdown
+    &amp;gt;&amp;gt;&amp;gt; text = """
+    ... Text of the gist:
+    ... [:gist: 4747847 doesntexist.py]
+    ... """
+    &amp;gt;&amp;gt;&amp;gt; html = markdown.markdown(text, ['gist'])
+    &amp;gt;&amp;gt;&amp;gt; print(html)
+    &amp;lt;p&amp;gt;Text of the gist:
+    &amp;lt;div class="gist"&amp;gt;
+    &amp;lt;script src="https://gist.github.com/4747847.js?file=doesntexist.py"&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;noscript&amp;gt;&amp;lt;!-- WARNING: Received a 404 response from Gist URL: \
+    https://gist.github.com/raw/4747847/doesntexist.py --&amp;gt;&amp;lt;/noscript&amp;gt;
+    &amp;lt;/div&amp;gt;
+    &amp;lt;/p&amp;gt;
+
 '''
 from __future__ import unicode_literals
 import warnings
@@ -99,11 +137,19 @@ except ImportError:
 
 GIST_JS_URL = "https://gist.github.com/{0}.js"
 GIST_FILE_JS_URL = "https://gist.github.com/{0}.js?file={1}"
-GIST_RAW_URL = "https://raw.github.com/gist/{0}"
-GIST_FILE_RAW_URL = "https://raw.github.com/gist/{0}/{1}"
+GIST_RAW_URL = "https://gist.github.com/raw/{0}"
+GIST_FILE_RAW_URL = "https://gist.github.com/raw/{0}/{1}"
 
-GIST_MD_RE = r'\[:gist:\s*(?P&amp;lt;gist_id&amp;gt;\d+)(?:\s*(?P&amp;lt;filename&amp;gt;.+?))?\]'
+GIST_MD_RE = r'\[:gist:\s*(?P&amp;lt;gist_id&amp;gt;\d+)(?:\s*(?P&amp;lt;filename&amp;gt;.+?))?\s*\]'
 GIST_RST_RE = r'(?m)^\.\.\s*gist::\s*(?P&amp;lt;gist_id&amp;gt;\d+)(?:\s*(?P&amp;lt;filename&amp;gt;.+))\s*$'
+
+
+class GistFetchException(Exception):
+    '''Raised when attempt to fetch content of a Gist from github.com fails.'''
+    def __init__(self, url, status_code):
+        Exception.__init__(self)
+        self.message = 'Received a {} response from Gist URL: {}'.format(
+            status_code, url)
 
 
 class GistPattern(Pattern):
@@ -114,11 +160,21 @@ class GistPattern(Pattern):
 
     def get_raw_gist_with_filename(self, gist_id, filename):
         url = GIST_FILE_RAW_URL.format(gist_id, filename)
-        return requests.get(url).text
+        resp = requests.get(url)
+
+        if not resp.ok:
+            raise GistFetchException(url, resp.status_code)
+
+        return resp.text
 
     def get_raw_gist(self, gist_id):
         url = GIST_RAW_URL.format(gist_id)
-        return requests.get(url).text
+        resp = requests.get(url)
+
+        if not resp.ok:
+            raise GistFetchException(url, resp.status_code)
+
+        return resp.text
 
     def handleMatch(self, m):
         gist_id = m.group('gist_id')
@@ -128,30 +184,29 @@ class GistPattern(Pattern):
         gist_elem.set('class', 'gist')
         script_elem = etree.SubElement(gist_elem, 'script')
 
-        if gist_file:
-            script_elem.set('src', GIST_FILE_JS_URL.format(
-                gist_id, gist_file))
-
-        else:
-            script_elem.set('src', GIST_JS_URL.format(
-                gist_id))
-
         if requests:
-            if gist_file:
-                raw_gist = (self.get_raw_gist_with_filename(
-                    gist_id, gist_file))
-                script_elem.set('src', GIST_FILE_JS_URL.format(
-                    gist_id, gist_file))
-
-            else:
-                raw_gist = (self.get_raw_gist(gist_id))
-                script_elem.set('src', GIST_JS_URL.format(
-                    gist_id))
-
-            # Insert source as &amp;lt;pre/&amp;gt; within &amp;lt;noscript&amp;gt;
             noscript_elem = etree.SubElement(gist_elem, 'noscript')
-            pre_elem = etree.SubElement(noscript_elem, 'pre')
-            pre_elem.text = AtomicString(raw_gist)
+
+            try:
+                if gist_file:
+                    script_elem.set('src', GIST_FILE_JS_URL.format(
+                        gist_id, gist_file))
+                    raw_gist = (self.get_raw_gist_with_filename(
+                        gist_id, gist_file))
+
+                else:
+                    script_elem.set('src', GIST_JS_URL.format(
+                        gist_id))
+                    raw_gist = (self.get_raw_gist(gist_id))
+
+                # Insert source as &amp;lt;pre/&amp;gt; within &amp;lt;noscript&amp;gt;
+                pre_elem = etree.SubElement(noscript_elem, 'pre')
+                pre_elem.text = AtomicString(raw_gist)
+
+            except GistFetchException, e:
+                warnings.warn(e.message)
+                warning_comment = etree.Comment(' WARNING: {} '.format(e.message))
+                noscript_elem.append(warning_comment)
 
         else:
             warnings.warn('"requests" package not installed.  '
@@ -186,11 +241,14 @@ def makeExtension(configs=None):
 
 if __name__ == '__main__':
     import doctest
-    doctest.testmod(optionflags=(doctest.NORMALIZE_WHITESPACE +
-                                 doctest.REPORT_NDIFF))
+
+    # Silence user warnings thrown by tests:
+    with warnings.catch_warnings(record=True):
+        doctest.testmod(optionflags=(doctest.NORMALIZE_WHITESPACE +
+                                     doctest.REPORT_NDIFF))
 &lt;/pre&gt;
 &lt;/noscript&gt;
 &lt;/div&gt;
 
 &lt;p&gt;I'll be sending a push request shortly to get this integrated into Nikola.  Thanks to Roberto Alsina for already &lt;code&gt;gist&lt;/code&gt; support to reStructuredText posts in Nikola.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Update: &lt;a href="https://github.com/ralsina/nikola/pull/380"&gt;Pull request accepted&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;&lt;/body&gt;</description><guid>http://oneis3.com/posts/python-markdown-extension-for-inline-gist.html</guid><pubDate>Mon, 04 Mar 2013 00:23:36 GMT</pubDate></item></channel></rss>
+&lt;p&gt;&lt;em&gt;Update: &lt;a href="https://github.com/ralsina/nikola/pull/380"&gt;Pull request accepted&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;</description><category>Python</category><category>Markdown</category><category>Nikola</category><category>GitHub</category><guid>http://oneis3.com//posts/python-markdown-extension-for-inline-gist.html</guid><pubDate>Mon, 04 Mar 2013 00:23:36 GMT</pubDate></item></channel></rss>

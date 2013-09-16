@@ -1,6 +1,6 @@
-<!DOCTYPE html><html lang="en"><head><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta charset="utf-8"><meta name="description" content="One is 3"><meta name="author" content="Michael Rabbitt"><title>①ne is 3 ▶ Posts about GitHub</title><link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"><link href="../assets/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"><link href="../assets/css/rst.css" rel="stylesheet" type="text/css"><link href="../assets/css/code.css" rel="stylesheet" type="text/css"><link href="../assets/css/colorbox.css" rel="stylesheet" type="text/css"><link href="../assets/css/slides.css" rel="stylesheet" type="text/css"><link href="../assets/css/theme.css" rel="stylesheet" type="text/css"><link href="../assets/css/custom.css" rel="stylesheet" type="text/css"><!--[if lt IE 9]>
+<!DOCTYPE html><html lang="en"><head><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta charset="utf-8"><meta name="description" content="One is 3"><meta name="author" content="Michael Rabbitt"><title>①ne is 3 ▶ Posts about Github</title><link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"><link href="../assets/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"><link href="../assets/css/rst.css" rel="stylesheet" type="text/css"><link href="../assets/css/code.css" rel="stylesheet" type="text/css"><link href="../assets/css/colorbox.css" rel="stylesheet" type="text/css"><link href="../assets/css/theme.css" rel="stylesheet" type="text/css"><link href="../assets/css/custom.css" rel="stylesheet" type="text/css"><!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
-    <![endif]--><link rel="alternate" type="application/rss+xml" title="RSS for tag GitHub (en)" href="github.xml"></head><body id="oneis3">
+    <![endif]--><link rel="alternate" type="application/rss+xml" title="RSS (en)" href="../rss.xml"><link rel="alternate" type="application/rss+xml" title="RSS for tag Github" href="github.xml"></head><body id="oneis3">
 <!-- Menubar -->
 <div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
@@ -19,9 +19,14 @@
             <!-- Everything you want hidden at 940px or less, place within here -->
             <div class="nav-collapse collapse">
                 <ul class="nav"><li><a href="../archive.html">Archives</a>
-            </li><li><a href="index.html">Tags</a>
+                </li><li><a href="index.html">Tags</a>
+                </li><li><a href="../rss.xml">RSS</a>
 
-                </li></ul><ul class="nav pull-right"></ul></div>
+                </li></ul><!-- Custom search --><form method="get" id="search" action="http://duckduckgo.com/" class="navbar-form pull-right">
+    <input type="hidden" name="sites" value="http://oneis3.com/"><input type="hidden" name="k8" value="#444444"><input type="hidden" name="k9" value="#D51920"><input type="hidden" name="kt" value="h"><input type="text" name="q" maxlength="255" placeholder="Search…" class="span2" style="margin-top: 4px;"><input type="submit" value="DuckDuckGo Search" style="visibility: hidden;"></form>
+<!-- End of custom search -->
+
+                <ul class="nav pull-right"></ul></div>
         </div>
     </div>
 </div>
@@ -32,226 +37,24 @@
     <div class="span2"></div>
     <div class="span8">
     
+        <!--Body content-->
         <div class="postbox">
-        <h1><a href="../posts/python-markdown-extension-for-inline-gist.html">Python Markdown Extension for Inline Gist</a>
-        <small>  
-             Posted: <time class="published" datetime="2013-03-04T00:23:36">2013-03-04 00:23</time></small></h1>
-        <hr><p>As discussed in <a href="https://groups.google.com/d/topic/nikola-discuss/ScaJGcTGBBY/discussion">this thread on the Nikola forum</a>, I'd wanted a way add a custom inline "gist" directive to Nikola which I could use in my markdown posts to include the full contents of the gist in a <code>&lt;noscript&gt;</code> tag.  This makes gist contents available in the site RSS feed and when viewing the site with Javascript disabled.  Here's a gist (of course) with the Python Markdown extension that makes this possible:</p>
-<p>
-</p><div class="gist">
-<script src="https://gist.github.com/5080027.js"></script><noscript>
-<pre># -*- coding: utf-8 -*-
-#
-# Copyright (c) 2013 Michael Rabbitt.
-#
-# Permission is hereby granted, free of charge, to any person obtaining a
-# copy of this software and associated documentation files (the
-# "Software"), to deal in the Software without restriction, including
-# without limitation the rights to use, copy, modify, merge, publish,
-# distribute, sublicense, and/or sell copies of the Software, and to
-# permit persons to whom the Software is furnished to do so, subject to
-# the following conditions:
-#
-# The above copyright notice and this permission notice shall be included
-# in all copies or substantial portions of the Software.
-#
-# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
-# OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-# MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-# IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
-# CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
-# TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
-# SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-#
-# Inspired by "[Python] reStructuredText GitHub Gist directive"
-# (https://gist.github.com/brianhsu/1407759), public domain by Brian Hsu
-'''
-Extension to Python Markdown for Embedded Gists (gist.github.com)
-
-Basic Example:
-
-    &gt;&gt;&gt; import markdown
-    &gt;&gt;&gt; text = """
-    ... Text of the gist:
-    ... [:gist: 4747847]
-    ... """
-    &gt;&gt;&gt; html = markdown.markdown(text, ['gist'])
-    &gt;&gt;&gt; print html
-    &lt;p&gt;Text of the gist:
-    &lt;div class="gist"&gt;
-    &lt;script src="https://gist.github.com/4747847.js"&gt;&lt;/script&gt;
-    &lt;noscript&gt;
-    &lt;pre&gt;import this&lt;/pre&gt;
-    &lt;/noscript&gt;
-    &lt;/div&gt;
-    &lt;/p&gt;
-
-Example with filename:
-
-    &gt;&gt;&gt; import markdown
-    &gt;&gt;&gt; text = """
-    ... Text of the gist:
-    ... [:gist: 4747847 zen.py]
-    ... """
-    &gt;&gt;&gt; html = markdown.markdown(text, ['gist'])
-    &gt;&gt;&gt; print html
-    &lt;p&gt;Text of the gist:
-    &lt;div class="gist"&gt;
-    &lt;script src="https://gist.github.com/4747847.js?file=zen.py"&gt;&lt;/script&gt;
-    &lt;noscript&gt;
-    &lt;pre&gt;import this&lt;/pre&gt;
-    &lt;/noscript&gt;
-    &lt;/div&gt;
-    &lt;/p&gt;
-
-Example using reStructuredText syntax:
-
-    &gt;&gt;&gt; import markdown
-    &gt;&gt;&gt; text = """
-    ... Text of the gist:
-    ... .. gist:: 4747847 zen.py
-    ... """
-    &gt;&gt;&gt; html = markdown.markdown(text, ['gist'])
-    &gt;&gt;&gt; print html
-    &lt;p&gt;Text of the gist:
-    &lt;div class="gist"&gt;
-    &lt;script src="https://gist.github.com/4747847.js?file=zen.py"&gt;&lt;/script&gt;
-    &lt;noscript&gt;
-    &lt;pre&gt;import this&lt;/pre&gt;
-    &lt;/noscript&gt;
-    &lt;/div&gt;
-    &lt;/p&gt;
-'''
-from __future__ import unicode_literals
-import warnings
-from markdown.extensions import Extension
-from markdown.inlinepatterns import Pattern
-from markdown.util import AtomicString
-from markdown.util import etree
-
-try:
-    import requests
-except ImportError:
-    requests = None  # NOQA
-
-GIST_JS_URL = "https://gist.github.com/{0}.js"
-GIST_FILE_JS_URL = "https://gist.github.com/{0}.js?file={1}"
-GIST_RAW_URL = "https://raw.github.com/gist/{0}"
-GIST_FILE_RAW_URL = "https://raw.github.com/gist/{0}/{1}"
-
-GIST_MD_RE = r'\[:gist:\s*(?P&lt;gist_id&gt;\d+)(?:\s*(?P&lt;filename&gt;.+?))?\]'
-GIST_RST_RE = r'(?m)^\.\.\s*gist::\s*(?P&lt;gist_id&gt;\d+)(?:\s*(?P&lt;filename&gt;.+))\s*$'
-
-
-class GistPattern(Pattern):
-    """ InlinePattern for footnote markers in a document's body text. """
-
-    def __init__(self, pattern, configs):
-        Pattern.__init__(self, pattern)
-
-    def get_raw_gist_with_filename(self, gist_id, filename):
-        url = GIST_FILE_RAW_URL.format(gist_id, filename)
-        return requests.get(url).text
-
-    def get_raw_gist(self, gist_id):
-        url = GIST_RAW_URL.format(gist_id)
-        return requests.get(url).text
-
-    def handleMatch(self, m):
-        gist_id = m.group('gist_id')
-        gist_file = m.group('filename')
-
-        gist_elem = etree.Element('div')
-        gist_elem.set('class', 'gist')
-        script_elem = etree.SubElement(gist_elem, 'script')
-
-        if gist_file:
-            script_elem.set('src', GIST_FILE_JS_URL.format(
-                gist_id, gist_file))
-
-        else:
-            script_elem.set('src', GIST_JS_URL.format(
-                gist_id))
-
-        if requests:
-            if gist_file:
-                raw_gist = (self.get_raw_gist_with_filename(
-                    gist_id, gist_file))
-                script_elem.set('src', GIST_FILE_JS_URL.format(
-                    gist_id, gist_file))
-
-            else:
-                raw_gist = (self.get_raw_gist(gist_id))
-                script_elem.set('src', GIST_JS_URL.format(
-                    gist_id))
-
-            # Insert source as &lt;pre/&gt; within &lt;noscript&gt;
-            noscript_elem = etree.SubElement(gist_elem, 'noscript')
-            pre_elem = etree.SubElement(noscript_elem, 'pre')
-            pre_elem.text = AtomicString(raw_gist)
-
-        else:
-            warnings.warn('"requests" package not installed.  '
-                          'Please install to add inline gist source.')
-
-        return gist_elem
-
-
-class GistExtension(Extension):
-    def __init__(self, configs={}):
-        # set extension defaults
-        self.config = {}
-
-        # Override defaults with user settings
-        for key, value in configs:
-            self.setConfig(key, value)
-
-    def extendMarkdown(self, md, md_globals):
-        gist_md_pattern = GistPattern(GIST_MD_RE, self.getConfigs())
-        gist_md_pattern.md = md
-        md.inlinePatterns.add('gist', gist_md_pattern, "&lt;not_strong")
-
-        gist_rst_pattern = GistPattern(GIST_RST_RE, self.getConfigs())
-        gist_rst_pattern.md = md
-        md.inlinePatterns.add('gist-rst', gist_rst_pattern, "&gt;gist")
-
-        md.registerExtension(self)
-
-
-def makeExtension(configs=None):
-    return GistExtension(configs)
-
-if __name__ == '__main__':
-    import doctest
-    doctest.testmod(optionflags=(doctest.NORMALIZE_WHITESPACE +
-                                 doctest.REPORT_NDIFF))
-</pre>
-</noscript>
-</div>
-
-<p>I'll be sending a push request shortly to get this integrated into Nikola.  Thanks to Roberto Alsina for already <code>gist</code> support to reStructuredText posts in Nikola.</p>
-<p><em>Update: <a href="https://github.com/ralsina/nikola/pull/380">Pull request accepted</a>!</em></p>
-            
-    <p>
-
-        </p></div>
-    
-<div>
-<ul class="pager"></ul></div>
-
-    
-
-    
-
+        <h1>Posts about Github</h1>
+            <a href="github.xml">RSS</a>
+        <br><ul class="unstyled"><li><a href="../posts/fun-with-sikuli-and-baldurs-gate.html">[2013-09-16 00:55] Fun with Sikuli and Baldur's Gate</a>
+            </li><li><a href="../posts/oneis3com.html">[2013-01-12 23:26] oneis3.com</a>
+        </li></ul></div>
+        <!--End of body content-->
 
     </div>
     </div>
     <!--End of body content-->
 </div>
 <div class="footerbox">
-    Contents © 2013 Michael Rabbitt - Powered by <a href="http://nikola.ralsina.com.ar">Nikola</a>
+    Contents © 2010-2013 Michael Rabbitt - Powered by <a href="http://getnikola.com">Nikola</a>
 </div>
 
+	
 
 
 <script type="text/javascript">
@@ -265,4 +68,4 @@ if __name__ == '__main__':
             + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
-</script><script src="../assets/js/jquery-1.7.2.min.js" type="text/javascript"></script><script src="../assets/js/bootstrap.min.js" type="text/javascript"></script><script src="../assets/js/jquery.colorbox-min.js" type="text/javascript"></script><script src="../assets/js/slides.min.jquery.js" type="text/javascript"></script><script type="text/javascript">jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"80%",maxHeight:"80%",scalePhotos:true});</script></body></html>
+</script><script src="../assets/js/jquery-1.10.2.min.js" type="text/javascript"></script><script src="../assets/js/bootstrap.min.js" type="text/javascript"></script><script src="../assets/js/jquery.colorbox-min.js" type="text/javascript"></script><script type="text/javascript">jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"80%",maxHeight:"80%",scalePhotos:true});</script></body></html>

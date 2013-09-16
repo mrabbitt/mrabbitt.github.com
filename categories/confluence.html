@@ -1,6 +1,6 @@
-<!DOCTYPE html><html lang="en"><head><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta charset="utf-8"><meta name="description" content="One is 3"><meta name="author" content="Michael Rabbitt"><title>①ne is 3 ▶ Posts about Confluence</title><link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"><link href="../assets/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"><link href="../assets/css/rst.css" rel="stylesheet" type="text/css"><link href="../assets/css/code.css" rel="stylesheet" type="text/css"><link href="../assets/css/colorbox.css" rel="stylesheet" type="text/css"><link href="../assets/css/slides.css" rel="stylesheet" type="text/css"><link href="../assets/css/theme.css" rel="stylesheet" type="text/css"><link href="../assets/css/custom.css" rel="stylesheet" type="text/css"><!--[if lt IE 9]>
+<!DOCTYPE html><html lang="en"><head><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta charset="utf-8"><meta name="description" content="One is 3"><meta name="author" content="Michael Rabbitt"><title>①ne is 3 ▶ Posts about Confluence</title><link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"><link href="../assets/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"><link href="../assets/css/rst.css" rel="stylesheet" type="text/css"><link href="../assets/css/code.css" rel="stylesheet" type="text/css"><link href="../assets/css/colorbox.css" rel="stylesheet" type="text/css"><link href="../assets/css/theme.css" rel="stylesheet" type="text/css"><link href="../assets/css/custom.css" rel="stylesheet" type="text/css"><!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
-    <![endif]--><link rel="alternate" type="application/rss+xml" title="RSS for tag Confluence (en)" href="confluence.xml"></head><body id="oneis3">
+    <![endif]--><link rel="alternate" type="application/rss+xml" title="RSS (en)" href="../rss.xml"><link rel="alternate" type="application/rss+xml" title="RSS for tag Confluence" href="confluence.xml"></head><body id="oneis3">
 <!-- Menubar -->
 <div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
@@ -19,9 +19,14 @@
             <!-- Everything you want hidden at 940px or less, place within here -->
             <div class="nav-collapse collapse">
                 <ul class="nav"><li><a href="../archive.html">Archives</a>
-            </li><li><a href="index.html">Tags</a>
+                </li><li><a href="index.html">Tags</a>
+                </li><li><a href="../rss.xml">RSS</a>
 
-                </li></ul><ul class="nav pull-right"></ul></div>
+                </li></ul><!-- Custom search --><form method="get" id="search" action="http://duckduckgo.com/" class="navbar-form pull-right">
+    <input type="hidden" name="sites" value="http://oneis3.com/"><input type="hidden" name="k8" value="#444444"><input type="hidden" name="k9" value="#D51920"><input type="hidden" name="kt" value="h"><input type="text" name="q" maxlength="255" placeholder="Search…" class="span2" style="margin-top: 4px;"><input type="submit" value="DuckDuckGo Search" style="visibility: hidden;"></form>
+<!-- End of custom search -->
+
+                <ul class="nav pull-right"></ul></div>
         </div>
     </div>
 </div>
@@ -32,74 +37,23 @@
     <div class="span2"></div>
     <div class="span8">
     
+        <!--Body content-->
         <div class="postbox">
-        <h1><a href="../posts/confluence-numbered-heading-bookmarklet.html">Confluence numbered heading bookmarklet</a>
-        <small>  
-             Posted: <time class="published" datetime="2013-01-20T19:42:27">2013-01-20 19:42</time></small></h1>
-        <hr><p>Unfortunately, the <a href="https://marketplace.atlassian.com/plugins/nl.avisi.confluence.plugins.numberedheadings">Numbered Heading Confluence plugin</a> isn't available for <a href="https://confluence.atlassian.com/display/AOD/Atlassian+OnDemand+Plugin+Policy#AtlassianOnDemandPluginPolicy-Confluence">Atlassian OnDemand</a>, and Atlassian doesn't seem to be in any hurry to implement <a href="https://jira.atlassian.com/browse/CONF-1732">CONF-1732</a>, so I put together this poor-man's hack:</p>
-<p>This bookmarklet adds hierarchical section numbers to the section headers on the current confluence page. Note that it does not permanently change the content of the page; it only transforms the displayed HTML until the page is re-loaded. One of these days I'll figure out how to get this to work as a <a href="http://userscripts.org/">user script</a>.</p>
-<p><a href="javascript:%28function%28%29%2520%7Bfunction%2520addSectionNumber%2520%28elem%2C%2520sectionNumber%2C%2520parentSection%2C%2520level%29%2520%7Bvar%2520sectionNumberStr%2520%3D%2520%2527%2527%3Bvar%2520sectionSpan%3Bif%2520%28level%2520%3E%25201%29%2520%7BsectionNumberStr%2520%3D%2520parentSection%2520%2B%2520%2527.%2527%2520%2B%2520sectionNumber%3B%7D%2520else%2520if%2520%28level%2520%3E%25200%29%2520%7BsectionNumberStr%2520%3D%2520sectionNumber.toString%28%29%3B%7Dif%2520%28level%2520%3E%25200%2520%26%26%2520jQuery%28elem%29.find%28%2527.section-number%2527%29.length%2520%3D%3D%3D%25200%2520%29%2520%7BsectionSpan%2520%3D%2520jQuery%28%2527%3Cspan%2520class%3D%2522section-number%2522%3E%2527%29.text%28sectionNumberStr%2520%2B%2520%2527%2520%2527%29%3BjQuery%28elem%29.prepend%28sectionSpan%29%3B%7Dif%2520%28%2520level%2520%3D%3D%3D%25200%2520%29%2520%7BjQuery%28elem%29.find%28%2527h1%2527%29.each%28%2520function%28index%2C%2520element%29%2520%7BaddSectionNumber%28element%2C%2520%28index%2520%2B%25201%29%2C%2520sectionNumberStr%2C%2520%28level%2520%2B%25201%29%29%3B%7D%29%3B%7D%2520else%2520if%2520%28%2520level%2520%3C%25206%2520%29%2520%7BjQuery%28elem%29.nextUntil%28%2527h%2527%2520%2B%2520level%2C%2520%2527h%2527%2520%2B%2520level%2520%2B%2520%2527%2Ch%2527%2520%2B%2520%28level%2520%2B%25201%29%29.each%28%2520function%28index%2C%2520element%29%2520%7BaddSectionNumber%28element%2C%2520%28index%2520%2B%25201%29%2C%2520sectionNumberStr%2C%2520%28level%2520%2B%25201%29%29%3B%7D%29%3B%7Dreturn%3B%7DaddSectionNumber%28jQuery%28%2527%23main-content%2527%29.first%28%29%2C%25200%2C%2520%2527%2527%2C%25200%29%3B%7D%29%28%29%3B">Confluence numbered section header bookmarklet</a></p>
-<p>Source:</p>
-<p>
-</p><div class="gist">
-<script src="https://gist.github.com/4582903.js"></script><noscript>
-<pre>(function() {
-    function addSectionNumber (elem, sectionNumber, parentSection, level) {
-        var sectionNumberStr = '';
-        var sectionSpan;
-
-        if (level &gt; 1) {
-            sectionNumberStr = parentSection + '.' + sectionNumber;
-        } else if (level &gt; 0) {
-            sectionNumberStr = sectionNumber.toString();
-        }
-
-        if (level &gt; 0 &amp;&amp; jQuery(elem).find('.section-number').length === 0 ) {
-            sectionSpan = jQuery('&lt;span class="section-number"&gt;').text(sectionNumberStr + ' ');
-            jQuery(elem).prepend(sectionSpan);
-        }
-
-        if ( level === 0 ) {
-            jQuery(elem).find('h1').each( function(index, element) {
-                addSectionNumber(element, (index + 1), sectionNumberStr, (level + 1));
-            });
-        } else if ( level &lt; 6 ) {
-            jQuery(elem).nextUntil('h' + level, 'h' + level + ',h' + (level + 1)).each( function(index, element) {
-                addSectionNumber(element, (index + 1), sectionNumberStr, (level + 1));
-            });
-        }
-
-        return;
-    }
-
-    addSectionNumber(jQuery('#main-content').first(), 0, '', 0);
-})();
-
-</pre>
-</noscript>
-</div>
-
-            
-    <p>
-
-        </p></div>
-    
-<div>
-<ul class="pager"></ul></div>
-
-    
-
-    
-
+        <h1>Posts about Confluence</h1>
+            <a href="confluence.xml">RSS</a>
+        <br><ul class="unstyled"><li><a href="../posts/confluence-numbered-heading-bookmarklet.html">[2013-01-20 19:42] Confluence numbered heading bookmarklet</a>
+        </li></ul></div>
+        <!--End of body content-->
 
     </div>
     </div>
     <!--End of body content-->
 </div>
 <div class="footerbox">
-    Contents © 2013 Michael Rabbitt - Powered by <a href="http://nikola.ralsina.com.ar">Nikola</a>
+    Contents © 2010-2013 Michael Rabbitt - Powered by <a href="http://getnikola.com">Nikola</a>
 </div>
 
+	
 
 
 <script type="text/javascript">
@@ -113,4 +67,4 @@
             + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
-</script><script src="../assets/js/jquery-1.7.2.min.js" type="text/javascript"></script><script src="../assets/js/bootstrap.min.js" type="text/javascript"></script><script src="../assets/js/jquery.colorbox-min.js" type="text/javascript"></script><script src="../assets/js/slides.min.jquery.js" type="text/javascript"></script><script type="text/javascript">jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"80%",maxHeight:"80%",scalePhotos:true});</script></body></html>
+</script><script src="../assets/js/jquery-1.10.2.min.js" type="text/javascript"></script><script src="../assets/js/bootstrap.min.js" type="text/javascript"></script><script src="../assets/js/jquery.colorbox-min.js" type="text/javascript"></script><script type="text/javascript">jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"80%",maxHeight:"80%",scalePhotos:true});</script></body></html>

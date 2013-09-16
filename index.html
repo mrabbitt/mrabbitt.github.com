@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta charset="utf-8"><meta name="description" content="One is 3"><meta name="author" content="Michael Rabbitt"><title>①ne is 3</title><link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"><link href="assets/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"><link href="assets/css/rst.css" rel="stylesheet" type="text/css"><link href="assets/css/code.css" rel="stylesheet" type="text/css"><link href="assets/css/colorbox.css" rel="stylesheet" type="text/css"><link href="assets/css/slides.css" rel="stylesheet" type="text/css"><link href="assets/css/theme.css" rel="stylesheet" type="text/css"><link href="assets/css/custom.css" rel="stylesheet" type="text/css"><!--[if lt IE 9]>
+<!DOCTYPE html><html lang="en"><head><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta charset="utf-8"><meta name="description" content="One is 3"><meta name="author" content="Michael Rabbitt"><title>①ne is 3</title><link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"><link href="assets/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"><link href="assets/css/rst.css" rel="stylesheet" type="text/css"><link href="assets/css/code.css" rel="stylesheet" type="text/css"><link href="assets/css/colorbox.css" rel="stylesheet" type="text/css"><link href="assets/css/theme.css" rel="stylesheet" type="text/css"><link href="assets/css/custom.css" rel="stylesheet" type="text/css"><!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
     <![endif]--><link rel="alternate" type="application/rss+xml" title="RSS (en)" href="rss.xml"></head><body id="oneis3">
 <!-- Menubar -->
@@ -19,9 +19,14 @@
             <!-- Everything you want hidden at 940px or less, place within here -->
             <div class="nav-collapse collapse">
                 <ul class="nav"><li><a href="archive.html">Archives</a>
-            </li><li><a href="categories/index.html">Tags</a>
+                </li><li><a href="categories/index.html">Tags</a>
+                </li><li><a href="rss.xml">RSS</a>
 
-                </li></ul><ul class="nav pull-right"></ul></div>
+                </li></ul><!-- Custom search --><form method="get" id="search" action="http://duckduckgo.com/" class="navbar-form pull-right">
+    <input type="hidden" name="sites" value="http://oneis3.com/"><input type="hidden" name="k8" value="#444444"><input type="hidden" name="k9" value="#D51920"><input type="hidden" name="kt" value="h"><input type="text" name="q" maxlength="255" placeholder="Search…" class="span2" style="margin-top: 4px;"><input type="submit" value="DuckDuckGo Search" style="visibility: hidden;"></form>
+<!-- End of custom search -->
+
+                <ul class="nav pull-right"></ul></div>
         </div>
     </div>
 </div>
@@ -32,6 +37,20 @@
     <div class="span2"></div>
     <div class="span8">
     
+        <div class="postbox">
+        <h1><a href="posts/fun-with-sikuli-and-baldurs-gate.html">Fun with Sikuli and Baldur's Gate</a>
+        <small>  
+             Posted: <time class="published" datetime="2013-09-16T00:55:24">2013-09-16 00:55</time></small></h1>
+        <hr><p>A few months ago I was playing <a href="http://www.baldursgate.com">Baldur's Gate: Enhanced Edition (BGEE)</a>, and going through the character creation process.  The game chooses the character's initial statistics by simulated random dice rolls.  You can re-distribute points between different attributes as you desire, but you can only increase the total number of points by re-rolling.  You can re-roll as many times as you want, hoping to get a higher total number of points.  You can also "store" and "recall" a single roll.</p>
+<p>The lazy programmer in me saw this as an a task begging for automation.</p>
+<p>I spent the next several hours developing a <a href="http://sikuli.org">Sikuli</a> script which automates the process of re-rolling until a desired total roll is reached.  I've finally gotten around to cleaning up the code and releasing it on github as <a href="https://github.com/mrabbitt/BGEE_Sikuli_auto_roller">BGEE_Sikuli_auto_roller</a>.</p>
+<p>Here's a video demo (painfully edited in iMovie) of <code>BGEE_Sikuli_auto_roller</code> in action:</p>
+<iframe width="420" height="315" src="//www.youtube.com/embed/K-0nRvz3z4I" frameborder="0" allowfullscreen></iframe>
+
+<p>Happy dungeon/code hacking!</p>
+            
+
+        </div>
         <div class="postbox">
         <h1><a href="posts/python-markdown-extension-for-inline-gist.html">Python Markdown Extension for Inline Gist</a>
         <small>  
@@ -62,6 +81,9 @@
 # CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 # TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 # SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+#
+# Warning: URL formats of "raw" gists are undocummented and subject to change.
+# See also:  http://developer.github.com/v3/gists/
 #
 # Inspired by "[Python] reStructuredText GitHub Gist directive"
 # (https://gist.github.com/brianhsu/1407759), public domain by Brian Hsu
@@ -121,6 +143,41 @@ Example using reStructuredText syntax:
     &lt;/noscript&gt;
     &lt;/div&gt;
     &lt;/p&gt;
+
+Error Case: non-existent Gist ID:
+
+    &gt;&gt;&gt; import markdown
+    &gt;&gt;&gt; text = """
+    ... Text of the gist:
+    ... [:gist: 0]
+    ... """
+    &gt;&gt;&gt; html = markdown.markdown(text, ['gist'])
+    &gt;&gt;&gt; print(html)
+    &lt;p&gt;Text of the gist:
+    &lt;div class="gist"&gt;
+    &lt;script src="https://gist.github.com/0.js"&gt;&lt;/script&gt;
+    &lt;noscript&gt;&lt;!-- WARNING: Received a 404 response from Gist URL: \
+    https://gist.github.com/raw/0 --&gt;&lt;/noscript&gt;
+    &lt;/div&gt;
+    &lt;/p&gt;
+
+Error Case:  non-existent file:
+
+    &gt;&gt;&gt; import markdown
+    &gt;&gt;&gt; text = """
+    ... Text of the gist:
+    ... [:gist: 4747847 doesntexist.py]
+    ... """
+    &gt;&gt;&gt; html = markdown.markdown(text, ['gist'])
+    &gt;&gt;&gt; print(html)
+    &lt;p&gt;Text of the gist:
+    &lt;div class="gist"&gt;
+    &lt;script src="https://gist.github.com/4747847.js?file=doesntexist.py"&gt;&lt;/script&gt;
+    &lt;noscript&gt;&lt;!-- WARNING: Received a 404 response from Gist URL: \
+    https://gist.github.com/raw/4747847/doesntexist.py --&gt;&lt;/noscript&gt;
+    &lt;/div&gt;
+    &lt;/p&gt;
+
 '''
 from __future__ import unicode_literals
 import warnings
@@ -136,11 +193,19 @@ except ImportError:
 
 GIST_JS_URL = "https://gist.github.com/{0}.js"
 GIST_FILE_JS_URL = "https://gist.github.com/{0}.js?file={1}"
-GIST_RAW_URL = "https://raw.github.com/gist/{0}"
-GIST_FILE_RAW_URL = "https://raw.github.com/gist/{0}/{1}"
+GIST_RAW_URL = "https://gist.github.com/raw/{0}"
+GIST_FILE_RAW_URL = "https://gist.github.com/raw/{0}/{1}"
 
-GIST_MD_RE = r'\[:gist:\s*(?P&lt;gist_id&gt;\d+)(?:\s*(?P&lt;filename&gt;.+?))?\]'
+GIST_MD_RE = r'\[:gist:\s*(?P&lt;gist_id&gt;\d+)(?:\s*(?P&lt;filename&gt;.+?))?\s*\]'
 GIST_RST_RE = r'(?m)^\.\.\s*gist::\s*(?P&lt;gist_id&gt;\d+)(?:\s*(?P&lt;filename&gt;.+))\s*$'
+
+
+class GistFetchException(Exception):
+    '''Raised when attempt to fetch content of a Gist from github.com fails.'''
+    def __init__(self, url, status_code):
+        Exception.__init__(self)
+        self.message = 'Received a {} response from Gist URL: {}'.format(
+            status_code, url)
 
 
 class GistPattern(Pattern):
@@ -151,11 +216,21 @@ class GistPattern(Pattern):
 
     def get_raw_gist_with_filename(self, gist_id, filename):
         url = GIST_FILE_RAW_URL.format(gist_id, filename)
-        return requests.get(url).text
+        resp = requests.get(url)
+
+        if not resp.ok:
+            raise GistFetchException(url, resp.status_code)
+
+        return resp.text
 
     def get_raw_gist(self, gist_id):
         url = GIST_RAW_URL.format(gist_id)
-        return requests.get(url).text
+        resp = requests.get(url)
+
+        if not resp.ok:
+            raise GistFetchException(url, resp.status_code)
+
+        return resp.text
 
     def handleMatch(self, m):
         gist_id = m.group('gist_id')
@@ -165,30 +240,29 @@ class GistPattern(Pattern):
         gist_elem.set('class', 'gist')
         script_elem = etree.SubElement(gist_elem, 'script')
 
-        if gist_file:
-            script_elem.set('src', GIST_FILE_JS_URL.format(
-                gist_id, gist_file))
-
-        else:
-            script_elem.set('src', GIST_JS_URL.format(
-                gist_id))
-
         if requests:
-            if gist_file:
-                raw_gist = (self.get_raw_gist_with_filename(
-                    gist_id, gist_file))
-                script_elem.set('src', GIST_FILE_JS_URL.format(
-                    gist_id, gist_file))
-
-            else:
-                raw_gist = (self.get_raw_gist(gist_id))
-                script_elem.set('src', GIST_JS_URL.format(
-                    gist_id))
-
-            # Insert source as &lt;pre/&gt; within &lt;noscript&gt;
             noscript_elem = etree.SubElement(gist_elem, 'noscript')
-            pre_elem = etree.SubElement(noscript_elem, 'pre')
-            pre_elem.text = AtomicString(raw_gist)
+
+            try:
+                if gist_file:
+                    script_elem.set('src', GIST_FILE_JS_URL.format(
+                        gist_id, gist_file))
+                    raw_gist = (self.get_raw_gist_with_filename(
+                        gist_id, gist_file))
+
+                else:
+                    script_elem.set('src', GIST_JS_URL.format(
+                        gist_id))
+                    raw_gist = (self.get_raw_gist(gist_id))
+
+                # Insert source as &lt;pre/&gt; within &lt;noscript&gt;
+                pre_elem = etree.SubElement(noscript_elem, 'pre')
+                pre_elem.text = AtomicString(raw_gist)
+
+            except GistFetchException, e:
+                warnings.warn(e.message)
+                warning_comment = etree.Comment(' WARNING: {} '.format(e.message))
+                noscript_elem.append(warning_comment)
 
         else:
             warnings.warn('"requests" package not installed.  '
@@ -223,8 +297,11 @@ def makeExtension(configs=None):
 
 if __name__ == '__main__':
     import doctest
-    doctest.testmod(optionflags=(doctest.NORMALIZE_WHITESPACE +
-                                 doctest.REPORT_NDIFF))
+
+    # Silence user warnings thrown by tests:
+    with warnings.catch_warnings(record=True):
+        doctest.testmod(optionflags=(doctest.NORMALIZE_WHITESPACE +
+                                     doctest.REPORT_NDIFF))
 </pre>
 </noscript>
 </div>
@@ -232,15 +309,13 @@ if __name__ == '__main__':
 <p>I'll be sending a push request shortly to get this integrated into Nikola.  Thanks to Roberto Alsina for already <code>gist</code> support to reStructuredText posts in Nikola.</p>
 <p><em>Update: <a href="https://github.com/ralsina/nikola/pull/380">Pull request accepted</a>!</em></p>
             
-    <p>
 
-        </p></div>
+        </div>
         <div class="postbox">
         <h1><a href="posts/confluence-numbered-heading-bookmarklet.html">Confluence numbered heading bookmarklet</a>
         <small>  
              Posted: <time class="published" datetime="2013-01-20T19:42:27">2013-01-20 19:42</time></small></h1>
-        <hr><p>Unfortunately, the <a href="https://marketplace.atlassian.com/plugins/nl.avisi.confluence.plugins.numberedheadings">Numbered Heading Confluence plugin</a> isn't available for <a href="https://confluence.atlassian.com/display/AOD/Atlassian+OnDemand+Plugin+Policy#AtlassianOnDemandPluginPolicy-Confluence">Atlassian OnDemand</a>, and Atlassian doesn't seem to be in any hurry to implement <a href="https://jira.atlassian.com/browse/CONF-1732">CONF-1732</a>, so I put together this poor-man's hack:</p>
-<p>This bookmarklet adds hierarchical section numbers to the section headers on the current confluence page. Note that it does not permanently change the content of the page; it only transforms the displayed HTML until the page is re-loaded. One of these days I'll figure out how to get this to work as a <a href="http://userscripts.org/">user script</a>.</p>
+        <hr><p>This bookmarklet adds hierarchical section numbers to the section headers on the current confluence page. Note that it does not permanently change the content of the page; it only transforms the displayed HTML until the page is re-loaded. One of these days I'll figure out how to get this to work as a <a href="http://userscripts.org/">user script</a>.</p>
 <p><a href="javascript:%28function%28%29%2520%7Bfunction%2520addSectionNumber%2520%28elem%2C%2520sectionNumber%2C%2520parentSection%2C%2520level%29%2520%7Bvar%2520sectionNumberStr%2520%3D%2520%2527%2527%3Bvar%2520sectionSpan%3Bif%2520%28level%2520%3E%25201%29%2520%7BsectionNumberStr%2520%3D%2520parentSection%2520%2B%2520%2527.%2527%2520%2B%2520sectionNumber%3B%7D%2520else%2520if%2520%28level%2520%3E%25200%29%2520%7BsectionNumberStr%2520%3D%2520sectionNumber.toString%28%29%3B%7Dif%2520%28level%2520%3E%25200%2520%26%26%2520jQuery%28elem%29.find%28%2527.section-number%2527%29.length%2520%3D%3D%3D%25200%2520%29%2520%7BsectionSpan%2520%3D%2520jQuery%28%2527%3Cspan%2520class%3D%2522section-number%2522%3E%2527%29.text%28sectionNumberStr%2520%2B%2520%2527%2520%2527%29%3BjQuery%28elem%29.prepend%28sectionSpan%29%3B%7Dif%2520%28%2520level%2520%3D%3D%3D%25200%2520%29%2520%7BjQuery%28elem%29.find%28%2527h1%2527%29.each%28%2520function%28index%2C%2520element%29%2520%7BaddSectionNumber%28element%2C%2520%28index%2520%2B%25201%29%2C%2520sectionNumberStr%2C%2520%28level%2520%2B%25201%29%29%3B%7D%29%3B%7D%2520else%2520if%2520%28%2520level%2520%3C%25206%2520%29%2520%7BjQuery%28elem%29.nextUntil%28%2527h%2527%2520%2B%2520level%2C%2520%2527h%2527%2520%2B%2520level%2520%2B%2520%2527%2Ch%2527%2520%2B%2520%28level%2520%2B%25201%29%29.each%28%2520function%28index%2C%2520element%29%2520%7BaddSectionNumber%28element%2C%2520%28index%2520%2B%25201%29%2C%2520sectionNumberStr%2C%2520%28level%2520%2B%25201%29%29%3B%7D%29%3B%7Dreturn%3B%7DaddSectionNumber%28jQuery%28%2527%23main-content%2527%29.first%28%29%2C%25200%2C%2520%2527%2527%2C%25200%29%3B%7D%29%28%29%3B">Confluence numbered section header bookmarklet</a></p>
 <p>Source:</p>
 <p>
@@ -283,9 +358,8 @@ if __name__ == '__main__':
 </div>
 
             
-    <p>
 
-        </p></div>
+        </div>
         <div class="postbox">
         <h1><a href="posts/oneis3com.html">oneis3.com</a>
         <small>  
@@ -293,9 +367,8 @@ if __name__ == '__main__':
         <hr><p>Today I set up a new coding blog on <a href="http://www.oneis3.com">oneis3.com</a>.  I've tinkered in the past with Blogger and Tumblr, but this time I decided to go with a different solution which gives me more control of my content.  This site is generated using <a href="http://nikola.ralsina.com.ar">Nikola</a>, a static site generator implemented in Python.  Hosting is provided via <a href="http://pages.github.com">Github Pages</a> (see the <a href="https://github.com/mrabbitt/mrabbitt.github.com">mrabbitt.github.com repo</a>).</p>
 <p>I've been writing lots of little Python scripts and JavaScript bookmarklets lately which I hope to share here.  Perhaps some <a href="http://grails.org">Grails</a>/<a href="http://groovy.codehaus.org">Groovy</a>/Java discoveries from my day job will also find there way here.</p>
             
-    <p>
 
-        </p></div>
+        </div>
         <div class="postbox">
         <h1><a href="posts/python-script-to-download-splunk-documentation-pdfs.html">Python Script to download Splunk Documentation PDFs</a>
         <small>  
@@ -377,9 +450,8 @@ if __name__ == '__main__':
 </div>
 
             
-    <p>
 
-        </p></div>
+        </div>
         <div class="postbox">
         <h1><a href="posts/open-in-sourcetree-from-intellij-idea.html">Open in SourceTree from IntelliJ IDEA</a>
         <small>  
@@ -410,9 +482,8 @@ stree "${repo_root_path}"
 </div>
 
             
-    <p>
 
-        </p></div>
+        </div>
         <div class="postbox">
         <h1><a href="posts/diff-ing-zip-files-with-filemerge.html">Diff-ing .zip files with FileMerge</a>
         <small>  
@@ -439,16 +510,15 @@ Make the script executable (chmod +x ~/bin/zip_filemerge_filter.bash).
 <p>(<em>Cross-posted on
 <a href="http://stackoverflow.com/questions/587442/is-there-a-safe-way-to-run-a-diff-on-two-zip-compressed-files/4429169#4429169">StackOverflow</a> and <a href="http://michaelrabbitt.blogspot.com/2010/12/diff-ing-zip-files-with-filemerge.html">my old blogger blog</a>.</em>)</p>
             
-    <p>
 
-        </p></div>
+        </div>
     
 <div>
 <ul class="pager"></ul></div>
 
     
 
-    
+	
 
 
     </div>
@@ -456,9 +526,10 @@ Make the script executable (chmod +x ~/bin/zip_filemerge_filter.bash).
     <!--End of body content-->
 </div>
 <div class="footerbox">
-    Contents © 2013 Michael Rabbitt - Powered by <a href="http://nikola.ralsina.com.ar">Nikola</a>
+    Contents © 2010-2013 Michael Rabbitt - Powered by <a href="http://getnikola.com">Nikola</a>
 </div>
 
+	
 
 
 <script type="text/javascript">
@@ -472,4 +543,4 @@ Make the script executable (chmod +x ~/bin/zip_filemerge_filter.bash).
             + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
-</script><script src="assets/js/jquery-1.7.2.min.js" type="text/javascript"></script><script src="assets/js/bootstrap.min.js" type="text/javascript"></script><script src="assets/js/jquery.colorbox-min.js" type="text/javascript"></script><script src="assets/js/slides.min.jquery.js" type="text/javascript"></script><script type="text/javascript">jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"80%",maxHeight:"80%",scalePhotos:true});</script></body></html>
+</script><script src="assets/js/jquery-1.10.2.min.js" type="text/javascript"></script><script src="assets/js/bootstrap.min.js" type="text/javascript"></script><script src="assets/js/jquery.colorbox-min.js" type="text/javascript"></script><script type="text/javascript">jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"80%",maxHeight:"80%",scalePhotos:true});</script></body></html>

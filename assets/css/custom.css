@@ -1,9 +1,9 @@
-#oneis3 .navbar .brand {
+.navbar .brand, .navbar-brand {
     padding-left: 26px;
     background: transparent url(/assets/images/dotIcon_24.png) no-repeat center left;
 }
 
-#oneis3 div.postbox h1 small {
+div.postbox h1 small {
     font-size: 14px;
     float: right;
 }

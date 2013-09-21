@@ -1,6 +1,6 @@
-<!DOCTYPE html><html lang="en"><head><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta charset="utf-8"><meta name="description" content="One is 3"><meta name="author" content="Michael Rabbitt"><title>①ne is 3</title><link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"><link href="assets/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"><link href="assets/css/rst.css" rel="stylesheet" type="text/css"><link href="assets/css/code.css" rel="stylesheet" type="text/css"><link href="assets/css/colorbox.css" rel="stylesheet" type="text/css"><link href="assets/css/theme.css" rel="stylesheet" type="text/css"><link href="assets/css/custom.css" rel="stylesheet" type="text/css"><!--[if lt IE 9]>
+<!DOCTYPE html><html lang="en"><head><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta charset="utf-8"><meta name="description" content="One is 3"><meta name="author" content="Michael Rabbitt"><title>①ne is 3 | ①ne is 3</title><link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"><link href="assets/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"><link href="assets/css/rst.css" rel="stylesheet" type="text/css"><link href="assets/css/code.css" rel="stylesheet" type="text/css"><link href="assets/css/colorbox.css" rel="stylesheet" type="text/css"><link href="assets/css/theme.css" rel="stylesheet" type="text/css"><link href="assets/css/custom.css" rel="stylesheet" type="text/css"><!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
-    <![endif]--><link rel="alternate" type="application/rss+xml" title="RSS (en)" href="rss.xml"></head><body id="oneis3">
+    <![endif]--><link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml"></head><body id="oneis3">
 <!-- Menubar -->
 <div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
@@ -98,7 +98,7 @@ Basic Example:
     ... [:gist: 4747847]
     ... """
     &gt;&gt;&gt; html = markdown.markdown(text, ['gist'])
-    &gt;&gt;&gt; print html
+    &gt;&gt;&gt; print(html)
     &lt;p&gt;Text of the gist:
     &lt;div class="gist"&gt;
     &lt;script src="https://gist.github.com/4747847.js"&gt;&lt;/script&gt;
@@ -116,7 +116,7 @@ Example with filename:
     ... [:gist: 4747847 zen.py]
     ... """
     &gt;&gt;&gt; html = markdown.markdown(text, ['gist'])
-    &gt;&gt;&gt; print html
+    &gt;&gt;&gt; print(html)
     &lt;p&gt;Text of the gist:
     &lt;div class="gist"&gt;
     &lt;script src="https://gist.github.com/4747847.js?file=zen.py"&gt;&lt;/script&gt;
@@ -134,7 +134,7 @@ Example using reStructuredText syntax:
     ... .. gist:: 4747847 zen.py
     ... """
     &gt;&gt;&gt; html = markdown.markdown(text, ['gist'])
-    &gt;&gt;&gt; print html
+    &gt;&gt;&gt; print(html)
     &lt;p&gt;Text of the gist:
     &lt;div class="gist"&gt;
     &lt;script src="https://gist.github.com/4747847.js?file=zen.py"&gt;&lt;/script&gt;
@@ -179,7 +179,7 @@ Error Case:  non-existent file:
     &lt;/p&gt;
 
 '''
-from __future__ import unicode_literals
+from __future__ import unicode_literals, print_function
 import warnings
 from markdown.extensions import Extension
 from markdown.inlinepatterns import Pattern
@@ -204,7 +204,7 @@ class GistFetchException(Exception):
     '''Raised when attempt to fetch content of a Gist from github.com fails.'''
     def __init__(self, url, status_code):
         Exception.__init__(self)
-        self.message = 'Received a {} response from Gist URL: {}'.format(
+        self.message = 'Received a {0} response from Gist URL: {1}'.format(
             status_code, url)
 
 
@@ -259,9 +259,9 @@ class GistPattern(Pattern):
                 pre_elem = etree.SubElement(noscript_elem, 'pre')
                 pre_elem.text = AtomicString(raw_gist)
 
-            except GistFetchException, e:
+            except GistFetchException as e:
                 warnings.warn(e.message)
-                warning_comment = etree.Comment(' WARNING: {} '.format(e.message))
+                warning_comment = etree.Comment(' WARNING: {0} '.format(e.message))
                 noscript_elem.append(warning_comment)
 
         else:
@@ -529,10 +529,14 @@ Make the script executable (chmod +x ~/bin/zip_filemerge_filter.bash).
     Contents © 2010-2013 Michael Rabbitt - Powered by <a href="http://getnikola.com">Nikola</a>
 </div>
 
-	
-
-
-<script type="text/javascript">
+            <script src="assets/js/jquery-1.10.2.min.js" type="text/javascript"></script><script src="assets/js/bootstrap.min.js" type="text/javascript"></script><script src="assets/js/jquery.colorbox-min.js" type="text/javascript"></script><script type="text/javascript">jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});
+    $(window).on('hashchange', function(){
+        if (location.hash && $(location.hash)[0]) {
+            $('body').animate({scrollTop: $(location.hash).offset().top - $('#navbar').outerHeight(true)*1.2 }, 1);
+        }
+    });
+    $(document).ready(function(){$(window).trigger('hashchange')});
+    </script><script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-37668928-1']);
     _gaq.push(['_trackPageview']);
@@ -543,4 +547,4 @@ Make the script executable (chmod +x ~/bin/zip_filemerge_filter.bash).
             + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
-</script><script src="assets/js/jquery-1.10.2.min.js" type="text/javascript"></script><script src="assets/js/bootstrap.min.js" type="text/javascript"></script><script src="assets/js/jquery.colorbox-min.js" type="text/javascript"></script><script type="text/javascript">jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"80%",maxHeight:"80%",scalePhotos:true});</script></body></html>
+</script></body></html>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>①ne is 3 (Markdown)</title><link>http://oneis3.com/</link><description>One is 3</description><atom:link href="http://oneis3.com/categories/markdown.xml" type="application/rss+xml" rel="self"></atom:link><lastBuildDate>Mon, 16 Sep 2013 00:57:01 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Python Markdown Extension for Inline Gist</title><link>http://oneis3.com//posts/python-markdown-extension-for-inline-gist.html</link><description>&lt;p&gt;As discussed in &lt;a href="https://groups.google.com/d/topic/nikola-discuss/ScaJGcTGBBY/discussion"&gt;this thread on the Nikola forum&lt;/a&gt;, I'd wanted a way add a custom inline "gist" directive to Nikola which I could use in my markdown posts to include the full contents of the gist in a &lt;code&gt;&amp;lt;noscript&amp;gt;&lt;/code&gt; tag.  This makes gist contents available in the site RSS feed and when viewing the site with Javascript disabled.  Here's a gist (of course) with the Python Markdown extension that makes this possible:&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>①ne is 3 (Markdown)</title><link>http://oneis3.com/</link><description>One is 3</description><atom:link href="http://oneis3.com/categories/markdown.xml" type="application/rss+xml" rel="self"></atom:link><lastBuildDate>Fri, 20 Sep 2013 22:29:42 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Python Markdown Extension for Inline Gist</title><link>http://oneis3.com//posts/python-markdown-extension-for-inline-gist.html</link><description>&lt;p&gt;As discussed in &lt;a href="https://groups.google.com/d/topic/nikola-discuss/ScaJGcTGBBY/discussion"&gt;this thread on the Nikola forum&lt;/a&gt;, I'd wanted a way add a custom inline "gist" directive to Nikola which I could use in my markdown posts to include the full contents of the gist in a &lt;code&gt;&amp;lt;noscript&amp;gt;&lt;/code&gt; tag.  This makes gist contents available in the site RSS feed and when viewing the site with Javascript disabled.  Here's a gist (of course) with the Python Markdown extension that makes this possible:&lt;/p&gt;
 &lt;p&gt;
 &lt;/p&gt;&lt;div class="gist"&gt;
 &lt;script src="https://gist.github.com/5080027.js"&gt;&lt;/script&gt;&lt;noscript&gt;
@@ -42,7 +42,7 @@ Basic Example:
     ... [:gist: 4747847]
     ... """
     &amp;gt;&amp;gt;&amp;gt; html = markdown.markdown(text, ['gist'])
-    &amp;gt;&amp;gt;&amp;gt; print html
+    &amp;gt;&amp;gt;&amp;gt; print(html)
     &amp;lt;p&amp;gt;Text of the gist:
     &amp;lt;div class="gist"&amp;gt;
     &amp;lt;script src="https://gist.github.com/4747847.js"&amp;gt;&amp;lt;/script&amp;gt;
@@ -60,7 +60,7 @@ Example with filename:
     ... [:gist: 4747847 zen.py]
     ... """
     &amp;gt;&amp;gt;&amp;gt; html = markdown.markdown(text, ['gist'])
-    &amp;gt;&amp;gt;&amp;gt; print html
+    &amp;gt;&amp;gt;&amp;gt; print(html)
     &amp;lt;p&amp;gt;Text of the gist:
     &amp;lt;div class="gist"&amp;gt;
     &amp;lt;script src="https://gist.github.com/4747847.js?file=zen.py"&amp;gt;&amp;lt;/script&amp;gt;
@@ -78,7 +78,7 @@ Example using reStructuredText syntax:
     ... .. gist:: 4747847 zen.py
     ... """
     &amp;gt;&amp;gt;&amp;gt; html = markdown.markdown(text, ['gist'])
-    &amp;gt;&amp;gt;&amp;gt; print html
+    &amp;gt;&amp;gt;&amp;gt; print(html)
     &amp;lt;p&amp;gt;Text of the gist:
     &amp;lt;div class="gist"&amp;gt;
     &amp;lt;script src="https://gist.github.com/4747847.js?file=zen.py"&amp;gt;&amp;lt;/script&amp;gt;
@@ -123,7 +123,7 @@ Error Case:  non-existent file:
     &amp;lt;/p&amp;gt;
 
 '''
-from __future__ import unicode_literals
+from __future__ import unicode_literals, print_function
 import warnings
 from markdown.extensions import Extension
 from markdown.inlinepatterns import Pattern
@@ -148,7 +148,7 @@ class GistFetchException(Exception):
     '''Raised when attempt to fetch content of a Gist from github.com fails.'''
     def __init__(self, url, status_code):
         Exception.__init__(self)
-        self.message = 'Received a {} response from Gist URL: {}'.format(
+        self.message = 'Received a {0} response from Gist URL: {1}'.format(
             status_code, url)
 
 
@@ -203,9 +203,9 @@ class GistPattern(Pattern):
                 pre_elem = etree.SubElement(noscript_elem, 'pre')
                 pre_elem.text = AtomicString(raw_gist)
 
-            except GistFetchException, e:
+            except GistFetchException as e:
                 warnings.warn(e.message)
-                warning_comment = etree.Comment(' WARNING: {} '.format(e.message))
+                warning_comment = etree.Comment(' WARNING: {0} '.format(e.message))
                 noscript_elem.append(warning_comment)
 
         else:

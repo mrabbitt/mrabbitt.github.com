@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>①ne is 3 (Markdown)</title><link>http://oneis3.com/</link><description>One is 3</description><atom:link href="http://oneis3.com/categories/markdown.xml" type="application/rss+xml" rel="self"></atom:link><lastBuildDate>Tue, 01 Oct 2013 02:47:56 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Python Markdown Extension for Inline Gist</title><link>http://oneis3.com/posts/python-markdown-extension-for-inline-gist.html</link><description>&lt;p&gt;As discussed in &lt;a href="https://groups.google.com/d/topic/nikola-discuss/ScaJGcTGBBY/discussion"&gt;this thread on the Nikola forum&lt;/a&gt;, I'd wanted a way add a custom inline "gist" directive to Nikola which I could use in my markdown posts to include the full contents of the gist in a &lt;code&gt;&amp;lt;noscript&amp;gt;&lt;/code&gt; tag.  This makes gist contents available in the site RSS feed and when viewing the site with Javascript disabled.  Here's a gist (of course) with the Python Markdown extension that makes this possible:&lt;/p&gt;
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>①ne is 3 (Markdown)</title><link>http://oneis3.com/</link><description></description><language>en</language><lastBuildDate>Mon, 21 Jul 2014 14:56:03 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Python Markdown Extension for Inline Gist</title><link>http://oneis3.com/posts/python-markdown-extension-for-inline-gist.html</link><dc:creator>Michael Rabbitt</dc:creator><description>&lt;p&gt;As discussed in &lt;a href="https://groups.google.com/d/topic/nikola-discuss/ScaJGcTGBBY/discussion"&gt;this thread on the Nikola forum&lt;/a&gt;, I'd wanted a way add a custom inline "gist" directive to Nikola which I could use in my markdown posts to include the full contents of the gist in a &lt;code&gt;&amp;lt;noscript&amp;gt;&lt;/code&gt; tag.  This makes gist contents available in the site RSS feed and when viewing the site with Javascript disabled.  Here's a gist (of course) with the Python Markdown extension that makes this possible:&lt;/p&gt;
 &lt;p&gt;
 &lt;/p&gt;&lt;div class="gist"&gt;
-&lt;script src="https://gist.github.com/5080027.js"&gt;&lt;/script&gt;&lt;noscript&gt;
+&lt;script src="https://gist.github.com/5080027.js"&gt;&lt;/script&gt;
+&lt;noscript&gt;
 &lt;pre&gt;# -*- coding: utf-8 -*-
 #
 # Copyright (c) 2013 Michael Rabbitt.
@@ -101,7 +102,7 @@ Error Case: non-existent Gist ID:
     &amp;lt;div class="gist"&amp;gt;
     &amp;lt;script src="https://gist.github.com/0.js"&amp;gt;&amp;lt;/script&amp;gt;
     &amp;lt;noscript&amp;gt;&amp;lt;!-- WARNING: Received a 404 response from Gist URL: \
-    https://gist.github.com/raw/0 --&amp;gt;&amp;lt;/noscript&amp;gt;
+    https://gist.githubusercontent.com/raw/0 --&amp;gt;&amp;lt;/noscript&amp;gt;
     &amp;lt;/div&amp;gt;
     &amp;lt;/p&amp;gt;
 
@@ -118,7 +119,7 @@ Error Case:  non-existent file:
     &amp;lt;div class="gist"&amp;gt;
     &amp;lt;script src="https://gist.github.com/4747847.js?file=doesntexist.py"&amp;gt;&amp;lt;/script&amp;gt;
     &amp;lt;noscript&amp;gt;&amp;lt;!-- WARNING: Received a 404 response from Gist URL: \
-    https://gist.github.com/raw/4747847/doesntexist.py --&amp;gt;&amp;lt;/noscript&amp;gt;
+    https://gist.githubusercontent.com/raw/4747847/doesntexist.py --&amp;gt;&amp;lt;/noscript&amp;gt;
     &amp;lt;/div&amp;gt;
     &amp;lt;/p&amp;gt;
 
@@ -137,8 +138,8 @@ except ImportError:
 
 GIST_JS_URL = "https://gist.github.com/{0}.js"
 GIST_FILE_JS_URL = "https://gist.github.com/{0}.js?file={1}"
-GIST_RAW_URL = "https://gist.github.com/raw/{0}"
-GIST_FILE_RAW_URL = "https://gist.github.com/raw/{0}/{1}"
+GIST_RAW_URL = "https://gist.githubusercontent.com/raw/{0}"
+GIST_FILE_RAW_URL = "https://gist.githubusercontent.com/raw/{0}/{1}"
 
 GIST_MD_RE = r'\[:gist:\s*(?P&amp;lt;gist_id&amp;gt;\d+)(?:\s*(?P&amp;lt;filename&amp;gt;.+?))?\s*\]'
 GIST_RST_RE = r'(?m)^\.\.\s*gist::\s*(?P&amp;lt;gist_id&amp;gt;\d+)(?:\s*(?P&amp;lt;filename&amp;gt;.+))\s*$'
@@ -251,4 +252,4 @@ if __name__ == '__main__':
 &lt;/div&gt;
 
 &lt;p&gt;I'll be sending a push request shortly to get this integrated into Nikola.  Thanks to Roberto Alsina for already &lt;code&gt;gist&lt;/code&gt; support to reStructuredText posts in Nikola.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Update: &lt;a href="https://github.com/ralsina/nikola/pull/380"&gt;Pull request accepted&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;</description><category>Python</category><category>Markdown</category><category>Nikola</category><category>GitHub</category><guid>http://oneis3.com/posts/python-markdown-extension-for-inline-gist.html</guid><pubDate>Mon, 04 Mar 2013 00:23:36 GMT</pubDate></item></channel></rss>
+&lt;p&gt;&lt;em&gt;Update: &lt;a href="https://github.com/ralsina/nikola/pull/380"&gt;Pull request accepted&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;</description><category>GitHub</category><category>Markdown</category><category>Nikola</category><category>Python</category><guid>http://oneis3.com/posts/python-markdown-extension-for-inline-gist.html</guid><pubDate>Mon, 04 Mar 2013 00:23:36 GMT</pubDate></item></channel></rss>

@@ -1,24 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>①ne is 3 (StackOverflow)</title><link>http://oneis3.com/</link><description></description><language>en</language><lastBuildDate>Mon, 21 Jul 2014 14:56:03 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Diff-ing .zip files with FileMerge</title><link>http://oneis3.com/posts/diff-ing-zip-files-with-filemerge.html</link><dc:creator>Michael Rabbitt</dc:creator><description>&lt;p&gt;This isn't particularly elegant, but you can use the FileMerge application that comes with Mac OS X developer tools to compare the contents of zip files using a custom filter.&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>①ne is 3 (StackOverflow)</title><link>http://oneis3.com/</link><description>One is 3</description><atom:link href="http://oneis3.com/categories/stackoverflow.xml" type="application/rss+xml" rel="self"></atom:link><lastBuildDate>Tue, 01 Oct 2013 02:47:57 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Diff-ing .zip files with FileMerge</title><link>http://oneis3.com/posts/diff-ing-zip-files-with-filemerge.html</link><description>&lt;p&gt;This isn't particularly elegant, but you can use the FileMerge application that comes with Mac OS X developer tools to compare the contents of zip files using a custom filter.&lt;/p&gt;
 &lt;p&gt;Create a script &lt;code&gt;~/bin/zip_filemerge_filter.bash&lt;/code&gt; with contents:&lt;/p&gt;
-&lt;pre class="code literal-block"&gt;##
+&lt;div class="code"&gt;&lt;pre&gt;##
 #  List the size, CR-32 checksum, and file path of each file in a zip archive,
 #  sorted in order by file path.
 ##
 unzip -v -l "&lt;span class="cp"&gt;${&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="cp"&gt;}&lt;/span&gt;" | cut -c 1-9,59-,49-57 | sort -k3
 exit $?
 Make the script executable (chmod +x ~/bin/zip_filemerge_filter.bash).
-&lt;/pre&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Open FileMerge, open the Preferences, and go to the "Filters" tab. Add an item to the list with:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Extension: &lt;code&gt;zip&lt;/code&gt; &lt;em&gt;(I've also added the filer for &lt;code&gt;.jar&lt;/code&gt; and &lt;code&gt;.war&lt;/code&gt; files.)&lt;/em&gt;&lt;/li&gt;
+&lt;ul&gt;&lt;li&gt;Extension: &lt;code&gt;zip&lt;/code&gt; &lt;em&gt;(I've also added the filer for &lt;code&gt;.jar&lt;/code&gt; and &lt;code&gt;.war&lt;/code&gt; files.)&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;Filter: &lt;code&gt;~/bin/zip_filemerge_filter.bash $(FILE)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Display: &lt;em&gt;Filtered&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;Apply: &lt;em&gt;No&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Then use FileMerge (or the command line &lt;code&gt;opendiff&lt;/code&gt; wrapper) to compare two .zip files.&lt;/p&gt;
+&lt;/ul&gt;&lt;p&gt;Then use FileMerge (or the command line &lt;code&gt;opendiff&lt;/code&gt; wrapper) to compare two .zip files.&lt;/p&gt;
 &lt;p&gt;This won't let you diff the contents of files within the zip archives, but will let you quickly see which files appear within one only archive and which files exist in both but have different content (i.e. different size and/or checksum).&lt;/p&gt;
 &lt;p&gt;(&lt;em&gt;Cross-posted on
-&lt;a href="http://stackoverflow.com/questions/587442/is-there-a-safe-way-to-run-a-diff-on-two-zip-compressed-files/4429169#4429169"&gt;StackOverflow&lt;/a&gt; and &lt;a href="http://michaelrabbitt.blogspot.com/2010/12/diff-ing-zip-files-with-filemerge.html"&gt;my old blogger blog&lt;/a&gt;.&lt;/em&gt;)&lt;/p&gt;</description><category>Mac</category><category>StackOverflow</category><category>bash</category><category>migrated_from_blogger</category><guid>http://oneis3.com/posts/diff-ing-zip-files-with-filemerge.html</guid><pubDate>Mon, 13 Dec 2010 10:36:00 GMT</pubDate></item></channel></rss>
+&lt;a href="http://stackoverflow.com/questions/587442/is-there-a-safe-way-to-run-a-diff-on-two-zip-compressed-files/4429169#4429169"&gt;StackOverflow&lt;/a&gt; and &lt;a href="http://michaelrabbitt.blogspot.com/2010/12/diff-ing-zip-files-with-filemerge.html"&gt;my old blogger blog&lt;/a&gt;.&lt;/em&gt;)&lt;/p&gt;</description><category>bash</category><category>Mac</category><category>StackOverflow</category><category>migrated_from_blogger</category><guid>http://oneis3.com/posts/diff-ing-zip-files-with-filemerge.html</guid><pubDate>Mon, 13 Dec 2010 10:36:00 GMT</pubDate></item></channel></rss>

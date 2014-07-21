@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>①ne is 3 (Nikola)</title><link>http://oneis3.com/</link><description></description><language>en</language><lastBuildDate>Mon, 21 Jul 2014 14:56:03 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Python Markdown Extension for Inline Gist</title><link>http://oneis3.com/posts/python-markdown-extension-for-inline-gist.html</link><dc:creator>Michael Rabbitt</dc:creator><description>&lt;p&gt;As discussed in &lt;a href="https://groups.google.com/d/topic/nikola-discuss/ScaJGcTGBBY/discussion"&gt;this thread on the Nikola forum&lt;/a&gt;, I'd wanted a way add a custom inline "gist" directive to Nikola which I could use in my markdown posts to include the full contents of the gist in a &lt;code&gt;&amp;lt;noscript&amp;gt;&lt;/code&gt; tag.  This makes gist contents available in the site RSS feed and when viewing the site with Javascript disabled.  Here's a gist (of course) with the Python Markdown extension that makes this possible:&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>①ne is 3 (Nikola)</title><link>http://oneis3.com/</link><description>One is 3</description><atom:link href="http://oneis3.com/categories/nikola.xml" type="application/rss+xml" rel="self"></atom:link><lastBuildDate>Tue, 01 Oct 2013 02:47:56 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Python Markdown Extension for Inline Gist</title><link>http://oneis3.com/posts/python-markdown-extension-for-inline-gist.html</link><description>&lt;p&gt;As discussed in &lt;a href="https://groups.google.com/d/topic/nikola-discuss/ScaJGcTGBBY/discussion"&gt;this thread on the Nikola forum&lt;/a&gt;, I'd wanted a way add a custom inline "gist" directive to Nikola which I could use in my markdown posts to include the full contents of the gist in a &lt;code&gt;&amp;lt;noscript&amp;gt;&lt;/code&gt; tag.  This makes gist contents available in the site RSS feed and when viewing the site with Javascript disabled.  Here's a gist (of course) with the Python Markdown extension that makes this possible:&lt;/p&gt;
 &lt;p&gt;
 &lt;/p&gt;&lt;div class="gist"&gt;
-&lt;script src="https://gist.github.com/5080027.js"&gt;&lt;/script&gt;
-&lt;noscript&gt;
+&lt;script src="https://gist.github.com/5080027.js"&gt;&lt;/script&gt;&lt;noscript&gt;
 &lt;pre&gt;# -*- coding: utf-8 -*-
 #
 # Copyright (c) 2013 Michael Rabbitt.
@@ -102,7 +101,7 @@ Error Case: non-existent Gist ID:
     &amp;lt;div class="gist"&amp;gt;
     &amp;lt;script src="https://gist.github.com/0.js"&amp;gt;&amp;lt;/script&amp;gt;
     &amp;lt;noscript&amp;gt;&amp;lt;!-- WARNING: Received a 404 response from Gist URL: \
-    https://gist.githubusercontent.com/raw/0 --&amp;gt;&amp;lt;/noscript&amp;gt;
+    https://gist.github.com/raw/0 --&amp;gt;&amp;lt;/noscript&amp;gt;
     &amp;lt;/div&amp;gt;
     &amp;lt;/p&amp;gt;
 
@@ -119,7 +118,7 @@ Error Case:  non-existent file:
     &amp;lt;div class="gist"&amp;gt;
     &amp;lt;script src="https://gist.github.com/4747847.js?file=doesntexist.py"&amp;gt;&amp;lt;/script&amp;gt;
     &amp;lt;noscript&amp;gt;&amp;lt;!-- WARNING: Received a 404 response from Gist URL: \
-    https://gist.githubusercontent.com/raw/4747847/doesntexist.py --&amp;gt;&amp;lt;/noscript&amp;gt;
+    https://gist.github.com/raw/4747847/doesntexist.py --&amp;gt;&amp;lt;/noscript&amp;gt;
     &amp;lt;/div&amp;gt;
     &amp;lt;/p&amp;gt;
 
@@ -138,8 +137,8 @@ except ImportError:
 
 GIST_JS_URL = "https://gist.github.com/{0}.js"
 GIST_FILE_JS_URL = "https://gist.github.com/{0}.js?file={1}"
-GIST_RAW_URL = "https://gist.githubusercontent.com/raw/{0}"
-GIST_FILE_RAW_URL = "https://gist.githubusercontent.com/raw/{0}/{1}"
+GIST_RAW_URL = "https://gist.github.com/raw/{0}"
+GIST_FILE_RAW_URL = "https://gist.github.com/raw/{0}/{1}"
 
 GIST_MD_RE = r'\[:gist:\s*(?P&amp;lt;gist_id&amp;gt;\d+)(?:\s*(?P&amp;lt;filename&amp;gt;.+?))?\s*\]'
 GIST_RST_RE = r'(?m)^\.\.\s*gist::\s*(?P&amp;lt;gist_id&amp;gt;\d+)(?:\s*(?P&amp;lt;filename&amp;gt;.+))\s*$'
@@ -252,5 +251,5 @@ if __name__ == '__main__':
 &lt;/div&gt;
 
 &lt;p&gt;I'll be sending a push request shortly to get this integrated into Nikola.  Thanks to Roberto Alsina for already &lt;code&gt;gist&lt;/code&gt; support to reStructuredText posts in Nikola.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Update: &lt;a href="https://github.com/ralsina/nikola/pull/380"&gt;Pull request accepted&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;</description><category>GitHub</category><category>Markdown</category><category>Nikola</category><category>Python</category><guid>http://oneis3.com/posts/python-markdown-extension-for-inline-gist.html</guid><pubDate>Mon, 04 Mar 2013 00:23:36 GMT</pubDate></item><item><title>oneis3.com</title><link>http://oneis3.com/posts/oneis3com.html</link><dc:creator>Michael Rabbitt</dc:creator><description>&lt;p&gt;Today I set up a new coding blog on &lt;a href="http://www.oneis3.com"&gt;oneis3.com&lt;/a&gt;.  I've tinkered in the past with Blogger and Tumblr, but this time I decided to go with a different solution which gives me more control of my content.  This site is generated using &lt;a href="http://nikola.ralsina.com.ar"&gt;Nikola&lt;/a&gt;, a static site generator implemented in Python.  Hosting is provided via &lt;a href="http://pages.github.com"&gt;Github Pages&lt;/a&gt; (see the &lt;a href="https://github.com/mrabbitt/mrabbitt.github.com"&gt;mrabbitt.github.com repo&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Update: &lt;a href="https://github.com/ralsina/nikola/pull/380"&gt;Pull request accepted&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;</description><category>Python</category><category>Markdown</category><category>Nikola</category><category>GitHub</category><guid>http://oneis3.com/posts/python-markdown-extension-for-inline-gist.html</guid><pubDate>Mon, 04 Mar 2013 00:23:36 GMT</pubDate></item><item><title>oneis3.com</title><link>http://oneis3.com/posts/oneis3com.html</link><description>&lt;p&gt;Today I set up a new coding blog on &lt;a href="http://www.oneis3.com"&gt;oneis3.com&lt;/a&gt;.  I've tinkered in the past with Blogger and Tumblr, but this time I decided to go with a different solution which gives me more control of my content.  This site is generated using &lt;a href="http://nikola.ralsina.com.ar"&gt;Nikola&lt;/a&gt;, a static site generator implemented in Python.  Hosting is provided via &lt;a href="http://pages.github.com"&gt;Github Pages&lt;/a&gt; (see the &lt;a href="https://github.com/mrabbitt/mrabbitt.github.com"&gt;mrabbitt.github.com repo&lt;/a&gt;).&lt;/p&gt;
 &lt;p&gt;I've been writing lots of little Python scripts and JavaScript bookmarklets lately which I hope to share here.  Perhaps some &lt;a href="http://grails.org"&gt;Grails&lt;/a&gt;/&lt;a href="http://groovy.codehaus.org"&gt;Groovy&lt;/a&gt;/Java discoveries from my day job will also find there way here.&lt;/p&gt;</description><category>GitHub</category><category>Nikola</category><guid>http://oneis3.com/posts/oneis3com.html</guid><pubDate>Sat, 12 Jan 2013 23:26:58 GMT</pubDate></item></channel></rss>

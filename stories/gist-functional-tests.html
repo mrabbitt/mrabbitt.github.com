@@ -2,11 +2,10 @@
 <html lang="en">
     <head>
     <meta charset="utf-8">
-    <meta name="description" content="One is 3">
 
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
 
-    <title>①ne is 3 ▶ Posts for year 2013</title>
+    <title>①ne is 3 ▶ Nikola Gist/Markdown Functional Tests</title>
 
     
             <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -20,7 +19,7 @@
     
             <link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
 
-      <link rel="canonical" href="http://www.oneis3.com/2013/index.html">
+      <link rel="canonical" href="http://www.oneis3.com/stories/gist-functional-tests.html">
 
 
 
@@ -29,6 +28,15 @@
 
     
 
+
+    
+
+    <meta name="author" content="Michael Rabbitt">
+    
+
+    
+
+    
 
 
 
@@ -63,7 +71,7 @@
 <a href="../categories/index.html">Tags</a>
                 </li>
 <li>
-<a href="../stories/about.html">About</a>
+<a href="about.html">About</a>
                 </li>
 <li>
 <a href="../rss.xml">RSS</a>
@@ -100,24 +108,126 @@
     <div class="span8">
     
     
-<article class="listpage">
+<article class="storypage" itemscope="itemscope" itemtype="http://schema.org/Article">
     <header>
-        <h1>Posts for year 2013</h1>
+        
+    <h1 class="p-name entry-title" itemprop="headline name"><a href="#" class="u-url">Nikola Gist/Markdown Functional Tests</a></h1>
+
+        
+
     </header>
-    <ul class="postlist">
-        <li>
-<a href="../posts/fun-with-sikuli-and-baldurs-gate.html" class="listtitle">Fun with Sikuli and Baldur's Gate</a> <time class="listdate" datetime="2013-09-16T00:55:24+00:00" title="2013-09-16 00:55">2013-09-16 00:55</time>
-</li>
-        <li>
-<a href="../posts/python-markdown-extension-for-inline-gist.html" class="listtitle">Python Markdown Extension for Inline Gist</a> <time class="listdate" datetime="2013-03-04T00:23:36+00:00" title="2013-03-04 00:23">2013-03-04 00:23</time>
-</li>
-        <li>
-<a href="../posts/confluence-numbered-heading-bookmarklet.html" class="listtitle">Confluence numbered heading bookmarklet</a> <time class="listdate" datetime="2013-01-20T19:42:27+00:00" title="2013-01-20 19:42">2013-01-20 19:42</time>
-</li>
-        <li>
-<a href="../posts/oneis3com.html" class="listtitle">oneis3.com</a> <time class="listdate" datetime="2013-01-12T23:26:58+00:00" title="2013-01-12 23:26">2013-01-12 23:26</time>
-</li>
-    </ul>
+    <div class="e-content entry-content" itemprop="articleBody text">
+    <div>
+<p><a href="https://github.com/getnikola/nikola/issues/1381#issuecomment-52420479">Nikola issue:  Gist URL scheme has changed #1381</a></p>
+<h3>Markdown-style</h3>
+<h4>Old numeric:</h4>
+<pre class="code literal-block">[:gist: 4747847]
+</pre>
+
+
+<p>
+</p>
+<div class="gist">
+<script src="https://gist.github.com/4747847.js"></script>
+<noscript>
+<pre>import this</pre>
+</noscript>
+</div>
+
+<h4>Old numeric with file:</h4>
+<pre class="code literal-block">[:gist: 4747847 zen.py]
+</pre>
+
+
+<p>
+</p>
+<div class="gist">
+<script src="https://gist.github.com/4747847.js?file=zen.py"></script>
+<noscript>
+<pre>import this</pre>
+</noscript>
+</div>
+
+<h4>New hex-style:</h4>
+<pre class="code literal-block">[:gist: c4a43d6fdce612284ac0]
+</pre>
+
+
+<p>
+</p>
+<div class="gist">
+<script src="https://gist.github.com/c4a43d6fdce612284ac0.js"></script>
+<noscript>
+<pre>Moo</pre>
+</noscript>
+</div>
+
+<h4>New hex-style with file:</h4>
+<pre class="code literal-block">[:gist: c4a43d6fdce612284ac0 cow.txt]
+</pre>
+
+
+<p>
+</p>
+<div class="gist">
+<script src="https://gist.github.com/c4a43d6fdce612284ac0.js?file=cow.txt"></script>
+<noscript>
+<pre>Moo</pre>
+</noscript>
+</div>
+
+<h3>ReST-style</h3>
+<h4>Old numeric:</h4>
+<pre class="code literal-block"><span class="p">..</span> <span class="ow">gist</span><span class="p">::</span> mrabbitt/4747847
+</pre>
+
+
+<p>
+</p>
+<div class="gist">
+<script src="https://gist.github.com/mrabbitt/4747847.js"></script>
+<noscript><!-- WARNING: Received a 404 response from Gist URL: https://gist.githubusercontent.com/raw/mrabbitt/4747847 --></noscript>
+</div>
+
+<h4>Old numeric with file:</h4>
+<pre class="code literal-block"><span class="p">..</span> <span class="ow">gist</span><span class="p">::</span> mrabbitt/4747847 zen.py
+</pre>
+
+
+<p>
+</p>
+<div class="gist">
+<script src="https://gist.github.com/mrabbitt/4747847.js?file=zen.py"></script>
+<noscript><!-- WARNING: Received a 404 response from Gist URL: https://gist.githubusercontent.com/raw/mrabbitt/4747847/zen.py --></noscript>
+</div>
+
+<h4>New hex-style:</h4>
+<pre class="code literal-block"><span class="p">..</span> <span class="ow">gist</span><span class="p">::</span> mrabbitt/c4a43d6fdce612284ac0
+</pre>
+
+
+<p>
+</p>
+<div class="gist">
+<script src="https://gist.github.com/mrabbitt/c4a43d6fdce612284ac0.js"></script>
+<noscript><!-- WARNING: Received a 404 response from Gist URL: https://gist.githubusercontent.com/raw/mrabbitt/c4a43d6fdce612284ac0 --></noscript>
+</div>
+
+<h4>New hex-style with file:</h4>
+<pre class="code literal-block"><span class="p">..</span> <span class="ow">gist</span><span class="p">::</span> mrabbitt/c4a43d6fdce612284ac0 cow.txt
+</pre>
+
+
+<p>
+</p>
+<div class="gist">
+<script src="https://gist.github.com/mrabbitt/c4a43d6fdce612284ac0.js?file=cow.txt"></script>
+<noscript><!-- WARNING: Received a 404 response from Gist URL: https://gist.githubusercontent.com/raw/mrabbitt/c4a43d6fdce612284ac0/cow.txt --></noscript>
+</div>
+</div>
+    </div>
+    
+
 </article>
 
     </div>

@@ -2,7 +2,9 @@
 <html lang="en">
     <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+
     <title>①ne is 3 ▶ Confluence numbered heading bookmarklet</title>
 
     
@@ -17,7 +19,7 @@
     
             <link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
 
-      <link rel="canonical" href="http://oneis3.com/posts/confluence-numbered-heading-bookmarklet.html">
+      <link rel="canonical" href="http://www.oneis3.com/posts/confluence-numbered-heading-bookmarklet.html">
 
 
 
@@ -30,6 +32,8 @@
     
 
     <meta name="author" content="Michael Rabbitt">
+        <link rel="prev" href="oneis3com.html" title="oneis3.com" type="text/html">
+        <link rel="next" href="python-markdown-extension-for-inline-gist.html" title="Python Markdown Extension for Inline Gist" type="text/html">
     
 
     
@@ -80,11 +84,11 @@
                     
 <!-- Custom search -->
 <form method="get" id="search" action="http://duckduckgo.com/" class="navbar-form pull-right">
-    <input type="hidden" name="sites" value="http://oneis3.com/">
+    <input type="hidden" name="sites" value="http://www.oneis3.com/">
     <input type="hidden" name="k8" value="#444444">
     <input type="hidden" name="k9" value="#D51920">
     <input type="hidden" name="kt" value="h">
-    <input type="text" name="q" maxlength="255" placeholder="Search…" class="span2" style="margin-top: 4px;">
+    <input type="text" name="q" maxlength="255" placeholder="Search site…" class="span2" style="margin-top: 4px;">
     <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;">
 </form>
 <!-- End of custom search -->
@@ -122,7 +126,8 @@
     </header>
 
     <div class="e-content entry-content" itemprop="articleBody text">
-    <p>This bookmarklet adds hierarchical section numbers to the section headers on the current confluence page. Note that it does not permanently change the content of the page; it only transforms the displayed HTML until the page is re-loaded. One of these days I'll figure out how to get this to work as a <a href="http://userscripts.org/">user script</a>.</p>
+    <div>
+<p>This bookmarklet adds hierarchical section numbers to the section headers on the current confluence page. Note that it does not permanently change the content of the page; it only transforms the displayed HTML until the page is re-loaded. One of these days I'll figure out how to get this to work as a <a href="http://userscripts.org/">user script</a>.</p>
 <p><a href="javascript:%28function%28%29%2520%7Bfunction%2520addSectionNumber%2520%28elem%2C%2520sectionNumber%2C%2520parentSection%2C%2520level%29%2520%7Bvar%2520sectionNumberStr%2520%3D%2520%2527%2527%3Bvar%2520sectionSpan%3Bif%2520%28level%2520%3E%25201%29%2520%7BsectionNumberStr%2520%3D%2520parentSection%2520%2B%2520%2527.%2527%2520%2B%2520sectionNumber%3B%7D%2520else%2520if%2520%28level%2520%3E%25200%29%2520%7BsectionNumberStr%2520%3D%2520sectionNumber.toString%28%29%3B%7Dif%2520%28level%2520%3E%25200%2520%26%26%2520jQuery%28elem%29.find%28%2527.section-number%2527%29.length%2520%3D%3D%3D%25200%2520%29%2520%7BsectionSpan%2520%3D%2520jQuery%28%2527%3Cspan%2520class%3D%2522section-number%2522%3E%2527%29.text%28sectionNumberStr%2520%2B%2520%2527%2520%2527%29%3BjQuery%28elem%29.prepend%28sectionSpan%29%3B%7Dif%2520%28%2520level%2520%3D%3D%3D%25200%2520%29%2520%7BjQuery%28elem%29.find%28%2527h1%2527%29.each%28%2520function%28index%2C%2520element%29%2520%7BaddSectionNumber%28element%2C%2520%28index%2520%2B%25201%29%2C%2520sectionNumberStr%2C%2520%28level%2520%2B%25201%29%29%3B%7D%29%3B%7D%2520else%2520if%2520%28%2520level%2520%3C%25206%2520%29%2520%7BjQuery%28elem%29.nextUntil%28%2527h%2527%2520%2B%2520level%2C%2520%2527h%2527%2520%2B%2520level%2520%2B%2520%2527%2Ch%2527%2520%2B%2520%28level%2520%2B%25201%29%29.each%28%2520function%28index%2C%2520element%29%2520%7BaddSectionNumber%28element%2C%2520%28index%2520%2B%25201%29%2C%2520sectionNumberStr%2C%2520%28level%2520%2B%25201%29%29%3B%7D%29%3B%7Dreturn%3B%7DaddSectionNumber%28jQuery%28%2527%23main-content%2527%29.first%28%29%2C%25200%2C%2520%2527%2527%2C%25200%29%3B%7D%29%28%29%3B">Confluence numbered section header bookmarklet</a></p>
 <p>Source:</p>
 <p>
@@ -165,15 +170,15 @@
 </pre>
 </noscript>
 </div>
-
+</div>
     </div>
     <aside class="postpromonav">
     <nav>
     
         <ul itemprop="keywords" class="tags">
+           <li><a class="tag p-category" href="../categories/bookmarklet.html" rel="tag">bookmarklet</a></li>
            <li><a class="tag p-category" href="../categories/confluence.html" rel="tag">Confluence</a></li>
            <li><a class="tag p-category" href="../categories/javascript.html" rel="tag">JavaScript</a></li>
-           <li><a class="tag p-category" href="../categories/bookmarklet.html" rel="tag">bookmarklet</a></li>
         </ul>
 
     
@@ -199,12 +204,14 @@
     <!--End of body content-->
 </div>
 <div class="footerbox">
-    Contents © 2010-2014 Michael Rabbitt - Powered by <a href="http://getnikola.com">Nikola</a>
+    Contents © 2010-2015 Michael Rabbitt - Powered by <a href="http://getnikola.com">Nikola</a>
     
 </div>
 
             <script src="../assets/js/jquery.min.js"></script>
             <script src="../assets/js/bootstrap.min.js"></script>
+            <script src="../assets/js/moment-with-locales.min.js"></script>
+            <script src="../assets/js/fancydates.js"></script>
         <script src="../assets/js/jquery.colorbox-min.js"></script>
     
 

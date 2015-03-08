@@ -5,111 +5,111 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>http://oneis3.com/categories/aws.xml</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/aws.xml</loc>
+  <lastmod>2015-03-08</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://oneis3.com/categories/bash.xml</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/bash.xml</loc>
+  <lastmod>2015-03-08</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://oneis3.com/categories/bookmarklet.xml</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/bookmarklet.xml</loc>
+  <lastmod>2015-03-08</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://oneis3.com/categories/cli.xml</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/cli.xml</loc>
+  <lastmod>2015-03-08</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://oneis3.com/categories/confluence.xml</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/confluence.xml</loc>
+  <lastmod>2015-03-08</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://oneis3.com/categories/ddclient.xml</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/ddclient.xml</loc>
+  <lastmod>2015-03-08</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://oneis3.com/categories/dns.xml</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/dns.xml</loc>
+  <lastmod>2015-03-08</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://oneis3.com/categories/ec2.xml</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/ec2.xml</loc>
+  <lastmod>2015-03-08</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://oneis3.com/categories/games.xml</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/games.xml</loc>
+  <lastmod>2015-03-08</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://oneis3.com/categories/git.xml</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/git.xml</loc>
+  <lastmod>2015-03-08</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://oneis3.com/categories/github.xml</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/github.xml</loc>
+  <lastmod>2015-03-08</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://oneis3.com/categories/hg.xml</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/hg.xml</loc>
+  <lastmod>2015-03-08</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://oneis3.com/categories/intellij-idea.xml</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/intellij-idea.xml</loc>
+  <lastmod>2015-03-08</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://oneis3.com/categories/javascript.xml</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/javascript.xml</loc>
+  <lastmod>2015-03-08</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://oneis3.com/categories/mac.xml</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/mac.xml</loc>
+  <lastmod>2015-03-08</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://oneis3.com/categories/markdown.xml</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/markdown.xml</loc>
+  <lastmod>2015-03-08</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://oneis3.com/categories/migrated_from_blogger.xml</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/migrated_from_blogger.xml</loc>
+  <lastmod>2015-03-08</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://oneis3.com/categories/migrated_from_tumblr.xml</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/migrated_from_tumblr.xml</loc>
+  <lastmod>2015-03-08</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://oneis3.com/categories/nikola.xml</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/nikola.xml</loc>
+  <lastmod>2015-03-08</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://oneis3.com/categories/python.xml</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/python.xml</loc>
+  <lastmod>2015-03-08</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://oneis3.com/categories/sikuli.xml</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/sikuli.xml</loc>
+  <lastmod>2015-03-08</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://oneis3.com/categories/sourcetree.xml</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/sourcetree.xml</loc>
+  <lastmod>2015-03-08</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://oneis3.com/categories/splunk.xml</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/splunk.xml</loc>
+  <lastmod>2015-03-08</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://oneis3.com/categories/stackoverflow.xml</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/stackoverflow.xml</loc>
+  <lastmod>2015-03-08</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://oneis3.com/galleries/rss.xml</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/galleries/rss.xml</loc>
+  <lastmod>2015-03-08</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://oneis3.com/rss.xml</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/rss.xml</loc>
+  <lastmod>2015-03-08</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://oneis3.com/sitemap.xml</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/sitemap.xml</loc>
+  <lastmod>2015-03-08</lastmod>
  </sitemap>
 </sitemapindex>

@@ -2,7 +2,9 @@
 <html lang="en">
     <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+
     <title>①ne is 3 ▶ Python Markdown Extension for Inline Gist</title>
 
     
@@ -17,7 +19,7 @@
     
             <link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
 
-      <link rel="canonical" href="http://oneis3.com/posts/python-markdown-extension-for-inline-gist.html">
+      <link rel="canonical" href="http://www.oneis3.com/posts/python-markdown-extension-for-inline-gist.html">
 
 
 
@@ -30,6 +32,8 @@
     
 
     <meta name="author" content="Michael Rabbitt">
+        <link rel="prev" href="confluence-numbered-heading-bookmarklet.html" title="Confluence numbered heading bookmarklet" type="text/html">
+        <link rel="next" href="fun-with-sikuli-and-baldurs-gate.html" title="Fun with Sikuli and Baldur's Gate" type="text/html">
     
 
     
@@ -80,11 +84,11 @@
                     
 <!-- Custom search -->
 <form method="get" id="search" action="http://duckduckgo.com/" class="navbar-form pull-right">
-    <input type="hidden" name="sites" value="http://oneis3.com/">
+    <input type="hidden" name="sites" value="http://www.oneis3.com/">
     <input type="hidden" name="k8" value="#444444">
     <input type="hidden" name="k9" value="#D51920">
     <input type="hidden" name="kt" value="h">
-    <input type="text" name="q" maxlength="255" placeholder="Search…" class="span2" style="margin-top: 4px;">
+    <input type="text" name="q" maxlength="255" placeholder="Search site…" class="span2" style="margin-top: 4px;">
     <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;">
 </form>
 <!-- End of custom search -->
@@ -122,7 +126,8 @@
     </header>
 
     <div class="e-content entry-content" itemprop="articleBody text">
-    <p>As discussed in <a href="https://groups.google.com/d/topic/nikola-discuss/ScaJGcTGBBY/discussion">this thread on the Nikola forum</a>, I'd wanted a way add a custom inline "gist" directive to Nikola which I could use in my markdown posts to include the full contents of the gist in a <code>&lt;noscript&gt;</code> tag.  This makes gist contents available in the site RSS feed and when viewing the site with Javascript disabled.  Here's a gist (of course) with the Python Markdown extension that makes this possible:</p>
+    <div>
+<p>As discussed in <a href="https://groups.google.com/d/topic/nikola-discuss/ScaJGcTGBBY/discussion">this thread on the Nikola forum</a>, I'd wanted a way add a custom inline "gist" directive to Nikola which I could use in my markdown posts to include the full contents of the gist in a <code>&lt;noscript&gt;</code> tag.  This makes gist contents available in the site RSS feed and when viewing the site with Javascript disabled.  Here's a gist (of course) with the Python Markdown extension that makes this possible:</p>
 <p>
 </p>
 <div class="gist">
@@ -195,6 +200,42 @@ Example with filename:
     &lt;/div&gt;
     &lt;/p&gt;
 
+Basic Example with hexidecimal id:
+
+    &gt;&gt;&gt; import markdown
+    &gt;&gt;&gt; text = """
+    ... Text of the gist:
+    ... [:gist: c4a43d6fdce612284ac0]
+    ... """
+    &gt;&gt;&gt; html = markdown.markdown(text, ['gist'])
+    &gt;&gt;&gt; print(html)
+    &lt;p&gt;Text of the gist:
+    &lt;div class="gist"&gt;
+    &lt;script src="https://gist.github.com/c4a43d6fdce612284ac0.js"&gt;&lt;/script&gt;
+    &lt;noscript&gt;
+    &lt;pre&gt;Moo&lt;/pre&gt;
+    &lt;/noscript&gt;
+    &lt;/div&gt;
+    &lt;/p&gt;
+
+Example with hexidecimal id filename:
+
+    &gt;&gt;&gt; import markdown
+    &gt;&gt;&gt; text = """
+    ... Text of the gist:
+    ... [:gist: c4a43d6fdce612284ac0 cow.txt]
+    ... """
+    &gt;&gt;&gt; html = markdown.markdown(text, ['gist'])
+    &gt;&gt;&gt; print(html)
+    &lt;p&gt;Text of the gist:
+    &lt;div class="gist"&gt;
+    &lt;script src="https://gist.github.com/c4a43d6fdce612284ac0.js?file=cow.txt"&gt;&lt;/script&gt;
+    &lt;noscript&gt;
+    &lt;pre&gt;Moo&lt;/pre&gt;
+    &lt;/noscript&gt;
+    &lt;/div&gt;
+    &lt;/p&gt;
+
 Example using reStructuredText syntax:
 
     &gt;&gt;&gt; import markdown
@@ -209,6 +250,24 @@ Example using reStructuredText syntax:
     &lt;script src="https://gist.github.com/4747847.js?file=zen.py"&gt;&lt;/script&gt;
     &lt;noscript&gt;
     &lt;pre&gt;import this&lt;/pre&gt;
+    &lt;/noscript&gt;
+    &lt;/div&gt;
+    &lt;/p&gt;
+
+Example using hexidecimal ID and reStructuredText syntax:
+
+    &gt;&gt;&gt; import markdown
+    &gt;&gt;&gt; text = """
+    ... Text of the gist:
+    ... .. gist:: c4a43d6fdce612284ac0 cow.txt
+    ... """
+    &gt;&gt;&gt; html = markdown.markdown(text, ['gist'])
+    &gt;&gt;&gt; print(html)
+    &lt;p&gt;Text of the gist:
+    &lt;div class="gist"&gt;
+    &lt;script src="https://gist.github.com/c4a43d6fdce612284ac0.js?file=cow.txt"&gt;&lt;/script&gt;
+    &lt;noscript&gt;
+    &lt;pre&gt;Moo&lt;/pre&gt;
     &lt;/noscript&gt;
     &lt;/div&gt;
     &lt;/p&gt;
@@ -265,8 +324,8 @@ GIST_FILE_JS_URL = "https://gist.github.com/{0}.js?file={1}"
 GIST_RAW_URL = "https://gist.githubusercontent.com/raw/{0}"
 GIST_FILE_RAW_URL = "https://gist.githubusercontent.com/raw/{0}/{1}"
 
-GIST_MD_RE = r'\[:gist:\s*(?P&lt;gist_id&gt;\d+)(?:\s*(?P&lt;filename&gt;.+?))?\s*\]'
-GIST_RST_RE = r'(?m)^\.\.\s*gist::\s*(?P&lt;gist_id&gt;\d+)(?:\s*(?P&lt;filename&gt;.+))\s*$'
+GIST_MD_RE = r'\[:gist:\s*(?P&lt;gist_id&gt;\S+)(?:\s*(?P&lt;filename&gt;.+?))?\s*\]'
+GIST_RST_RE = r'(?m)^\.\.\s*gist::\s*(?P&lt;gist_id&gt;[^\]\s]+)(?:\s*(?P&lt;filename&gt;.+))\s*$'
 
 
 class GistFetchException(Exception):
@@ -377,6 +436,7 @@ if __name__ == '__main__':
 
 <p>I'll be sending a push request shortly to get this integrated into Nikola.  Thanks to Roberto Alsina for already <code>gist</code> support to reStructuredText posts in Nikola.</p>
 <p><em>Update: <a href="https://github.com/ralsina/nikola/pull/380">Pull request accepted</a>!</em></p>
+</div>
     </div>
     <aside class="postpromonav">
     <nav>
@@ -411,12 +471,14 @@ if __name__ == '__main__':
     <!--End of body content-->
 </div>
 <div class="footerbox">
-    Contents © 2010-2014 Michael Rabbitt - Powered by <a href="http://getnikola.com">Nikola</a>
+    Contents © 2010-2015 Michael Rabbitt - Powered by <a href="http://getnikola.com">Nikola</a>
     
 </div>
 
             <script src="../assets/js/jquery.min.js"></script>
             <script src="../assets/js/bootstrap.min.js"></script>
+            <script src="../assets/js/moment-with-locales.min.js"></script>
+            <script src="../assets/js/fancydates.js"></script>
         <script src="../assets/js/jquery.colorbox-min.js"></script>
     
 

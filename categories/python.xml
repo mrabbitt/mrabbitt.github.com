@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>①ne is 3 (Python)</title><link>http://oneis3.com/</link><description></description><language>en</language><lastBuildDate>Mon, 21 Jul 2014 16:57:16 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Fun with Sikuli and Baldur's Gate</title><link>http://oneis3.com/posts/fun-with-sikuli-and-baldurs-gate.html</link><dc:creator>Michael Rabbitt</dc:creator><description>&lt;p&gt;A few months ago I was playing &lt;a href="http://www.baldursgate.com"&gt;Baldur's Gate: Enhanced Edition (BGEE)&lt;/a&gt;, and going through the character creation process.  The game chooses the character's initial statistics by simulated random dice rolls.  You can re-distribute points between different attributes as you desire, but you can only increase the total number of points by re-rolling.  You can re-roll as many times as you want, hoping to get a higher total number of points.  You can also "store" and "recall" a single roll.&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>①ne is 3 (Python)</title><link>http://www.oneis3.com/</link><description></description><atom:link href="http://www.oneis3.com/categories/python.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sun, 08 Mar 2015 08:02:07 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Fun with Sikuli and Baldur's Gate</title><link>http://www.oneis3.com/posts/fun-with-sikuli-and-baldurs-gate.html</link><dc:creator>Michael Rabbitt</dc:creator><description>&lt;div&gt;&lt;p&gt;A few months ago I was playing &lt;a href="http://www.baldursgate.com"&gt;Baldur's Gate: Enhanced Edition (BGEE)&lt;/a&gt;, and going through the character creation process.  The game chooses the character's initial statistics by simulated random dice rolls.  You can re-distribute points between different attributes as you desire, but you can only increase the total number of points by re-rolling.  You can re-roll as many times as you want, hoping to get a higher total number of points.  You can also "store" and "recall" a single roll.&lt;/p&gt;
 &lt;p&gt;The lazy programmer in me saw this as an a task begging for automation.&lt;/p&gt;
 &lt;p&gt;I spent the next several hours developing a &lt;a href="http://sikuli.org"&gt;Sikuli&lt;/a&gt; script which automates the process of re-rolling until a desired total roll is reached.  I've finally gotten around to cleaning up the code and releasing it on github as &lt;a href="https://github.com/mrabbitt/BGEE_Sikuli_auto_roller"&gt;BGEE_Sikuli_auto_roller&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Here's a video demo (painfully edited in iMovie) of &lt;code&gt;BGEE_Sikuli_auto_roller&lt;/code&gt; in action:&lt;/p&gt;
 &lt;iframe width="420" height="315" src="//www.youtube.com/embed/K-0nRvz3z4I" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;Happy dungeon/code hacking!&lt;/p&gt;</description><category>Games</category><category>GitHub</category><category>Python</category><category>Sikuli</category><guid>http://oneis3.com/posts/fun-with-sikuli-and-baldurs-gate.html</guid><pubDate>Mon, 16 Sep 2013 00:55:24 GMT</pubDate></item><item><title>Python Markdown Extension for Inline Gist</title><link>http://oneis3.com/posts/python-markdown-extension-for-inline-gist.html</link><dc:creator>Michael Rabbitt</dc:creator><description>&lt;p&gt;As discussed in &lt;a href="https://groups.google.com/d/topic/nikola-discuss/ScaJGcTGBBY/discussion"&gt;this thread on the Nikola forum&lt;/a&gt;, I'd wanted a way add a custom inline "gist" directive to Nikola which I could use in my markdown posts to include the full contents of the gist in a &lt;code&gt;&amp;lt;noscript&amp;gt;&lt;/code&gt; tag.  This makes gist contents available in the site RSS feed and when viewing the site with Javascript disabled.  Here's a gist (of course) with the Python Markdown extension that makes this possible:&lt;/p&gt;
+&lt;p&gt;Happy dungeon/code hacking!&lt;/p&gt;&lt;/div&gt;</description><category>Games</category><category>GitHub</category><category>Python</category><category>Sikuli</category><guid>http://www.oneis3.com/posts/fun-with-sikuli-and-baldurs-gate.html</guid><pubDate>Mon, 16 Sep 2013 00:55:24 GMT</pubDate></item><item><title>Python Markdown Extension for Inline Gist</title><link>http://www.oneis3.com/posts/python-markdown-extension-for-inline-gist.html</link><dc:creator>Michael Rabbitt</dc:creator><description>&lt;div&gt;&lt;p&gt;As discussed in &lt;a href="https://groups.google.com/d/topic/nikola-discuss/ScaJGcTGBBY/discussion"&gt;this thread on the Nikola forum&lt;/a&gt;, I'd wanted a way add a custom inline "gist" directive to Nikola which I could use in my markdown posts to include the full contents of the gist in a &lt;code&gt;&amp;lt;noscript&amp;gt;&lt;/code&gt; tag.  This makes gist contents available in the site RSS feed and when viewing the site with Javascript disabled.  Here's a gist (of course) with the Python Markdown extension that makes this possible:&lt;/p&gt;
 &lt;p&gt;
 &lt;/p&gt;&lt;div class="gist"&gt;
 &lt;script src="https://gist.github.com/5080027.js"&gt;&lt;/script&gt;
@@ -77,6 +77,42 @@ Example with filename:
     &amp;lt;/div&amp;gt;
     &amp;lt;/p&amp;gt;
 
+Basic Example with hexidecimal id:
+
+    &amp;gt;&amp;gt;&amp;gt; import markdown
+    &amp;gt;&amp;gt;&amp;gt; text = """
+    ... Text of the gist:
+    ... [:gist: c4a43d6fdce612284ac0]
+    ... """
+    &amp;gt;&amp;gt;&amp;gt; html = markdown.markdown(text, ['gist'])
+    &amp;gt;&amp;gt;&amp;gt; print(html)
+    &amp;lt;p&amp;gt;Text of the gist:
+    &amp;lt;div class="gist"&amp;gt;
+    &amp;lt;script src="https://gist.github.com/c4a43d6fdce612284ac0.js"&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;noscript&amp;gt;
+    &amp;lt;pre&amp;gt;Moo&amp;lt;/pre&amp;gt;
+    &amp;lt;/noscript&amp;gt;
+    &amp;lt;/div&amp;gt;
+    &amp;lt;/p&amp;gt;
+
+Example with hexidecimal id filename:
+
+    &amp;gt;&amp;gt;&amp;gt; import markdown
+    &amp;gt;&amp;gt;&amp;gt; text = """
+    ... Text of the gist:
+    ... [:gist: c4a43d6fdce612284ac0 cow.txt]
+    ... """
+    &amp;gt;&amp;gt;&amp;gt; html = markdown.markdown(text, ['gist'])
+    &amp;gt;&amp;gt;&amp;gt; print(html)
+    &amp;lt;p&amp;gt;Text of the gist:
+    &amp;lt;div class="gist"&amp;gt;
+    &amp;lt;script src="https://gist.github.com/c4a43d6fdce612284ac0.js?file=cow.txt"&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;noscript&amp;gt;
+    &amp;lt;pre&amp;gt;Moo&amp;lt;/pre&amp;gt;
+    &amp;lt;/noscript&amp;gt;
+    &amp;lt;/div&amp;gt;
+    &amp;lt;/p&amp;gt;
+
 Example using reStructuredText syntax:
 
     &amp;gt;&amp;gt;&amp;gt; import markdown
@@ -91,6 +127,24 @@ Example using reStructuredText syntax:
     &amp;lt;script src="https://gist.github.com/4747847.js?file=zen.py"&amp;gt;&amp;lt;/script&amp;gt;
     &amp;lt;noscript&amp;gt;
     &amp;lt;pre&amp;gt;import this&amp;lt;/pre&amp;gt;
+    &amp;lt;/noscript&amp;gt;
+    &amp;lt;/div&amp;gt;
+    &amp;lt;/p&amp;gt;
+
+Example using hexidecimal ID and reStructuredText syntax:
+
+    &amp;gt;&amp;gt;&amp;gt; import markdown
+    &amp;gt;&amp;gt;&amp;gt; text = """
+    ... Text of the gist:
+    ... .. gist:: c4a43d6fdce612284ac0 cow.txt
+    ... """
+    &amp;gt;&amp;gt;&amp;gt; html = markdown.markdown(text, ['gist'])
+    &amp;gt;&amp;gt;&amp;gt; print(html)
+    &amp;lt;p&amp;gt;Text of the gist:
+    &amp;lt;div class="gist"&amp;gt;
+    &amp;lt;script src="https://gist.github.com/c4a43d6fdce612284ac0.js?file=cow.txt"&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;noscript&amp;gt;
+    &amp;lt;pre&amp;gt;Moo&amp;lt;/pre&amp;gt;
     &amp;lt;/noscript&amp;gt;
     &amp;lt;/div&amp;gt;
     &amp;lt;/p&amp;gt;
@@ -147,8 +201,8 @@ GIST_FILE_JS_URL = "https://gist.github.com/{0}.js?file={1}"
 GIST_RAW_URL = "https://gist.githubusercontent.com/raw/{0}"
 GIST_FILE_RAW_URL = "https://gist.githubusercontent.com/raw/{0}/{1}"
 
-GIST_MD_RE = r'\[:gist:\s*(?P&amp;lt;gist_id&amp;gt;\d+)(?:\s*(?P&amp;lt;filename&amp;gt;.+?))?\s*\]'
-GIST_RST_RE = r'(?m)^\.\.\s*gist::\s*(?P&amp;lt;gist_id&amp;gt;\d+)(?:\s*(?P&amp;lt;filename&amp;gt;.+))\s*$'
+GIST_MD_RE = r'\[:gist:\s*(?P&amp;lt;gist_id&amp;gt;\S+)(?:\s*(?P&amp;lt;filename&amp;gt;.+?))?\s*\]'
+GIST_RST_RE = r'(?m)^\.\.\s*gist::\s*(?P&amp;lt;gist_id&amp;gt;[^\]\s]+)(?:\s*(?P&amp;lt;filename&amp;gt;.+))\s*$'
 
 
 class GistFetchException(Exception):
@@ -258,7 +312,7 @@ if __name__ == '__main__':
 &lt;/div&gt;
 
 &lt;p&gt;I'll be sending a push request shortly to get this integrated into Nikola.  Thanks to Roberto Alsina for already &lt;code&gt;gist&lt;/code&gt; support to reStructuredText posts in Nikola.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Update: &lt;a href="https://github.com/ralsina/nikola/pull/380"&gt;Pull request accepted&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;</description><category>GitHub</category><category>Markdown</category><category>Nikola</category><category>Python</category><guid>http://oneis3.com/posts/python-markdown-extension-for-inline-gist.html</guid><pubDate>Mon, 04 Mar 2013 00:23:36 GMT</pubDate></item><item><title>Python Script to download Splunk Documentation PDFs</title><link>http://oneis3.com/posts/python-script-to-download-splunk-documentation-pdfs.html</link><dc:creator>Michael Rabbitt</dc:creator><description>&lt;p&gt;
+&lt;p&gt;&lt;em&gt;Update: &lt;a href="https://github.com/ralsina/nikola/pull/380"&gt;Pull request accepted&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;</description><category>GitHub</category><category>Markdown</category><category>Nikola</category><category>Python</category><guid>http://www.oneis3.com/posts/python-markdown-extension-for-inline-gist.html</guid><pubDate>Mon, 04 Mar 2013 00:23:36 GMT</pubDate></item><item><title>Python Script to download Splunk Documentation PDFs</title><link>http://www.oneis3.com/posts/python-script-to-download-splunk-documentation-pdfs.html</link><dc:creator>Michael Rabbitt</dc:creator><description>&lt;div&gt;&lt;p&gt;
 &lt;/p&gt;&lt;div class="gist"&gt;
 &lt;script src="https://gist.github.com/4121269.js"&gt;&lt;/script&gt;
 &lt;noscript&gt;
@@ -334,4 +388,4 @@ if __name__ == '__main__':
         print('''Usage: {0} PATH_TO_DOWNLOAD_DIR VERSION'''.format(os.path.basename(__file__)), file=sys.stderr)&lt;/pre&gt;
 &lt;/noscript&gt;
 &lt;/div&gt;
-</description><category>Python</category><category>Splunk</category><category>cli</category><category>migrated_from_tumblr</category><guid>http://oneis3.com/posts/python-script-to-download-splunk-documentation-pdfs.html</guid><pubDate>Tue, 20 Nov 2012 16:33:00 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;</description><category>cli</category><category>migrated_from_tumblr</category><category>Python</category><category>Splunk</category><guid>http://www.oneis3.com/posts/python-script-to-download-splunk-documentation-pdfs.html</guid><pubDate>Tue, 20 Nov 2012 16:33:00 GMT</pubDate></item></channel></rss>

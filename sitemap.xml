@@ -5,175 +5,175 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
-  <loc>http://oneis3.com/2010/index.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/2010/index.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/2012/index.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/2012/index.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/2013/index.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/2013/index.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/2014/index.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/2014/index.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/archive.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/archive.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/categories/aws.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/aws.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/categories/bash.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/bash.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/categories/bookmarklet.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/bookmarklet.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/categories/cli.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/cli.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/categories/confluence.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/confluence.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/categories/ddclient.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/ddclient.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/categories/dns.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/dns.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/categories/ec2.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/ec2.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/categories/games.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/games.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/categories/git.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/git.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/categories/github.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/github.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/categories/hg.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/hg.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/categories/index.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/index.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/categories/intellij-idea.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/intellij-idea.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/categories/javascript.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/javascript.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/categories/mac.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/mac.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/categories/markdown.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/markdown.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/categories/migrated_from_blogger.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/migrated_from_blogger.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/categories/migrated_from_tumblr.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/migrated_from_tumblr.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/categories/nikola.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/nikola.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/categories/python.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/python.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/categories/sikuli.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/sikuli.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/categories/sourcetree.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/sourcetree.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/categories/splunk.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/splunk.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/categories/stackoverflow.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/categories/stackoverflow.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/galleries/index.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/galleries/index.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/index.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/index.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/listings/hello.py.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/listings/hello.py.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/listings/index.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/listings/index.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/posts/confluence-numbered-heading-bookmarklet.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/posts/confluence-numbered-heading-bookmarklet.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/posts/diff-ing-zip-files-with-filemerge.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/posts/diff-ing-zip-files-with-filemerge.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/posts/fun-with-sikuli-and-baldurs-gate.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/posts/fun-with-sikuli-and-baldurs-gate.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/posts/oneis3com.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/posts/oneis3com.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/posts/open-in-sourcetree-from-intellij-idea.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/posts/open-in-sourcetree-from-intellij-idea.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/posts/python-markdown-extension-for-inline-gist.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/posts/python-markdown-extension-for-inline-gist.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/posts/python-script-to-download-splunk-documentation-pdfs.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/posts/python-script-to-download-splunk-documentation-pdfs.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/posts/using-ddclient-for-dynamic-dns-on-amazon-ec2.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/posts/using-ddclient-for-dynamic-dns-on-amazon-ec2.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
  <url>
-  <loc>http://oneis3.com/stories/about.html</loc>
-  <lastmod>2014-07-21</lastmod>
+  <loc>http://www.oneis3.com/stories/about.html</loc>
+  <lastmod>2015-03-08</lastmod>
  </url>
 </urlset>

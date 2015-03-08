@@ -2,7 +2,9 @@
 <html lang="en">
     <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+
     <title>①ne is 3 ▶ Open in SourceTree from IntelliJ IDEA</title>
 
     
@@ -17,7 +19,7 @@
     
             <link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
 
-      <link rel="canonical" href="http://oneis3.com/posts/open-in-sourcetree-from-intellij-idea.html">
+      <link rel="canonical" href="http://www.oneis3.com/posts/open-in-sourcetree-from-intellij-idea.html">
 
 
 
@@ -30,6 +32,8 @@
     
 
     <meta name="author" content="Michael Rabbitt">
+        <link rel="prev" href="diff-ing-zip-files-with-filemerge.html" title="Diff-ing .zip files with FileMerge" type="text/html">
+        <link rel="next" href="python-script-to-download-splunk-documentation-pdfs.html" title="Python Script to download Splunk Documentation PDFs" type="text/html">
     
 
     
@@ -80,11 +84,11 @@
                     
 <!-- Custom search -->
 <form method="get" id="search" action="http://duckduckgo.com/" class="navbar-form pull-right">
-    <input type="hidden" name="sites" value="http://oneis3.com/">
+    <input type="hidden" name="sites" value="http://www.oneis3.com/">
     <input type="hidden" name="k8" value="#444444">
     <input type="hidden" name="k9" value="#D51920">
     <input type="hidden" name="kt" value="h">
-    <input type="text" name="q" maxlength="255" placeholder="Search…" class="span2" style="margin-top: 4px;">
+    <input type="text" name="q" maxlength="255" placeholder="Search site…" class="span2" style="margin-top: 4px;">
     <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;">
 </form>
 <!-- End of custom search -->
@@ -122,7 +126,8 @@
     </header>
 
     <div class="e-content entry-content" itemprop="articleBody text">
-    <p>I'm quite fond of <a href="http://www.sourcetreeapp.com/">SourceTree</a> for managing Git repositories (it does Mercurial as well).  SourceTree comes with an <code>stree</code> command to open repositories from the command line.  I wanted to set up an <a href="http://www.jetbrains.com/idea/webhelp/external-tools.html">external tool in IntelliJ IDEA</a> to the repo containing the current source file, <code>stree</code> only works if you call it without any arguments with a current working directory of the root level of a repo, or if you pass the path to the root level of a repo as an argument.  This is fine if you have only a single Git source root in your IntelliJ project:  You can just use call <code>stree</code> directly with the <code>$ProjectFileDir$</code> macro as a parameter.  But if you have multiple modules in your project with different Git source roots, it gets more difficult.  I tried using the <code>$ModuleFileDir$</code> macro, but this seems to the directory where the <code>.iml</code> file for the module is stored, which is not the source root of the module.</p>
+    <div>
+<p>I'm quite fond of <a href="http://www.sourcetreeapp.com/">SourceTree</a> for managing Git repositories (it does Mercurial as well).  SourceTree comes with an <code>stree</code> command to open repositories from the command line.  I wanted to set up an <a href="http://www.jetbrains.com/idea/webhelp/external-tools.html">external tool in IntelliJ IDEA</a> to the repo containing the current source file, <code>stree</code> only works if you call it without any arguments with a current working directory of the root level of a repo, or if you pass the path to the root level of a repo as an argument.  This is fine if you have only a single Git source root in your IntelliJ project:  You can just use call <code>stree</code> directly with the <code>$ProjectFileDir$</code> macro as a parameter.  But if you have multiple modules in your project with different Git source roots, it gets more difficult.  I tried using the <code>$ModuleFileDir$</code> macro, but this seems to the directory where the <code>.iml</code> file for the module is stored, which is not the source root of the module.</p>
 <p>So, I ended up writing a small wrapper for <code>stree</code> which can take the path to any file or directory within a Git or Mercurial repo as an argument and invokes <code>stree</code> with the path to the root of the repo:</p>
 <p>
 </p>
@@ -155,19 +160,19 @@ repo_root_path=$(getRepoRoot "${1:-${PWD}}")
 </pre>
 </noscript>
 </div>
-
+</div>
     </div>
     <aside class="postpromonav">
     <nav>
     
         <ul itemprop="keywords" class="tags">
-           <li><a class="tag p-category" href="../categories/intellij-idea.html" rel="tag">IntelliJ IDEA</a></li>
-           <li><a class="tag p-category" href="../categories/sourcetree.html" rel="tag">SourceTree</a></li>
            <li><a class="tag p-category" href="../categories/bash.html" rel="tag">bash</a></li>
            <li><a class="tag p-category" href="../categories/cli.html" rel="tag">cli</a></li>
            <li><a class="tag p-category" href="../categories/git.html" rel="tag">git</a></li>
            <li><a class="tag p-category" href="../categories/hg.html" rel="tag">hg</a></li>
+           <li><a class="tag p-category" href="../categories/intellij-idea.html" rel="tag">IntelliJ IDEA</a></li>
            <li><a class="tag p-category" href="../categories/migrated_from_tumblr.html" rel="tag">migrated_from_tumblr</a></li>
+           <li><a class="tag p-category" href="../categories/sourcetree.html" rel="tag">SourceTree</a></li>
         </ul>
 
     
@@ -193,12 +198,14 @@ repo_root_path=$(getRepoRoot "${1:-${PWD}}")
     <!--End of body content-->
 </div>
 <div class="footerbox">
-    Contents © 2010-2014 Michael Rabbitt - Powered by <a href="http://getnikola.com">Nikola</a>
+    Contents © 2010-2015 Michael Rabbitt - Powered by <a href="http://getnikola.com">Nikola</a>
     
 </div>
 
             <script src="../assets/js/jquery.min.js"></script>
             <script src="../assets/js/bootstrap.min.js"></script>
+            <script src="../assets/js/moment-with-locales.min.js"></script>
+            <script src="../assets/js/fancydates.js"></script>
         <script src="../assets/js/jquery.colorbox-min.js"></script>
     
 

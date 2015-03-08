@@ -7,3 +7,23 @@ div.postbox h1 small {
     font-size: 14px;
     float: right;
 }
+
+.navbar-fixed-top {
+    margin-bottom: 0px;
+}
+
+/* Let code tags wrap */
+code {
+    white-space: normal;
+}
+
+/* Override tag colors on posts to match tag page. */
+.tags > li {
+    color: #09d;
+    background-color: lightblue;
+}
+.tags > li a {
+    color: #fff;
+    color: #09d;
+}
+

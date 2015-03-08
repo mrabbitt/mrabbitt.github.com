@@ -2,7 +2,9 @@
 <html lang="en">
     <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+
     <title>①ne is 3 ▶ Fun with Sikuli and Baldur's Gate</title>
 
     
@@ -17,7 +19,7 @@
     
             <link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
 
-      <link rel="canonical" href="http://oneis3.com/posts/fun-with-sikuli-and-baldurs-gate.html">
+      <link rel="canonical" href="http://www.oneis3.com/posts/fun-with-sikuli-and-baldurs-gate.html">
 
 
 
@@ -30,6 +32,8 @@
     
 
     <meta name="author" content="Michael Rabbitt">
+        <link rel="prev" href="python-markdown-extension-for-inline-gist.html" title="Python Markdown Extension for Inline Gist" type="text/html">
+        <link rel="next" href="using-ddclient-for-dynamic-dns-on-amazon-ec2.html" title="Using DDclient for dynamic DNS on Amazon EC2" type="text/html">
     
 
     
@@ -80,11 +84,11 @@
                     
 <!-- Custom search -->
 <form method="get" id="search" action="http://duckduckgo.com/" class="navbar-form pull-right">
-    <input type="hidden" name="sites" value="http://oneis3.com/">
+    <input type="hidden" name="sites" value="http://www.oneis3.com/">
     <input type="hidden" name="k8" value="#444444">
     <input type="hidden" name="k9" value="#D51920">
     <input type="hidden" name="kt" value="h">
-    <input type="text" name="q" maxlength="255" placeholder="Search…" class="span2" style="margin-top: 4px;">
+    <input type="text" name="q" maxlength="255" placeholder="Search site…" class="span2" style="margin-top: 4px;">
     <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;">
 </form>
 <!-- End of custom search -->
@@ -122,13 +126,15 @@
     </header>
 
     <div class="e-content entry-content" itemprop="articleBody text">
-    <p>A few months ago I was playing <a href="http://www.baldursgate.com">Baldur's Gate: Enhanced Edition (BGEE)</a>, and going through the character creation process.  The game chooses the character's initial statistics by simulated random dice rolls.  You can re-distribute points between different attributes as you desire, but you can only increase the total number of points by re-rolling.  You can re-roll as many times as you want, hoping to get a higher total number of points.  You can also "store" and "recall" a single roll.</p>
+    <div>
+<p>A few months ago I was playing <a href="http://www.baldursgate.com">Baldur's Gate: Enhanced Edition (BGEE)</a>, and going through the character creation process.  The game chooses the character's initial statistics by simulated random dice rolls.  You can re-distribute points between different attributes as you desire, but you can only increase the total number of points by re-rolling.  You can re-roll as many times as you want, hoping to get a higher total number of points.  You can also "store" and "recall" a single roll.</p>
 <p>The lazy programmer in me saw this as an a task begging for automation.</p>
 <p>I spent the next several hours developing a <a href="http://sikuli.org">Sikuli</a> script which automates the process of re-rolling until a desired total roll is reached.  I've finally gotten around to cleaning up the code and releasing it on github as <a href="https://github.com/mrabbitt/BGEE_Sikuli_auto_roller">BGEE_Sikuli_auto_roller</a>.</p>
 <p>Here's a video demo (painfully edited in iMovie) of <code>BGEE_Sikuli_auto_roller</code> in action:</p>
 <iframe width="420" height="315" src="//www.youtube.com/embed/K-0nRvz3z4I" frameborder="0" allowfullscreen></iframe>
 
 <p>Happy dungeon/code hacking!</p>
+</div>
     </div>
     <aside class="postpromonav">
     <nav>
@@ -163,12 +169,14 @@
     <!--End of body content-->
 </div>
 <div class="footerbox">
-    Contents © 2010-2014 Michael Rabbitt - Powered by <a href="http://getnikola.com">Nikola</a>
+    Contents © 2010-2015 Michael Rabbitt - Powered by <a href="http://getnikola.com">Nikola</a>
     
 </div>
 
             <script src="../assets/js/jquery.min.js"></script>
             <script src="../assets/js/bootstrap.min.js"></script>
+            <script src="../assets/js/moment-with-locales.min.js"></script>
+            <script src="../assets/js/fancydates.js"></script>
         <script src="../assets/js/jquery.colorbox-min.js"></script>
     
 

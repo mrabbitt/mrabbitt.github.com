@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>①ne is 3 ▶ Nikola Gist/Markdown Functional Tests</title>
+<link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="../assets/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
+<link href="../assets/css/rst.css" rel="stylesheet" type="text/css">
+<link href="../assets/css/code.css" rel="stylesheet" type="text/css">
+<link href="../assets/css/colorbox.css" rel="stylesheet" type="text/css">
+<link href="../assets/css/theme.css" rel="stylesheet" type="text/css">
+<link href="../assets/css/custom.css" rel="stylesheet" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
+<link rel="canonical" href="http://www.oneis3.com/pages/gist-functional-tests.html">
+<!--[if lt IE 9]><script src="/assets/js/html5.js"></script><![endif]--><meta name="author" content="Michael Rabbitt">
+</head>
+<body>
+
+<!-- Menubar -->
+
+<div class="navbar navbar-fixed-top" id="navbar">
+    <div class="navbar-inner">
+        <div class="container">
+
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </a>
+
+            <a class="brand" href="../">
+
+                <span id="blog-title">①ne is 3</span>
+            </a>
+            <!-- Everything you want hidden at 940px or less, place within here -->
+            <div class="nav-collapse collapse">
+                <ul class="nav">
+<li>
+<a href="../archive.html">Archives</a>
+                </li>
+<li>
+<a href="../categories/index.html">Tags</a>
+                </li>
+<li>
+<a href="about.html">About</a>
+                </li>
+<li>
+<a href="../rss.xml">RSS</a>
+
+                    
+                </li>
+</ul>
+<!-- Custom search --><form method="get" id="search" action="http://duckduckgo.com/" class="navbar-form pull-right">
+    <input type="hidden" name="sites" value="http://www.oneis3.com/"><input type="hidden" name="k8" value="#444444"><input type="hidden" name="k9" value="#D51920"><input type="hidden" name="kt" value="h"><input type="text" name="q" maxlength="255" placeholder="Search site…" class="span2" style="margin-top: 4px;"><input type="submit" value="DuckDuckGo Search" style="visibility: hidden;">
+</form>
+<!-- End of custom search -->
+
+                <ul class="nav pull-right"></ul>
+</div>
+        </div>
+    </div>
+</div>
+<!-- End of Menubar -->
+<div class="container-fluid" id="container-fluid">
+    <!--Body content-->
+    <div class="row-fluid">
+    <div class="span2"></div>
+    <div class="span8">
+    
+    
+<article class="post-text storypage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="#" class="u-url">Nikola Gist/Markdown Functional Tests</a></h1>
+
+        
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    <div>
+<p><a href="https://github.com/getnikola/nikola/issues/1381#issuecomment-52420479">Nikola issue:  Gist URL scheme has changed #1381</a></p>
+<h3>Markdown-style</h3>
+<h4>Old numeric:</h4>
+<pre class="code literal-block"><span></span>[:gist: 4747847]
+</pre>
+
+
+<p>
+</p>
+<div class="gist">
+<script src="https://gist.github.com/4747847.js"></script><noscript>
+<pre>import this</pre>
+</noscript>
+</div>
+
+<h4>Old numeric with file:</h4>
+<pre class="code literal-block"><span></span>[:gist: 4747847 zen.py]
+</pre>
+
+
+<p>
+</p>
+<div class="gist">
+<script src="https://gist.github.com/4747847.js?file=zen.py"></script><noscript>
+<pre>import this</pre>
+</noscript>
+</div>
+
+<h4>New hex-style:</h4>
+<pre class="code literal-block"><span></span>[:gist: c4a43d6fdce612284ac0]
+</pre>
+
+
+<p>
+</p>
+<div class="gist">
+<script src="https://gist.github.com/c4a43d6fdce612284ac0.js"></script><noscript>
+<pre>Moo</pre>
+</noscript>
+</div>
+
+<h4>New hex-style with file:</h4>
+<pre class="code literal-block"><span></span>[:gist: c4a43d6fdce612284ac0 cow.txt]
+</pre>
+
+
+<p>
+</p>
+<div class="gist">
+<script src="https://gist.github.com/c4a43d6fdce612284ac0.js?file=cow.txt"></script><noscript>
+<pre>Moo</pre>
+</noscript>
+</div>
+
+<h3>ReST-style</h3>
+<h4>Old numeric:</h4>
+<pre class="code literal-block"><span></span><span class="p">..</span> <span class="ow">gist</span><span class="p">::</span> mrabbitt/4747847
+</pre>
+
+
+<p>
+</p>
+<div class="gist">
+<script src="https://gist.github.com/mrabbitt/4747847.js"></script><noscript><!-- WARNING: Received a 404 response from Gist URL: https://gist.githubusercontent.com/raw/mrabbitt/4747847 --></noscript>
+</div>
+
+<h4>Old numeric with file:</h4>
+<pre class="code literal-block"><span></span><span class="p">..</span> <span class="ow">gist</span><span class="p">::</span> mrabbitt/4747847 zen.py
+</pre>
+
+
+<p>
+</p>
+<div class="gist">
+<script src="https://gist.github.com/mrabbitt/4747847.js?file=zen.py"></script><noscript><!-- WARNING: Received a 404 response from Gist URL: https://gist.githubusercontent.com/raw/mrabbitt/4747847/zen.py --></noscript>
+</div>
+
+<h4>New hex-style:</h4>
+<pre class="code literal-block"><span></span><span class="p">..</span> <span class="ow">gist</span><span class="p">::</span> mrabbitt/c4a43d6fdce612284ac0
+</pre>
+
+
+<p>
+</p>
+<div class="gist">
+<script src="https://gist.github.com/mrabbitt/c4a43d6fdce612284ac0.js"></script><noscript><!-- WARNING: Received a 404 response from Gist URL: https://gist.githubusercontent.com/raw/mrabbitt/c4a43d6fdce612284ac0 --></noscript>
+</div>
+
+<h4>New hex-style with file:</h4>
+<pre class="code literal-block"><span></span><span class="p">..</span> <span class="ow">gist</span><span class="p">::</span> mrabbitt/c4a43d6fdce612284ac0 cow.txt
+</pre>
+
+
+<p>
+</p>
+<div class="gist">
+<script src="https://gist.github.com/mrabbitt/c4a43d6fdce612284ac0.js?file=cow.txt"></script><noscript><!-- WARNING: Received a 404 response from Gist URL: https://gist.githubusercontent.com/raw/mrabbitt/c4a43d6fdce612284ac0/cow.txt --></noscript>
+</div>
+</div>
+    </div>
+    
+
+</article>
+</div>
+    </div>
+    <!--End of body content-->
+</div>
+<div class="footerbox">
+    Contents © 2010-2017 Michael Rabbitt - Powered by <a href="https://getnikola.com">Nikola</a>
+    
+</div>
+
+            <script src="../assets/js/jquery.min.js"></script><script src="../assets/js/bootstrap.min.js"></script><script src="../assets/js/moment-with-locales.min.js"></script><script src="../assets/js/fancydates.js"></script><script src="../assets/js/jquery.colorbox-min.js"></script><script>jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-37668928-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www')
+            + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+</body>
+</html>

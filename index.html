@@ -1,37 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-    <meta charset="utf-8">
-    <meta name="description" content="One is 3">
-
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
-
-    <title>①ne is 3</title>
-
-    
-            <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-            <link href="assets/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
-        <link href="assets/css/rst.css" rel="stylesheet" type="text/css">
-        <link href="assets/css/code.css" rel="stylesheet" type="text/css">
-        <link href="assets/css/colorbox.css" rel="stylesheet" type="text/css">
-        <link href="assets/css/theme.css" rel="stylesheet" type="text/css">
-            <link href="assets/css/custom.css" rel="stylesheet" type="text/css">
-
-    
-            <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
-
-      <link rel="canonical" href="http://www.oneis3.com/index.html">
-
-
-
-    
-        <!--[if lt IE 9]><script src="/assets/js/html5.js"></script><![endif]-->
-
-    
-
-
-
-
+<head>
+<meta charset="utf-8">
+<meta name="description" content="One is 3">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>①ne is 3</title>
+<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="assets/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
+<link href="assets/css/rst.css" rel="stylesheet" type="text/css">
+<link href="assets/css/code.css" rel="stylesheet" type="text/css">
+<link href="assets/css/colorbox.css" rel="stylesheet" type="text/css">
+<link href="assets/css/theme.css" rel="stylesheet" type="text/css">
+<link href="assets/css/custom.css" rel="stylesheet" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
+<link rel="canonical" href="http://www.oneis3.com/index.html">
+<!--[if lt IE 9]><script src="/assets/js/html5.js"></script><![endif]-->
 </head>
 <body>
 
@@ -55,15 +38,14 @@
             <!-- Everything you want hidden at 940px or less, place within here -->
             <div class="nav-collapse collapse">
                 <ul class="nav">
-                    
-                <li>
+<li>
 <a href="archive.html">Archives</a>
                 </li>
 <li>
 <a href="categories/index.html">Tags</a>
                 </li>
 <li>
-<a href="stories/about.html">About</a>
+<a href="pages/about.html">About</a>
                 </li>
 <li>
 <a href="rss.xml">RSS</a>
@@ -71,24 +53,13 @@
                     
                 </li>
 </ul>
-                    
-<!-- Custom search -->
-<form method="get" id="search" action="http://duckduckgo.com/" class="navbar-form pull-right">
-    <input type="hidden" name="sites" value="http://www.oneis3.com/">
-    <input type="hidden" name="k8" value="#444444">
-    <input type="hidden" name="k9" value="#D51920">
-    <input type="hidden" name="kt" value="h">
-    <input type="text" name="q" maxlength="255" placeholder="Search site…" class="span2" style="margin-top: 4px;">
-    <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;">
+<!-- Custom search --><form method="get" id="search" action="http://duckduckgo.com/" class="navbar-form pull-right">
+    <input type="hidden" name="sites" value="http://www.oneis3.com/"><input type="hidden" name="k8" value="#444444"><input type="hidden" name="k9" value="#D51920"><input type="hidden" name="kt" value="h"><input type="text" name="q" maxlength="255" placeholder="Search site…" class="span2" style="margin-top: 4px;"><input type="submit" value="DuckDuckGo Search" style="visibility: hidden;">
 </form>
 <!-- End of custom search -->
 
-                <ul class="nav pull-right">
-                
-                
-                
-                </ul>
-            </div>
+                <ul class="nav pull-right"></ul>
+</div>
         </div>
     </div>
 </div>
@@ -101,45 +72,31 @@
     
     
 <div class="postindex">
-    <article class="h-entry post-text">
-    <header>
-        <h1 class="p-name entry-title"><a href="posts/using-ddclient-for-dynamic-dns-on-amazon-ec2.html" class="u-url">Using DDclient for dynamic DNS on Amazon EC2</a></h1>
+    <article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/using-ddclient-for-dynamic-dns-on-amazon-ec2.html" class="u-url">Using DDclient for dynamic DNS on Amazon EC2</a></h1>
         <div class="metadata">
             <p class="dateline">Posted: <a href="posts/using-ddclient-for-dynamic-dns-on-amazon-ec2.html" rel="bookmark"><time class="published dt-published" datetime="2014-07-21T19:30:50+00:00" itemprop="datePublished" title="Publication date">2014-07-21 19:30</time></a></p>
         </div>
-    </header>
-    <div class="e-content entry-content">
+    </header><div class="e-content entry-content">
     <div>
 <p>When using Amazon EC2, IP addresses of your instances are assigned dynamically when launched.  If you are bring up and down instances frequently, it can be helpful to use a <a href="https://en.wikipedia.org/wiki/Dynamic_DNS">dynamic DNS</a> service so you can use a consistent hostname for your instance, event if it's IP address changes.</p>
 <p><a href="http://sourceforge.net/p/ddclient/wiki/">DDclient</a> is a command line tool which works with a variety of dynamic DNS providers and is available pre-packaged on many Linux distributions (e.g. <code>apt-get install ddclient</code> on Ubuntu 14.04). DDclient can use <a href="http://sourceforge.net/p/ddclient/wiki/routers/">various methods</a> to look up the IP to use.  In this case, I want DDclient to use the EC instance's external IP address.  One method is to look up the IP from a specified web page, usually used with a site like <a href="http://www.whatismyip.com/">whatismyip.com</a> or <a href="http://www.checkip.org/">checkip.org</a>.</p>
 <p>On an EC2 instance, we have another option: <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AESDG-chapter-instancedata.html">Instance Metadata</a>.  You can fetch all kinds of useful metadata about an EC2 instance using a REST API served from <code>http://169.254.169.254/latest/meta-data/</code>.  To retreive the public IP address (IPv4) of a running EC2 instance, fetch <code>http://169.254.169.254/latest/meta-data/public-ipv4</code> from that instance.  To use this with DDclient, include the following line in your DDclient config file:</p>
-<pre class="code literal-block">use=web, web=http://169.254.169.254/latest/meta-data/public-ipv4
+<pre class="code literal-block"><span></span>use=web, web=http://169.254.169.254/latest/meta-data/public-ipv4
 </pre>
 </div>
     </div>
 
-    <aside class="postpromonav">
-        <nav>
-        
-        <ul itemprop="keywords" class="tags">
-           <li><a class="tag p-category" href="categories/aws.html" rel="tag">AWS</a></li>
-           <li><a class="tag p-category" href="categories/ddclient.html" rel="tag">ddclient</a></li>
-           <li><a class="tag p-category" href="categories/dns.html" rel="tag">DNS</a></li>
-           <li><a class="tag p-category" href="categories/ec2.html" rel="tag">EC2</a></li>
+    <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
+<li><a class="tag p-category" href="categories/aws.html" rel="tag">AWS</a></li>
+            <li><a class="tag p-category" href="categories/ddclient.html" rel="tag">ddclient</a></li>
+            <li><a class="tag p-category" href="categories/dns.html" rel="tag">DNS</a></li>
+            <li><a class="tag p-category" href="categories/ec2.html" rel="tag">EC2</a></li>
         </ul>
-
-        <nav>
-    </nav></nav></aside>
-
-    </article>
-    <article class="h-entry post-text">
-    <header>
-        <h1 class="p-name entry-title"><a href="posts/fun-with-sikuli-and-baldurs-gate.html" class="u-url">Fun with Sikuli and Baldur's Gate</a></h1>
+<nav></nav></nav></aside></article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/fun-with-sikuli-and-baldurs-gate.html" class="u-url">Fun with Sikuli and Baldur's Gate</a></h1>
         <div class="metadata">
             <p class="dateline">Posted: <a href="posts/fun-with-sikuli-and-baldurs-gate.html" rel="bookmark"><time class="published dt-published" datetime="2013-09-16T00:55:24+00:00" itemprop="datePublished" title="Publication date">2013-09-16 00:55</time></a></p>
         </div>
-    </header>
-    <div class="e-content entry-content">
+    </header><div class="e-content entry-content">
     <div>
 <p>A few months ago I was playing <a href="http://www.baldursgate.com">Baldur's Gate: Enhanced Edition (BGEE)</a>, and going through the character creation process.  The game chooses the character's initial statistics by simulated random dice rolls.  You can re-distribute points between different attributes as you desire, but you can only increase the total number of points by re-rolling.  You can re-roll as many times as you want, hoping to get a higher total number of points.  You can also "store" and "recall" a single roll.</p>
 <p>The lazy programmer in me saw this as an a task begging for automation.</p>
@@ -151,35 +108,23 @@
 </div>
     </div>
 
-    <aside class="postpromonav">
-        <nav>
-        
-        <ul itemprop="keywords" class="tags">
-           <li><a class="tag p-category" href="categories/games.html" rel="tag">Games</a></li>
-           <li><a class="tag p-category" href="categories/github.html" rel="tag">GitHub</a></li>
-           <li><a class="tag p-category" href="categories/python.html" rel="tag">Python</a></li>
-           <li><a class="tag p-category" href="categories/sikuli.html" rel="tag">Sikuli</a></li>
+    <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
+<li><a class="tag p-category" href="categories/games.html" rel="tag">Games</a></li>
+            <li><a class="tag p-category" href="categories/github.html" rel="tag">GitHub</a></li>
+            <li><a class="tag p-category" href="categories/python.html" rel="tag">Python</a></li>
+            <li><a class="tag p-category" href="categories/sikuli.html" rel="tag">Sikuli</a></li>
         </ul>
-
-        <nav>
-    </nav></nav></aside>
-
-    </article>
-    <article class="h-entry post-text">
-    <header>
-        <h1 class="p-name entry-title"><a href="posts/python-markdown-extension-for-inline-gist.html" class="u-url">Python Markdown Extension for Inline Gist</a></h1>
+<nav></nav></nav></aside></article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/python-markdown-extension-for-inline-gist.html" class="u-url">Python Markdown Extension for Inline Gist</a></h1>
         <div class="metadata">
             <p class="dateline">Posted: <a href="posts/python-markdown-extension-for-inline-gist.html" rel="bookmark"><time class="published dt-published" datetime="2013-03-04T00:23:36+00:00" itemprop="datePublished" title="Publication date">2013-03-04 00:23</time></a></p>
         </div>
-    </header>
-    <div class="e-content entry-content">
+    </header><div class="e-content entry-content">
     <div>
 <p>As discussed in <a href="https://groups.google.com/d/topic/nikola-discuss/ScaJGcTGBBY/discussion">this thread on the Nikola forum</a>, I'd wanted a way add a custom inline "gist" directive to Nikola which I could use in my markdown posts to include the full contents of the gist in a <code>&lt;noscript&gt;</code> tag.  This makes gist contents available in the site RSS feed and when viewing the site with Javascript disabled.  Here's a gist (of course) with the Python Markdown extension that makes this possible:</p>
 <p>
 </p>
 <div class="gist">
-<script src="https://gist.github.com/5080027.js"></script>
-<noscript>
+<script src="https://gist.github.com/5080027.js"></script><noscript>
 <pre># -*- coding: utf-8 -*-
 #
 # Copyright (c) 2013 Michael Rabbitt.
@@ -486,28 +431,17 @@ if __name__ == '__main__':
 </div>
     </div>
 
-    <aside class="postpromonav">
-        <nav>
-        
-        <ul itemprop="keywords" class="tags">
-           <li><a class="tag p-category" href="categories/github.html" rel="tag">GitHub</a></li>
-           <li><a class="tag p-category" href="categories/markdown.html" rel="tag">Markdown</a></li>
-           <li><a class="tag p-category" href="categories/nikola.html" rel="tag">Nikola</a></li>
-           <li><a class="tag p-category" href="categories/python.html" rel="tag">Python</a></li>
+    <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
+<li><a class="tag p-category" href="categories/github.html" rel="tag">GitHub</a></li>
+            <li><a class="tag p-category" href="categories/markdown.html" rel="tag">Markdown</a></li>
+            <li><a class="tag p-category" href="categories/nikola.html" rel="tag">Nikola</a></li>
+            <li><a class="tag p-category" href="categories/python.html" rel="tag">Python</a></li>
         </ul>
-
-        <nav>
-    </nav></nav></aside>
-
-    </article>
-    <article class="h-entry post-text">
-    <header>
-        <h1 class="p-name entry-title"><a href="posts/confluence-numbered-heading-bookmarklet.html" class="u-url">Confluence numbered heading bookmarklet</a></h1>
+<nav></nav></nav></aside></article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/confluence-numbered-heading-bookmarklet.html" class="u-url">Confluence numbered heading bookmarklet</a></h1>
         <div class="metadata">
             <p class="dateline">Posted: <a href="posts/confluence-numbered-heading-bookmarklet.html" rel="bookmark"><time class="published dt-published" datetime="2013-01-20T19:42:27+00:00" itemprop="datePublished" title="Publication date">2013-01-20 19:42</time></a></p>
         </div>
-    </header>
-    <div class="e-content entry-content">
+    </header><div class="e-content entry-content">
     <div>
 <p>This bookmarklet adds hierarchical section numbers to the section headers on the current confluence page. Note that it does not permanently change the content of the page; it only transforms the displayed HTML until the page is re-loaded. One of these days I'll figure out how to get this to work as a <a href="http://userscripts.org/">user script</a>.</p>
 <p><a href="javascript:%28function%28%29%2520%7Bfunction%2520addSectionNumber%2520%28elem%2C%2520sectionNumber%2C%2520parentSection%2C%2520level%29%2520%7Bvar%2520sectionNumberStr%2520%3D%2520%2527%2527%3Bvar%2520sectionSpan%3Bif%2520%28level%2520%3E%25201%29%2520%7BsectionNumberStr%2520%3D%2520parentSection%2520%2B%2520%2527.%2527%2520%2B%2520sectionNumber%3B%7D%2520else%2520if%2520%28level%2520%3E%25200%29%2520%7BsectionNumberStr%2520%3D%2520sectionNumber.toString%28%29%3B%7Dif%2520%28level%2520%3E%25200%2520%26%26%2520jQuery%28elem%29.find%28%2527.section-number%2527%29.length%2520%3D%3D%3D%25200%2520%29%2520%7BsectionSpan%2520%3D%2520jQuery%28%2527%3Cspan%2520class%3D%2522section-number%2522%3E%2527%29.text%28sectionNumberStr%2520%2B%2520%2527%2520%2527%29%3BjQuery%28elem%29.prepend%28sectionSpan%29%3B%7Dif%2520%28%2520level%2520%3D%3D%3D%25200%2520%29%2520%7BjQuery%28elem%29.find%28%2527h1%2527%29.each%28%2520function%28index%2C%2520element%29%2520%7BaddSectionNumber%28element%2C%2520%28index%2520%2B%25201%29%2C%2520sectionNumberStr%2C%2520%28level%2520%2B%25201%29%29%3B%7D%29%3B%7D%2520else%2520if%2520%28%2520level%2520%3C%25206%2520%29%2520%7BjQuery%28elem%29.nextUntil%28%2527h%2527%2520%2B%2520level%2C%2520%2527h%2527%2520%2B%2520level%2520%2B%2520%2527%2Ch%2527%2520%2B%2520%28level%2520%2B%25201%29%29.each%28%2520function%28index%2C%2520element%29%2520%7BaddSectionNumber%28element%2C%2520%28index%2520%2B%25201%29%2C%2520sectionNumberStr%2C%2520%28level%2520%2B%25201%29%29%3B%7D%29%3B%7Dreturn%3B%7DaddSectionNumber%28jQuery%28%2527%23main-content%2527%29.first%28%29%2C%25200%2C%2520%2527%2527%2C%25200%29%3B%7D%29%28%29%3B">Confluence numbered section header bookmarklet</a></p>
@@ -515,8 +449,7 @@ if __name__ == '__main__':
 <p>
 </p>
 <div class="gist">
-<script src="https://gist.github.com/4582903.js"></script>
-<noscript>
+<script src="https://gist.github.com/4582903.js"></script><noscript>
 <pre>(function() {
     function addSectionNumber (elem, sectionNumber, parentSection, level) {
         var sectionNumberStr = '';
@@ -555,59 +488,36 @@ if __name__ == '__main__':
 </div>
     </div>
 
-    <aside class="postpromonav">
-        <nav>
-        
-        <ul itemprop="keywords" class="tags">
-           <li><a class="tag p-category" href="categories/bookmarklet.html" rel="tag">bookmarklet</a></li>
-           <li><a class="tag p-category" href="categories/confluence.html" rel="tag">Confluence</a></li>
-           <li><a class="tag p-category" href="categories/javascript.html" rel="tag">JavaScript</a></li>
+    <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
+<li><a class="tag p-category" href="categories/bookmarklet.html" rel="tag">bookmarklet</a></li>
+            <li><a class="tag p-category" href="categories/confluence.html" rel="tag">Confluence</a></li>
+            <li><a class="tag p-category" href="categories/javascript.html" rel="tag">JavaScript</a></li>
         </ul>
-
-        <nav>
-    </nav></nav></aside>
-
-    </article>
-    <article class="h-entry post-text">
-    <header>
-        <h1 class="p-name entry-title"><a href="posts/oneis3com.html" class="u-url">oneis3.com</a></h1>
+<nav></nav></nav></aside></article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/oneis3com.html" class="u-url">oneis3.com</a></h1>
         <div class="metadata">
             <p class="dateline">Posted: <a href="posts/oneis3com.html" rel="bookmark"><time class="published dt-published" datetime="2013-01-12T23:26:58+00:00" itemprop="datePublished" title="Publication date">2013-01-12 23:26</time></a></p>
         </div>
-    </header>
-    <div class="e-content entry-content">
+    </header><div class="e-content entry-content">
     <div>
 <p>Today I set up a new coding blog on <a href="http://www.oneis3.com">oneis3.com</a>.  I've tinkered in the past with Blogger and Tumblr, but this time I decided to go with a different solution which gives me more control of my content.  This site is generated using <a href="http://nikola.ralsina.com.ar">Nikola</a>, a static site generator implemented in Python.  Hosting is provided via <a href="http://pages.github.com">Github Pages</a> (see the <a href="https://github.com/mrabbitt/mrabbitt.github.com">mrabbitt.github.com repo</a>).</p>
 <p>I've been writing lots of little Python scripts and JavaScript bookmarklets lately which I hope to share here.  Perhaps some <a href="http://grails.org">Grails</a>/<a href="http://groovy.codehaus.org">Groovy</a>/Java discoveries from my day job will also find there way here.</p>
 </div>
     </div>
 
-    <aside class="postpromonav">
-        <nav>
-        
-        <ul itemprop="keywords" class="tags">
-           <li><a class="tag p-category" href="categories/github.html" rel="tag">GitHub</a></li>
-           <li><a class="tag p-category" href="categories/nikola.html" rel="tag">Nikola</a></li>
+    <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
+<li><a class="tag p-category" href="categories/github.html" rel="tag">GitHub</a></li>
+            <li><a class="tag p-category" href="categories/nikola.html" rel="tag">Nikola</a></li>
         </ul>
-
-        <nav>
-    </nav></nav></aside>
-
-    </article>
-    <article class="h-entry post-text">
-    <header>
-        <h1 class="p-name entry-title"><a href="posts/python-script-to-download-splunk-documentation-pdfs.html" class="u-url">Python Script to download Splunk Documentation PDFs</a></h1>
+<nav></nav></nav></aside></article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/python-script-to-download-splunk-documentation-pdfs.html" class="u-url">Python Script to download Splunk Documentation PDFs</a></h1>
         <div class="metadata">
             <p class="dateline">Posted: <a href="posts/python-script-to-download-splunk-documentation-pdfs.html" rel="bookmark"><time class="published dt-published" datetime="2012-11-20T16:33:00+00:00" itemprop="datePublished" title="Publication date">2012-11-20 16:33</time></a></p>
         </div>
-    </header>
-    <div class="e-content entry-content">
+    </header><div class="e-content entry-content">
     <div>
 <p>
 </p>
 <div class="gist">
-<script src="https://gist.github.com/4121269.js"></script>
-<noscript>
+<script src="https://gist.github.com/4121269.js"></script><noscript>
 <pre>#!/usr/bin/env python
 '''
 Script to download all PDF files for a particular version of Splunk documentation.
@@ -683,36 +593,24 @@ if __name__ == '__main__':
 </div>
     </div>
 
-    <aside class="postpromonav">
-        <nav>
-        
-        <ul itemprop="keywords" class="tags">
-           <li><a class="tag p-category" href="categories/cli.html" rel="tag">cli</a></li>
-           <li><a class="tag p-category" href="categories/migrated_from_tumblr.html" rel="tag">migrated_from_tumblr</a></li>
-           <li><a class="tag p-category" href="categories/python.html" rel="tag">Python</a></li>
-           <li><a class="tag p-category" href="categories/splunk.html" rel="tag">Splunk</a></li>
+    <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
+<li><a class="tag p-category" href="categories/cli.html" rel="tag">cli</a></li>
+            <li><a class="tag p-category" href="categories/migrated_from_tumblr.html" rel="tag">migrated_from_tumblr</a></li>
+            <li><a class="tag p-category" href="categories/python.html" rel="tag">Python</a></li>
+            <li><a class="tag p-category" href="categories/splunk.html" rel="tag">Splunk</a></li>
         </ul>
-
-        <nav>
-    </nav></nav></aside>
-
-    </article>
-    <article class="h-entry post-text">
-    <header>
-        <h1 class="p-name entry-title"><a href="posts/open-in-sourcetree-from-intellij-idea.html" class="u-url">Open in SourceTree from IntelliJ IDEA</a></h1>
+<nav></nav></nav></aside></article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/open-in-sourcetree-from-intellij-idea.html" class="u-url">Open in SourceTree from IntelliJ IDEA</a></h1>
         <div class="metadata">
             <p class="dateline">Posted: <a href="posts/open-in-sourcetree-from-intellij-idea.html" rel="bookmark"><time class="published dt-published" datetime="2012-07-05T12:11:00+00:00" itemprop="datePublished" title="Publication date">2012-07-05 12:11</time></a></p>
         </div>
-    </header>
-    <div class="e-content entry-content">
+    </header><div class="e-content entry-content">
     <div>
 <p>I'm quite fond of <a href="http://www.sourcetreeapp.com/">SourceTree</a> for managing Git repositories (it does Mercurial as well).  SourceTree comes with an <code>stree</code> command to open repositories from the command line.  I wanted to set up an <a href="http://www.jetbrains.com/idea/webhelp/external-tools.html">external tool in IntelliJ IDEA</a> to the repo containing the current source file, <code>stree</code> only works if you call it without any arguments with a current working directory of the root level of a repo, or if you pass the path to the root level of a repo as an argument.  This is fine if you have only a single Git source root in your IntelliJ project:  You can just use call <code>stree</code> directly with the <code>$ProjectFileDir$</code> macro as a parameter.  But if you have multiple modules in your project with different Git source roots, it gets more difficult.  I tried using the <code>$ModuleFileDir$</code> macro, but this seems to the directory where the <code>.iml</code> file for the module is stored, which is not the source root of the module.</p>
 <p>So, I ended up writing a small wrapper for <code>stree</code> which can take the path to any file or directory within a Git or Mercurial repo as an argument and invokes <code>stree</code> with the path to the root of the repo:</p>
 <p>
 </p>
 <div class="gist">
-<script src="https://gist.github.com/3051104.js"></script>
-<noscript>
+<script src="https://gist.github.com/3051104.js"></script><noscript>
 <pre>#!/bin/bash -e
 
 getRepoRoot()
@@ -742,35 +640,24 @@ repo_root_path=$(getRepoRoot "${1:-${PWD}}")
 </div>
     </div>
 
-    <aside class="postpromonav">
-        <nav>
-        
-        <ul itemprop="keywords" class="tags">
-           <li><a class="tag p-category" href="categories/bash.html" rel="tag">bash</a></li>
-           <li><a class="tag p-category" href="categories/cli.html" rel="tag">cli</a></li>
-           <li><a class="tag p-category" href="categories/git.html" rel="tag">git</a></li>
-           <li><a class="tag p-category" href="categories/hg.html" rel="tag">hg</a></li>
-           <li><a class="tag p-category" href="categories/intellij-idea.html" rel="tag">IntelliJ IDEA</a></li>
-           <li><a class="tag p-category" href="categories/migrated_from_tumblr.html" rel="tag">migrated_from_tumblr</a></li>
-           <li><a class="tag p-category" href="categories/sourcetree.html" rel="tag">SourceTree</a></li>
+    <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
+<li><a class="tag p-category" href="categories/bash.html" rel="tag">bash</a></li>
+            <li><a class="tag p-category" href="categories/cli.html" rel="tag">cli</a></li>
+            <li><a class="tag p-category" href="categories/git.html" rel="tag">git</a></li>
+            <li><a class="tag p-category" href="categories/hg.html" rel="tag">hg</a></li>
+            <li><a class="tag p-category" href="categories/intellij-idea.html" rel="tag">IntelliJ IDEA</a></li>
+            <li><a class="tag p-category" href="categories/migrated_from_tumblr.html" rel="tag">migrated_from_tumblr</a></li>
+            <li><a class="tag p-category" href="categories/sourcetree.html" rel="tag">SourceTree</a></li>
         </ul>
-
-        <nav>
-    </nav></nav></aside>
-
-    </article>
-    <article class="h-entry post-text">
-    <header>
-        <h1 class="p-name entry-title"><a href="posts/diff-ing-zip-files-with-filemerge.html" class="u-url">Diff-ing .zip files with FileMerge</a></h1>
+<nav></nav></nav></aside></article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/diff-ing-zip-files-with-filemerge.html" class="u-url">Diff-ing .zip files with FileMerge</a></h1>
         <div class="metadata">
             <p class="dateline">Posted: <a href="posts/diff-ing-zip-files-with-filemerge.html" rel="bookmark"><time class="published dt-published" datetime="2010-12-13T10:36:00+00:00" itemprop="datePublished" title="Publication date">2010-12-13 10:36</time></a></p>
         </div>
-    </header>
-    <div class="e-content entry-content">
+    </header><div class="e-content entry-content">
     <div>
 <p>This isn't particularly elegant, but you can use the FileMerge application that comes with Mac OS X developer tools to compare the contents of zip files using a custom filter.</p>
 <p>Create a script <code>~/bin/zip_filemerge_filter.bash</code> with contents:</p>
-<pre class="code literal-block">##
+<pre class="code literal-block"><span></span>##
 #  List the size, CR-32 checksum, and file path of each file in a zip archive,
 #  sorted in order by file path.
 ##
@@ -798,25 +685,20 @@ Make the script executable (chmod +x ~/bin/zip_filemerge_filter.bash).
 </div>
     </div>
 
-    <aside class="postpromonav">
-        <nav>
-        
-        <ul itemprop="keywords" class="tags">
-           <li><a class="tag p-category" href="categories/bash.html" rel="tag">bash</a></li>
-           <li><a class="tag p-category" href="categories/mac.html" rel="tag">Mac</a></li>
-           <li><a class="tag p-category" href="categories/migrated_from_blogger.html" rel="tag">migrated_from_blogger</a></li>
-           <li><a class="tag p-category" href="categories/stackoverflow.html" rel="tag">StackOverflow</a></li>
+    <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
+<li><a class="tag p-category" href="categories/bash.html" rel="tag">bash</a></li>
+            <li><a class="tag p-category" href="categories/mac.html" rel="tag">Mac</a></li>
+            <li><a class="tag p-category" href="categories/migrated_from_blogger.html" rel="tag">migrated_from_blogger</a></li>
+            <li><a class="tag p-category" href="categories/stackoverflow.html" rel="tag">StackOverflow</a></li>
         </ul>
-
-        <nav>
-    </nav></nav></aside>
-
-    </article>
+<nav></nav></nav></aside></article>
 </div>
 
 
 
 
+
+    
 
 
 
@@ -825,21 +707,11 @@ Make the script executable (chmod +x ~/bin/zip_filemerge_filter.bash).
     <!--End of body content-->
 </div>
 <div class="footerbox">
-    Contents © 2010-2015 Michael Rabbitt - Powered by <a href="http://getnikola.com">Nikola</a>
+    Contents © 2010-2017 Michael Rabbitt - Powered by <a href="https://getnikola.com">Nikola</a>
     
 </div>
 
-            <script src="assets/js/jquery.min.js"></script>
-            <script src="assets/js/bootstrap.min.js"></script>
-            <script src="assets/js/moment-with-locales.min.js"></script>
-            <script src="assets/js/fancydates.js"></script>
-        <script src="assets/js/jquery.colorbox-min.js"></script>
-    
-
-    <script>jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
-    
-
-<script type="text/javascript">
+            <script src="assets/js/jquery.min.js"></script><script src="assets/js/bootstrap.min.js"></script><script src="assets/js/moment-with-locales.min.js"></script><script src="assets/js/fancydates.js"></script><script src="assets/js/jquery.colorbox-min.js"></script><script>jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-37668928-1']);
     _gaq.push(['_trackPageview']);
@@ -851,7 +723,5 @@ Make the script executable (chmod +x ~/bin/zip_filemerge_filter.bash).
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
 </script>
-
-
 </body>
 </html>

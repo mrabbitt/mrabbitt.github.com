@@ -1,38 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>①ne is 3 (Posts about git)</title><link>http://www.oneis3.com/</link><description></description><atom:link type="application/rss+xml" rel="self" href="http://www.oneis3.com/categories/git.xml"></atom:link><language>en</language><copyright>Contents © 2017 &lt;a href="mailto:mpr@oneis3.com"&gt;Michael Rabbitt&lt;/a&gt; 
-&lt;a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/ar/"&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>①ne is 3 (Posts about git)</title><link>https://www.oneis3.com/</link><description></description><atom:link href="https://www.oneis3.com/categories/git.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2018 &lt;a href="mailto:mpr@oneis3.com"&gt;Michael Rabbitt&lt;/a&gt; 
+&lt;a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/2.5/"&gt;
 &lt;img alt="Creative Commons License BY-NC-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://licensebuttons.net/l/by-nc-sa/2.5/ar/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 10 Sep 2017 00:56:24 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Open in SourceTree from IntelliJ IDEA</title><link>http://www.oneis3.com/posts/open-in-sourcetree-from-intellij-idea.html</link><dc:creator>Michael Rabbitt</dc:creator><description>&lt;div&gt;&lt;p&gt;I'm quite fond of &lt;a href="http://www.sourcetreeapp.com/"&gt;SourceTree&lt;/a&gt; for managing Git repositories (it does Mercurial as well).  SourceTree comes with an &lt;code&gt;stree&lt;/code&gt; command to open repositories from the command line.  I wanted to set up an &lt;a href="http://www.jetbrains.com/idea/webhelp/external-tools.html"&gt;external tool in IntelliJ IDEA&lt;/a&gt; to the repo containing the current source file, &lt;code&gt;stree&lt;/code&gt; only works if you call it without any arguments with a current working directory of the root level of a repo, or if you pass the path to the root level of a repo as an argument.  This is fine if you have only a single Git source root in your IntelliJ project:  You can just use call &lt;code&gt;stree&lt;/code&gt; directly with the &lt;code&gt;$ProjectFileDir$&lt;/code&gt; macro as a parameter.  But if you have multiple modules in your project with different Git source roots, it gets more difficult.  I tried using the &lt;code&gt;$ModuleFileDir$&lt;/code&gt; macro, but this seems to the directory where the &lt;code&gt;.iml&lt;/code&gt; file for the module is stored, which is not the source root of the module.&lt;/p&gt;
+src="https://licensebuttons.net/l/by-nc-sa/2.5/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Fri, 16 Feb 2018 07:10:26 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Open in SourceTree from IntelliJ IDEA</title><link>https://www.oneis3.com/posts/open-in-sourcetree-from-intellij-idea.html</link><dc:creator>Michael Rabbitt</dc:creator><description>&lt;div&gt;&lt;p&gt;I'm quite fond of &lt;a href="http://www.sourcetreeapp.com/"&gt;SourceTree&lt;/a&gt; for managing Git repositories (it does Mercurial as well).  SourceTree comes with an &lt;code&gt;stree&lt;/code&gt; command to open repositories from the command line.  I wanted to set up an &lt;a href="http://www.jetbrains.com/idea/webhelp/external-tools.html"&gt;external tool in IntelliJ IDEA&lt;/a&gt; to the repo containing the current source file, &lt;code&gt;stree&lt;/code&gt; only works if you call it without any arguments with a current working directory of the root level of a repo, or if you pass the path to the root level of a repo as an argument.  This is fine if you have only a single Git source root in your IntelliJ project:  You can just use call &lt;code&gt;stree&lt;/code&gt; directly with the &lt;code&gt;$ProjectFileDir$&lt;/code&gt; macro as a parameter.  But if you have multiple modules in your project with different Git source roots, it gets more difficult.  I tried using the &lt;code&gt;$ModuleFileDir$&lt;/code&gt; macro, but this seems to the directory where the &lt;code&gt;.iml&lt;/code&gt; file for the module is stored, which is not the source root of the module.&lt;/p&gt;
 &lt;p&gt;So, I ended up writing a small wrapper for &lt;code&gt;stree&lt;/code&gt; which can take the path to any file or directory within a Git or Mercurial repo as an argument and invokes &lt;code&gt;stree&lt;/code&gt; with the path to the root of the repo:&lt;/p&gt;
-&lt;p&gt;
-&lt;/p&gt;&lt;div class="gist"&gt;
-&lt;script src="https://gist.github.com/3051104.js"&gt;&lt;/script&gt;
-&lt;noscript&gt;
-&lt;pre&gt;#!/bin/bash -e
-
-getRepoRoot()
-{
-    local target=$1
-    if [ -d "${target}" ] ; then
-        cd "${target}"
-    elif [ -f "${target}" ] ; then
-        cd "$(dirname ${target})"
-    fi
-
-    echo $(git rev-parse --show-toplevel 2&amp;gt;/dev/null || hg root 2&amp;gt;/dev/null)
-}
-
-STREE_EXE='stree'
-if ! type "${STREE_EXE}" ; then
-    if [ -x '/Applications/SourceTree.app/Contents/Resources/stree' ] ; then
-        STREE_EXE='/Applications/SourceTree.app/Contents/Resources/stree'
-    fi
-fi
-
-repo_root_path=$(getRepoRoot "${1:-${PWD}}")
-"$STREE_EXE" "${repo_root_path}"
-&lt;/pre&gt;
-&lt;/noscript&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description><category>bash</category><category>cli</category><category>git</category><category>hg</category><category>IntelliJ IDEA</category><category>migrated_from_tumblr</category><category>SourceTree</category><guid>http://www.oneis3.com/posts/open-in-sourcetree-from-intellij-idea.html</guid><pubDate>Thu, 05 Jul 2012 12:11:00 GMT</pubDate></item></channel></rss>
+&lt;p&gt;&lt;a href="https://www.oneis3.com/posts/open-in-sourcetree-from-intellij-idea.html"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>bash</category><category>cli</category><category>git</category><category>hg</category><category>IntelliJ IDEA</category><category>migrated_from_tumblr</category><category>SourceTree</category><guid>https://www.oneis3.com/posts/open-in-sourcetree-from-intellij-idea.html</guid><pubDate>Thu, 05 Jul 2012 12:11:00 GMT</pubDate></item></channel></rss>

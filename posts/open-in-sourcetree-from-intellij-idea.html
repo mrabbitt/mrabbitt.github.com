@@ -12,7 +12,7 @@
 <link href="../assets/css/theme.css" rel="stylesheet" type="text/css">
 <link href="../assets/css/custom.css" rel="stylesheet" type="text/css">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
-<link rel="canonical" href="http://www.oneis3.com/posts/open-in-sourcetree-from-intellij-idea.html">
+<link rel="canonical" href="https://www.oneis3.com/posts/open-in-sourcetree-from-intellij-idea.html">
 <!--[if lt IE 9]><script src="/assets/js/html5.js"></script><![endif]--><meta name="author" content="Michael Rabbitt">
 <link rel="prev" href="diff-ing-zip-files-with-filemerge.html" title="Diff-ing .zip files with FileMerge" type="text/html">
 <link rel="next" href="python-script-to-download-splunk-documentation-pdfs.html" title="Python Script to download Splunk Documentation PDFs" type="text/html">
@@ -54,8 +54,8 @@
                     
                 </li>
 </ul>
-<!-- Custom search --><form method="get" id="search" action="http://duckduckgo.com/" class="navbar-form pull-right">
-    <input type="hidden" name="sites" value="http://www.oneis3.com/"><input type="hidden" name="k8" value="#444444"><input type="hidden" name="k9" value="#D51920"><input type="hidden" name="kt" value="h"><input type="text" name="q" maxlength="255" placeholder="Search site…" class="span2" style="margin-top: 4px;"><input type="submit" value="DuckDuckGo Search" style="visibility: hidden;">
+<!-- Custom search --><form method="get" id="search" action="https://duckduckgo.com/" class="navbar-form pull-right">
+    <input type="hidden" name="sites" value="https://www.oneis3.com/"><input type="hidden" name="k8" value="#444444"><input type="hidden" name="k9" value="#D51920"><input type="hidden" name="kt" value="h"><input type="text" name="q" maxlength="255" placeholder="Search site…" class="span2" style="margin-top: 4px;"><input type="submit" value="DuckDuckGo Search" style="visibility: hidden;">
 </form>
 <!-- End of custom search -->
 
@@ -85,6 +85,8 @@
     <div>
 <p>I'm quite fond of <a href="http://www.sourcetreeapp.com/">SourceTree</a> for managing Git repositories (it does Mercurial as well).  SourceTree comes with an <code>stree</code> command to open repositories from the command line.  I wanted to set up an <a href="http://www.jetbrains.com/idea/webhelp/external-tools.html">external tool in IntelliJ IDEA</a> to the repo containing the current source file, <code>stree</code> only works if you call it without any arguments with a current working directory of the root level of a repo, or if you pass the path to the root level of a repo as an argument.  This is fine if you have only a single Git source root in your IntelliJ project:  You can just use call <code>stree</code> directly with the <code>$ProjectFileDir$</code> macro as a parameter.  But if you have multiple modules in your project with different Git source roots, it gets more difficult.  I tried using the <code>$ModuleFileDir$</code> macro, but this seems to the directory where the <code>.iml</code> file for the module is stored, which is not the source root of the module.</p>
 <p>So, I ended up writing a small wrapper for <code>stree</code> which can take the path to any file or directory within a Git or Mercurial repo as an argument and invokes <code>stree</code> with the path to the root of the repo:</p>
+<!-- TEASER_END -->
+
 <p>
 </p>
 <div class="gist">
@@ -139,7 +141,7 @@ repo_root_path=$(getRepoRoot "${1:-${PWD}}")
     <!--End of body content-->
 </div>
 <div class="footerbox">
-    Contents © 2010-2017 Michael Rabbitt - Powered by <a href="https://getnikola.com">Nikola</a>
+    Contents © 2010-2018 Michael Rabbitt - Powered by <a href="https://getnikola.com">Nikola</a>
     
 </div>
 

@@ -1,0 +1,4803 @@
+BEGIN:VCALENDAR
+DTSTAMP:20240923T100139Z
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20010320T133100Z
+DTEND:20010320T133100Z
+DTSTAMP:20240923T100139Z
+UID:bbbb3a58981dafa6b7d7cf57b4dd23682b992767@example.com
+DESCRIPTION:Spring Equinox 2001\n2001-03-20 13:31 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20010621T073800Z
+DTEND:20010621T073800Z
+DTSTAMP:20240923T100139Z
+UID:34142628ba6c80babcabfc6bfe86ddd08fa7818c@example.com
+DESCRIPTION:Summer Solstice 2001\n2001-06-21 07:38 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20010922T230500Z
+DTEND:20010922T230500Z
+DTSTAMP:20240923T100139Z
+UID:032362303ddb095a6f1f6339a3dfbce8fa6fa8a9@example.com
+DESCRIPTION:Autumnal Equinox 2001\n2001-09-22 23:05 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20011221T192200Z
+DTEND:20011221T192200Z
+DTSTAMP:20240923T100139Z
+UID:8fa0949e1d58e84e7c0bc5545d75032fb0704732@example.com
+DESCRIPTION:Winter Solstice 2001\n2001-12-21 19:22 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20020320T191600Z
+DTEND:20020320T191600Z
+DTSTAMP:20240923T100139Z
+UID:bfd26e70b0587bd92aa50499aeeb999d4851d7b9@example.com
+DESCRIPTION:Spring Equinox 2002\n2002-03-20 19:16 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20020621T132500Z
+DTEND:20020621T132500Z
+DTSTAMP:20240923T100139Z
+UID:d71e5196837a79900f8a68fe784fbbb26daea8b1@example.com
+DESCRIPTION:Summer Solstice 2002\n2002-06-21 13:25 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20020923T045600Z
+DTEND:20020923T045600Z
+DTSTAMP:20240923T100139Z
+UID:9179db217d8ef203637ec8569294c579a7aae115@example.com
+DESCRIPTION:Autumnal Equinox 2002\n2002-09-23 04:56 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20021222T011500Z
+DTEND:20021222T011500Z
+DTSTAMP:20240923T100139Z
+UID:a46343ef41fb2b1705dc1f34fd3931a164f21292@example.com
+DESCRIPTION:Winter Solstice 2002\n2002-12-22 01:15 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20030321T010000Z
+DTEND:20030321T010000Z
+DTSTAMP:20240923T100139Z
+UID:7c535ee20072330048b2b58ee713c9a983ece8dc@example.com
+DESCRIPTION:Spring Equinox 2003\n2003-03-21 01:00 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20030621T191100Z
+DTEND:20030621T191100Z
+DTSTAMP:20240923T100139Z
+UID:3f648fd96aca3922bbe82e30a0a86f8bd41447ee@example.com
+DESCRIPTION:Summer Solstice 2003\n2003-06-21 19:11 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20030923T104700Z
+DTEND:20030923T104700Z
+DTSTAMP:20240923T100139Z
+UID:4c552911e0ad9876976ade386e31a6c1bc292351@example.com
+DESCRIPTION:Autumnal Equinox 2003\n2003-09-23 10:47 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20031222T070400Z
+DTEND:20031222T070400Z
+DTSTAMP:20240923T100139Z
+UID:02872cec57279dda8768a0186c1f72402b0f54f4@example.com
+DESCRIPTION:Winter Solstice 2003\n2003-12-22 07:04 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20040320T064900Z
+DTEND:20040320T064900Z
+DTSTAMP:20240923T100139Z
+UID:67b321640f60d1e26fa01bb1f27d00f3f04728a1@example.com
+DESCRIPTION:Spring Equinox 2004\n2004-03-20 06:49 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20040621T005700Z
+DTEND:20040621T005700Z
+DTSTAMP:20240923T100139Z
+UID:769cc83e8f64788e3cec6ccefdf0ce8a6fb2af43@example.com
+DESCRIPTION:Summer Solstice 2004\n2004-06-21 00:57 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20040922T163000Z
+DTEND:20040922T163000Z
+DTSTAMP:20240923T100139Z
+UID:1f7b287f411fc1e4802499c1705690930351e3bb@example.com
+DESCRIPTION:Autumnal Equinox 2004\n2004-09-22 16:30 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20041221T124200Z
+DTEND:20041221T124200Z
+DTSTAMP:20240923T100139Z
+UID:6faf3987242ed1182329dbec368cfce544eb6f2f@example.com
+DESCRIPTION:Winter Solstice 2004\n2004-12-21 12:42 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20050320T123400Z
+DTEND:20050320T123400Z
+DTSTAMP:20240923T100139Z
+UID:81aaeefe113e83e4b1d8e4cc6d7f8554b8d8b5be@example.com
+DESCRIPTION:Spring Equinox 2005\n2005-03-20 12:34 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20050621T064600Z
+DTEND:20050621T064600Z
+DTSTAMP:20240923T100139Z
+UID:d72177428c1e265b83de066365ecb87be7553809@example.com
+DESCRIPTION:Summer Solstice 2005\n2005-06-21 06:46 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20050922T222300Z
+DTEND:20050922T222300Z
+DTSTAMP:20240923T100139Z
+UID:6c3c89933ce9352d331d8fa865b7dd5b4b4ed408@example.com
+DESCRIPTION:Autumnal Equinox 2005\n2005-09-22 22:23 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20051221T183500Z
+DTEND:20051221T183500Z
+DTSTAMP:20240923T100139Z
+UID:ab0dcc3212a6bdb43601003220bee204efade2ad@example.com
+DESCRIPTION:Winter Solstice 2005\n2005-12-21 18:35 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20060320T182500Z
+DTEND:20060320T182500Z
+DTSTAMP:20240923T100139Z
+UID:52d9349799ece63d81df5e758145ab2518eef5fd@example.com
+DESCRIPTION:Spring Equinox 2006\n2006-03-20 18:25 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20060621T122600Z
+DTEND:20060621T122600Z
+DTSTAMP:20240923T100139Z
+UID:b2aff649c1b0771b0d19cdb02b3f571f39034f91@example.com
+DESCRIPTION:Summer Solstice 2006\n2006-06-21 12:26 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20060923T040400Z
+DTEND:20060923T040400Z
+DTSTAMP:20240923T100139Z
+UID:3bd54ebfd0748dbf93e211df5d07c18763c1d866@example.com
+DESCRIPTION:Autumnal Equinox 2006\n2006-09-23 04:04 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20061222T002200Z
+DTEND:20061222T002200Z
+DTSTAMP:20240923T100139Z
+UID:5cbc413f8feefd5a2fb32c77224d9bbb27ca73c6@example.com
+DESCRIPTION:Winter Solstice 2006\n2006-12-22 00:22 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20070321T000700Z
+DTEND:20070321T000700Z
+DTSTAMP:20240923T100139Z
+UID:063597aaa9b80ba905949b08522d96319579b8d2@example.com
+DESCRIPTION:Spring Equinox 2007\n2007-03-21 00:07 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20070621T180600Z
+DTEND:20070621T180600Z
+DTSTAMP:20240923T100139Z
+UID:60976f622d6e181bd02c717dc768e9280beb20d9@example.com
+DESCRIPTION:Summer Solstice 2007\n2007-06-21 18:06 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20070923T095100Z
+DTEND:20070923T095100Z
+DTSTAMP:20240923T100139Z
+UID:626d2cbdbe13b760d70644b64911bbc0c32c27e5@example.com
+DESCRIPTION:Autumnal Equinox 2007\n2007-09-23 09:51 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20071222T060800Z
+DTEND:20071222T060800Z
+DTSTAMP:20240923T100139Z
+UID:6a4971f2da9368a042a35752363ae32944b1bd05@example.com
+DESCRIPTION:Winter Solstice 2007\n2007-12-22 06:08 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20080320T054900Z
+DTEND:20080320T054900Z
+DTSTAMP:20240923T100139Z
+UID:fca84916225579fdc2a7ad84f599348a0fb61b46@example.com
+DESCRIPTION:Spring Equinox 2008\n2008-03-20 05:49 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20080621T000000Z
+DTEND:20080621T000000Z
+DTSTAMP:20240923T100139Z
+UID:80e62b398126a8a726abb5dd418db0f557c1393c@example.com
+DESCRIPTION:Summer Solstice 2008\n2008-06-21 00:00 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20080922T154500Z
+DTEND:20080922T154500Z
+DTSTAMP:20240923T100139Z
+UID:bc60dbf2428b7a003f953657e99407dbd21845de@example.com
+DESCRIPTION:Autumnal Equinox 2008\n2008-09-22 15:45 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20081221T120400Z
+DTEND:20081221T120400Z
+DTSTAMP:20240923T100139Z
+UID:ad1685759e4d902cea5fb704ae2bd599925652a1@example.com
+DESCRIPTION:Winter Solstice 2008\n2008-12-21 12:04 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20090320T114400Z
+DTEND:20090320T114400Z
+DTSTAMP:20240923T100139Z
+UID:3790c6c3febebb52c60dfa0bc95a68fc785a6ee7@example.com
+DESCRIPTION:Spring Equinox 2009\n2009-03-20 11:44 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20090621T054500Z
+DTEND:20090621T054500Z
+DTSTAMP:20240923T100139Z
+UID:4144809036ffd5733fa29b1bcf9dcc15c1d3db88@example.com
+DESCRIPTION:Summer Solstice 2009\n2009-06-21 05:45 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20090922T211800Z
+DTEND:20090922T211800Z
+DTSTAMP:20240923T100139Z
+UID:9988b8a697a882d6a6a7233e2d08d76537af6901@example.com
+DESCRIPTION:Autumnal Equinox 2009\n2009-09-22 21:18 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20091221T174700Z
+DTEND:20091221T174700Z
+DTSTAMP:20240923T100139Z
+UID:a403cc5eeadf4284b254a9ebe55b618ffef7a250@example.com
+DESCRIPTION:Winter Solstice 2009\n2009-12-21 17:47 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20100320T173200Z
+DTEND:20100320T173200Z
+DTSTAMP:20240923T100139Z
+UID:cc91b4c69f61e8a1406218eb4a3ec57f54e32bf4@example.com
+DESCRIPTION:Spring Equinox 2010\n2010-03-20 17:32 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20100621T112800Z
+DTEND:20100621T112800Z
+DTSTAMP:20240923T100139Z
+UID:255a5a83f066a0b6847512244e548c31e3e68d18@example.com
+DESCRIPTION:Summer Solstice 2010\n2010-06-21 11:28 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20100923T030900Z
+DTEND:20100923T030900Z
+DTSTAMP:20240923T100139Z
+UID:4c4347c62829e8c87b68a95fba2c0bfb21fdcb89@example.com
+DESCRIPTION:Autumnal Equinox 2010\n2010-09-23 03:09 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20101221T233800Z
+DTEND:20101221T233800Z
+DTSTAMP:20240923T100139Z
+UID:62b6d92b5ca81fc05f4aee4b0029c847ada668f6@example.com
+DESCRIPTION:Winter Solstice 2010\n2010-12-21 23:38 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20110320T232100Z
+DTEND:20110320T232100Z
+DTSTAMP:20240923T100139Z
+UID:61514ac7a80585bdcfd6051749ef77f9007c1ec2@example.com
+DESCRIPTION:Spring Equinox 2011\n2011-03-20 23:21 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20110621T171600Z
+DTEND:20110621T171600Z
+DTSTAMP:20240923T100139Z
+UID:3bce2c0cba89ced0a741596c358acd52ff63614c@example.com
+DESCRIPTION:Summer Solstice 2011\n2011-06-21 17:16 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20110923T090500Z
+DTEND:20110923T090500Z
+DTSTAMP:20240923T100139Z
+UID:8b572e721e22db896d33088fcd38ba7b1f31442b@example.com
+DESCRIPTION:Autumnal Equinox 2011\n2011-09-23 09:05 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20111222T053000Z
+DTEND:20111222T053000Z
+DTSTAMP:20240923T100139Z
+UID:f21b574711f4c0f5eb1a703a5254c54d2d58437f@example.com
+DESCRIPTION:Winter Solstice 2011\n2011-12-22 05:30 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20120320T051500Z
+DTEND:20120320T051500Z
+DTSTAMP:20240923T100139Z
+UID:ab2e89fe37dc2a91480210a8d4c4dfa1cdeb1bb6@example.com
+DESCRIPTION:Spring Equinox 2012\n2012-03-20 05:15 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20120620T230800Z
+DTEND:20120620T230800Z
+DTSTAMP:20240923T100139Z
+UID:6d4eb42e85e4fe2281ae163e3928f0ea3f5048fa@example.com
+DESCRIPTION:Summer Solstice 2012\n2012-06-20 23:08 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20120922T144900Z
+DTEND:20120922T144900Z
+DTSTAMP:20240923T100139Z
+UID:d02047feeb6100ca6d1147be50f2eacb20828119@example.com
+DESCRIPTION:Autumnal Equinox 2012\n2012-09-22 14:49 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20121221T111200Z
+DTEND:20121221T111200Z
+DTSTAMP:20240923T100139Z
+UID:54396e5a2ba1d7bd7e727869f2022f4d1aa0667c@example.com
+DESCRIPTION:Winter Solstice 2012\n2012-12-21 11:12 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20130320T110200Z
+DTEND:20130320T110200Z
+DTSTAMP:20240923T100139Z
+UID:8d526fb4872f36254c5adbd284931ced15b93b47@example.com
+DESCRIPTION:Spring Equinox 2013\n2013-03-20 11:02 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20130621T050400Z
+DTEND:20130621T050400Z
+DTSTAMP:20240923T100139Z
+UID:2b7eab79c7ccbd377c87caa318a6c79e672673b9@example.com
+DESCRIPTION:Summer Solstice 2013\n2013-06-21 05:04 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20130922T204400Z
+DTEND:20130922T204400Z
+DTSTAMP:20240923T100139Z
+UID:5306e32566b1a9c115a4dabb4b2ac5fd5b1dba61@example.com
+DESCRIPTION:Autumnal Equinox 2013\n2013-09-22 20:44 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20131221T171100Z
+DTEND:20131221T171100Z
+DTSTAMP:20240923T100139Z
+UID:5d3f1ae780ef9d2a580eb6171d6628fad2aba12c@example.com
+DESCRIPTION:Winter Solstice 2013\n2013-12-21 17:11 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20140320T165700Z
+DTEND:20140320T165700Z
+DTSTAMP:20240923T100139Z
+UID:5a6ad03214630a4ad1b0eba070552ae586147914@example.com
+DESCRIPTION:Spring Equinox 2014\n2014-03-20 16:57 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20140621T105200Z
+DTEND:20140621T105200Z
+DTSTAMP:20240923T100139Z
+UID:0b49d69b2806f06a9c0ef2cb6f9b488250bd6044@example.com
+DESCRIPTION:Summer Solstice 2014\n2014-06-21 10:52 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20140923T023000Z
+DTEND:20140923T023000Z
+DTSTAMP:20240923T100139Z
+UID:7077ca55c6a67cba192fc09d1592a76b33ce3580@example.com
+DESCRIPTION:Autumnal Equinox 2014\n2014-09-23 02:30 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20141221T230300Z
+DTEND:20141221T230300Z
+DTSTAMP:20240923T100139Z
+UID:262e691eac198946af49b5e5644a8025886c35e4@example.com
+DESCRIPTION:Winter Solstice 2014\n2014-12-21 23:03 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20150320T224500Z
+DTEND:20150320T224500Z
+DTSTAMP:20240923T100139Z
+UID:0abdee737fa5b1b8e70eed4effc9b12d208e82b8@example.com
+DESCRIPTION:Spring Equinox 2015\n2015-03-20 22:45 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20150621T163800Z
+DTEND:20150621T163800Z
+DTSTAMP:20240923T100139Z
+UID:096c6dd10c6a69ab97a66bec83675da4b374f068@example.com
+DESCRIPTION:Summer Solstice 2015\n2015-06-21 16:38 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20150923T082000Z
+DTEND:20150923T082000Z
+DTSTAMP:20240923T100139Z
+UID:183917f3288254f4927a77deeabcdd738e8b628c@example.com
+DESCRIPTION:Autumnal Equinox 2015\n2015-09-23 08:20 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20151222T044800Z
+DTEND:20151222T044800Z
+DTSTAMP:20240923T100139Z
+UID:1f50ff44a425c451544d5a31eecc587ce323ad58@example.com
+DESCRIPTION:Winter Solstice 2015\n2015-12-22 04:48 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20160320T043100Z
+DTEND:20160320T043100Z
+DTSTAMP:20240923T100139Z
+UID:acf6e15ff31629127ffffa5a5249a4094ba85266@example.com
+DESCRIPTION:Spring Equinox 2016\n2016-03-20 04:31 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20160620T223500Z
+DTEND:20160620T223500Z
+DTSTAMP:20240923T100139Z
+UID:d5e361669082009d3401ebf0c1fafb13d2ce15ba@example.com
+DESCRIPTION:Summer Solstice 2016\n2016-06-20 22:35 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20160922T142100Z
+DTEND:20160922T142100Z
+DTSTAMP:20240923T100139Z
+UID:dfda7f6f3bfef76bfc83f4dd1bc31d00a59a6d49@example.com
+DESCRIPTION:Autumnal Equinox 2016\n2016-09-22 14:21 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20161221T104500Z
+DTEND:20161221T104500Z
+DTSTAMP:20240923T100139Z
+UID:c98fe88d15cc3b06dbda2f479664d6973418fb93@example.com
+DESCRIPTION:Winter Solstice 2016\n2016-12-21 10:45 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20170320T102900Z
+DTEND:20170320T102900Z
+DTSTAMP:20240923T100139Z
+UID:1e5eb3e19e63e6772c1d5ab49ec5620d32f7d220@example.com
+DESCRIPTION:Spring Equinox 2017\n2017-03-20 10:29 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20170621T042500Z
+DTEND:20170621T042500Z
+DTSTAMP:20240923T100139Z
+UID:bf5600209ef8855e231ad7e57b7a2495affd0c57@example.com
+DESCRIPTION:Summer Solstice 2017\n2017-06-21 04:25 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20170922T200200Z
+DTEND:20170922T200200Z
+DTSTAMP:20240923T100139Z
+UID:af869a1cd364a11cd92769fcd688ef9f04fe9577@example.com
+DESCRIPTION:Autumnal Equinox 2017\n2017-09-22 20:02 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20171221T162900Z
+DTEND:20171221T162900Z
+DTSTAMP:20240923T100139Z
+UID:8739c69937bc8670835443bec2fee6e38dae9f1f@example.com
+DESCRIPTION:Winter Solstice 2017\n2017-12-21 16:29 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20180320T161500Z
+DTEND:20180320T161500Z
+DTSTAMP:20240923T100139Z
+UID:52a08ac8d4c57572fe8bf33ac15c4f0aecfc31c3@example.com
+DESCRIPTION:Spring Equinox 2018\n2018-03-20 16:15 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20180621T100700Z
+DTEND:20180621T100700Z
+DTSTAMP:20240923T100139Z
+UID:d0bfd7cbaf6516915bca4c0be6831181e75e36bb@example.com
+DESCRIPTION:Summer Solstice 2018\n2018-06-21 10:07 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20180923T015400Z
+DTEND:20180923T015400Z
+DTSTAMP:20240923T100139Z
+UID:fbdd76256afd3dc7cc81899aa81a8d5f957ba275@example.com
+DESCRIPTION:Autumnal Equinox 2018\n2018-09-23 01:54 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20181221T222200Z
+DTEND:20181221T222200Z
+DTSTAMP:20240923T100139Z
+UID:996fc879a9cca56ae8ca766329c2743b3b4221dd@example.com
+DESCRIPTION:Winter Solstice 2018\n2018-12-21 22:22 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20190320T215800Z
+DTEND:20190320T215800Z
+DTSTAMP:20240923T100139Z
+UID:48ae2dfb933208dcd1c5cf0b61e23fc01985fcd8@example.com
+DESCRIPTION:Spring Equinox 2019\n2019-03-20 21:58 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20190621T155400Z
+DTEND:20190621T155400Z
+DTSTAMP:20240923T100139Z
+UID:b95fb26cf0780cfab0a818ad36d4770a24c1b806@example.com
+DESCRIPTION:Summer Solstice 2019\n2019-06-21 15:54 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20190923T075000Z
+DTEND:20190923T075000Z
+DTSTAMP:20240923T100139Z
+UID:645ac52a6a893993908e47e515631e940d75ca8a@example.com
+DESCRIPTION:Autumnal Equinox 2019\n2019-09-23 07:50 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20191222T041900Z
+DTEND:20191222T041900Z
+DTSTAMP:20240923T100139Z
+UID:773fba2a34ec71719f89c2c13767b4bc47f79d73@example.com
+DESCRIPTION:Winter Solstice 2019\n2019-12-22 04:19 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20200320T035000Z
+DTEND:20200320T035000Z
+DTSTAMP:20240923T100139Z
+UID:fa72bc730684d9c8c5d3183372c01bebd082e2cc@example.com
+DESCRIPTION:Spring Equinox 2020\n2020-03-20 03:50 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20200620T214300Z
+DTEND:20200620T214300Z
+DTSTAMP:20240923T100139Z
+UID:46fb8d58312b85895941c59aba053f3212bb2970@example.com
+DESCRIPTION:Summer Solstice 2020\n2020-06-20 21:43 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20200922T133100Z
+DTEND:20200922T133100Z
+DTSTAMP:20240923T100139Z
+UID:7f4980b0e713ee355ebe25a5fafda7fb66e1edb0@example.com
+DESCRIPTION:Autumnal Equinox 2020\n2020-09-22 13:31 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20201221T100300Z
+DTEND:20201221T100300Z
+DTSTAMP:20240923T100139Z
+UID:2674240fec06d7d6ebc416aef64a36f9f3af7975@example.com
+DESCRIPTION:Winter Solstice 2020\n2020-12-21 10:03 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20210320T093700Z
+DTEND:20210320T093700Z
+DTSTAMP:20240923T100139Z
+UID:05c0fc9e7b284e20d63531af8e342ebb988a2c8b@example.com
+DESCRIPTION:Spring Equinox 2021\n2021-03-20 09:37 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20210621T033200Z
+DTEND:20210621T033200Z
+DTSTAMP:20240923T100139Z
+UID:1a1a43662f8702f359c321f3117808169153956f@example.com
+DESCRIPTION:Summer Solstice 2021\n2021-06-21 03:32 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20210922T192100Z
+DTEND:20210922T192100Z
+DTSTAMP:20240923T100139Z
+UID:f336db39a95ecc5d87216074456f48ea591cd987@example.com
+DESCRIPTION:Autumnal Equinox 2021\n2021-09-22 19:21 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20211221T155900Z
+DTEND:20211221T155900Z
+DTSTAMP:20240923T100139Z
+UID:5480c61f129a36f37032057037f75fcddbb1bb16@example.com
+DESCRIPTION:Winter Solstice 2021\n2021-12-21 15:59 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20220320T153300Z
+DTEND:20220320T153300Z
+DTSTAMP:20240923T100139Z
+UID:424e0ef1cd87f7e1ef2dcf8e0390bf8557176269@example.com
+DESCRIPTION:Spring Equinox 2022\n2022-03-20 15:33 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20220621T091400Z
+DTEND:20220621T091400Z
+DTSTAMP:20240923T100139Z
+UID:d5be7346dc1ab20b3a6524feba1a7f1ed94cc403@example.com
+DESCRIPTION:Summer Solstice 2022\n2022-06-21 09:14 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20220923T010400Z
+DTEND:20220923T010400Z
+DTSTAMP:20240923T100139Z
+UID:4e7fee472ea83914fbce8a71de980422a52b5f22@example.com
+DESCRIPTION:Autumnal Equinox 2022\n2022-09-23 01:04 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20221221T214800Z
+DTEND:20221221T214800Z
+DTSTAMP:20240923T100139Z
+UID:8a04555eca8be1e161566b33993198042608fdce@example.com
+DESCRIPTION:Winter Solstice 2022\n2022-12-21 21:48 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20230320T212500Z
+DTEND:20230320T212500Z
+DTSTAMP:20240923T100139Z
+UID:942768fb67dcb35fd568c7e26dc972cc81577d25@example.com
+DESCRIPTION:Spring Equinox 2023\n2023-03-20 21:25 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20230621T145800Z
+DTEND:20230621T145800Z
+DTSTAMP:20240923T100139Z
+UID:f7a5f0b72828bb64b8327462354c242cd5ff926d@example.com
+DESCRIPTION:Summer Solstice 2023\n2023-06-21 14:58 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20230923T065000Z
+DTEND:20230923T065000Z
+DTSTAMP:20240923T100139Z
+UID:1947150744f092a20762d52615cb0e871e14d5f9@example.com
+DESCRIPTION:Autumnal Equinox 2023\n2023-09-23 06:50 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20231222T032800Z
+DTEND:20231222T032800Z
+DTSTAMP:20240923T100139Z
+UID:342c3733e562cd3f017e181f654e6f649e12b063@example.com
+DESCRIPTION:Winter Solstice 2023\n2023-12-22 03:28 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20240320T030700Z
+DTEND:20240320T030700Z
+DTSTAMP:20240923T100139Z
+UID:d2d98dceb7c996b44cf4d14f99b3cc468cd76b2a@example.com
+DESCRIPTION:Spring Equinox 2024\n2024-03-20 03:07 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20240620T205100Z
+DTEND:20240620T205100Z
+DTSTAMP:20240923T100139Z
+UID:098df6c2f380ed944f1132704cffe8ffa2c42bcb@example.com
+DESCRIPTION:Summer Solstice 2024\n2024-06-20 20:51 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20240922T124400Z
+DTEND:20240922T124400Z
+DTSTAMP:20240923T100139Z
+UID:c696b555e78309a2bd7836173d61fadbf626d7f4@example.com
+DESCRIPTION:Autumnal Equinox 2024\n2024-09-22 12:44 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20241221T092000Z
+DTEND:20241221T092000Z
+DTSTAMP:20240923T100139Z
+UID:fb502476b2681156a7a24902767300989ba78538@example.com
+DESCRIPTION:Winter Solstice 2024\n2024-12-21 09:20 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20250320T090200Z
+DTEND:20250320T090200Z
+DTSTAMP:20240923T100139Z
+UID:f2bdb313d9569c028bd0883f3917d2cf7c172e4f@example.com
+DESCRIPTION:Spring Equinox 2025\n2025-03-20 09:02 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20250621T024200Z
+DTEND:20250621T024200Z
+DTSTAMP:20240923T100139Z
+UID:1efbe51efc2b86d956593d0792331361b0f5799f@example.com
+DESCRIPTION:Summer Solstice 2025\n2025-06-21 02:42 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20250922T182000Z
+DTEND:20250922T182000Z
+DTSTAMP:20240923T100139Z
+UID:e4016c800ae73816161d14a61ce584f483269df6@example.com
+DESCRIPTION:Autumnal Equinox 2025\n2025-09-22 18:20 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20251221T150300Z
+DTEND:20251221T150300Z
+DTSTAMP:20240923T100139Z
+UID:b42a632cc35872deec9cc0afda66cbf552accbd3@example.com
+DESCRIPTION:Winter Solstice 2025\n2025-12-21 15:03 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20260320T144600Z
+DTEND:20260320T144600Z
+DTSTAMP:20240923T100139Z
+UID:1f3ba55c011e0a4ad5c85d9800ba83789eb90f9c@example.com
+DESCRIPTION:Spring Equinox 2026\n2026-03-20 14:46 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20260621T082500Z
+DTEND:20260621T082500Z
+DTSTAMP:20240923T100139Z
+UID:618008e53baba3e19c700218bfced1912ecc67ff@example.com
+DESCRIPTION:Summer Solstice 2026\n2026-06-21 08:25 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20260923T000600Z
+DTEND:20260923T000600Z
+DTSTAMP:20240923T100139Z
+UID:03792b83af9a11a2be94dd7175a4a89e40576927@example.com
+DESCRIPTION:Autumnal Equinox 2026\n2026-09-23 00:06 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20261221T205000Z
+DTEND:20261221T205000Z
+DTSTAMP:20240923T100139Z
+UID:b3c513e8b556fbee9eeac71a48953aef048418f7@example.com
+DESCRIPTION:Winter Solstice 2026\n2026-12-21 20:50 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20270320T202500Z
+DTEND:20270320T202500Z
+DTSTAMP:20240923T100139Z
+UID:dedec06f37dd25adb57fef5f988e3eb76976952f@example.com
+DESCRIPTION:Spring Equinox 2027\n2027-03-20 20:25 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20270621T141100Z
+DTEND:20270621T141100Z
+DTSTAMP:20240923T100139Z
+UID:faa1efb6d4bd08621f697f7c25f415f4768f008a@example.com
+DESCRIPTION:Summer Solstice 2027\n2027-06-21 14:11 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20270923T060200Z
+DTEND:20270923T060200Z
+DTSTAMP:20240923T100139Z
+UID:c27a419642e533de8152733c954da5ed0e1636d9@example.com
+DESCRIPTION:Autumnal Equinox 2027\n2027-09-23 06:02 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20271222T024300Z
+DTEND:20271222T024300Z
+DTSTAMP:20240923T100139Z
+UID:41e4cc78ee0e574437f2815b2e72ecb26fb61a53@example.com
+DESCRIPTION:Winter Solstice 2027\n2027-12-22 02:43 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20280320T021700Z
+DTEND:20280320T021700Z
+DTSTAMP:20240923T100139Z
+UID:31719caab7b86f5039692a82925949f04e26e702@example.com
+DESCRIPTION:Spring Equinox 2028\n2028-03-20 02:17 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20280620T200200Z
+DTEND:20280620T200200Z
+DTSTAMP:20240923T100139Z
+UID:af33851860823f50e6ae4c1d69d618a3ac2e63a6@example.com
+DESCRIPTION:Summer Solstice 2028\n2028-06-20 20:02 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20280922T114500Z
+DTEND:20280922T114500Z
+DTSTAMP:20240923T100139Z
+UID:5c0d9ed59e55e974ebf174043729ae6e08edfea9@example.com
+DESCRIPTION:Autumnal Equinox 2028\n2028-09-22 11:45 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20281221T082000Z
+DTEND:20281221T082000Z
+DTSTAMP:20240923T100139Z
+UID:f805ad857b490722372551dee97480715ad0eb6a@example.com
+DESCRIPTION:Winter Solstice 2028\n2028-12-21 08:20 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20290320T080100Z
+DTEND:20290320T080100Z
+DTSTAMP:20240923T100139Z
+UID:da0b6ef485f60b130e2ca621c0613806be237326@example.com
+DESCRIPTION:Spring Equinox 2029\n2029-03-20 08:01 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20290621T014800Z
+DTEND:20290621T014800Z
+DTSTAMP:20240923T100139Z
+UID:4540610b4aa8929e0744079fb73dc71befd419a4@example.com
+DESCRIPTION:Summer Solstice 2029\n2029-06-21 01:48 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20290922T173700Z
+DTEND:20290922T173700Z
+DTSTAMP:20240923T100139Z
+UID:f5e51ae64f7699df63bbf658d9058dd16f45a0ca@example.com
+DESCRIPTION:Autumnal Equinox 2029\n2029-09-22 17:37 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20291221T141400Z
+DTEND:20291221T141400Z
+DTSTAMP:20240923T100139Z
+UID:abcc03c63f1366cdda0229acbc2d93e2f732d922@example.com
+DESCRIPTION:Winter Solstice 2029\n2029-12-21 14:14 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20300320T135100Z
+DTEND:20300320T135100Z
+DTSTAMP:20240923T100139Z
+UID:da0fddff431e5a34f1021975afabb4456aa48094@example.com
+DESCRIPTION:Spring Equinox 2030\n2030-03-20 13:51 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20300621T073100Z
+DTEND:20300621T073100Z
+DTSTAMP:20240923T100139Z
+UID:62b229c4fb43e86ad61a9f4eb4ee0f8fa3de6c3f@example.com
+DESCRIPTION:Summer Solstice 2030\n2030-06-21 07:31 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20300922T232700Z
+DTEND:20300922T232700Z
+DTSTAMP:20240923T100139Z
+UID:68afcff057fd28acc9907bc7f681629be301f287@example.com
+DESCRIPTION:Autumnal Equinox 2030\n2030-09-22 23:27 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20301221T200900Z
+DTEND:20301221T200900Z
+DTSTAMP:20240923T100139Z
+UID:3cd9ead9310da2597026266fb4653c647900bfc2@example.com
+DESCRIPTION:Winter Solstice 2030\n2030-12-21 20:09 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20310320T194100Z
+DTEND:20310320T194100Z
+DTSTAMP:20240923T100139Z
+UID:b5976b50895bc488472c75443900c4c62fa9c8fd@example.com
+DESCRIPTION:Spring Equinox 2031\n2031-03-20 19:41 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20310621T131700Z
+DTEND:20310621T131700Z
+DTSTAMP:20240923T100139Z
+UID:060d988b7bbb0df8640cff1298d585b5f2270c7b@example.com
+DESCRIPTION:Summer Solstice 2031\n2031-06-21 13:17 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20310923T051500Z
+DTEND:20310923T051500Z
+DTSTAMP:20240923T100139Z
+UID:1a2cb260e558e5d39ba943e07bfaf43611830e0b@example.com
+DESCRIPTION:Autumnal Equinox 2031\n2031-09-23 05:15 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20311222T015600Z
+DTEND:20311222T015600Z
+DTSTAMP:20240923T100139Z
+UID:0dbb50cd9c044cf17eb2d080e5133977b868ea67@example.com
+DESCRIPTION:Winter Solstice 2031\n2031-12-22 01:56 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20320320T012300Z
+DTEND:20320320T012300Z
+DTSTAMP:20240923T100139Z
+UID:536bb4a03e7d5cda463598c126c4cdce5ac3ba85@example.com
+DESCRIPTION:Spring Equinox 2032\n2032-03-20 01:23 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20320620T190900Z
+DTEND:20320620T190900Z
+DTSTAMP:20240923T100139Z
+UID:8e682653162684238bd8ff3c916dc5e053d8c50f@example.com
+DESCRIPTION:Summer Solstice 2032\n2032-06-20 19:09 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20320922T111100Z
+DTEND:20320922T111100Z
+DTSTAMP:20240923T100139Z
+UID:140d54fc983fd899866d03141d7a87e9a78966cd@example.com
+DESCRIPTION:Autumnal Equinox 2032\n2032-09-22 11:11 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20321221T075700Z
+DTEND:20321221T075700Z
+DTSTAMP:20240923T100139Z
+UID:88a4c49523ded1dfb9cdea13faf29ff53874ed90@example.com
+DESCRIPTION:Winter Solstice 2032\n2032-12-21 07:57 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20330320T072300Z
+DTEND:20330320T072300Z
+DTSTAMP:20240923T100139Z
+UID:29f665d867d01cabc71c37d4bf67ee9088f9e844@example.com
+DESCRIPTION:Spring Equinox 2033\n2033-03-20 07:23 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20330621T010100Z
+DTEND:20330621T010100Z
+DTSTAMP:20240923T100139Z
+UID:e0252cb23a56359577b847792107f72eb16cb8bb@example.com
+DESCRIPTION:Summer Solstice 2033\n2033-06-21 01:01 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20330922T165200Z
+DTEND:20330922T165200Z
+DTSTAMP:20240923T100139Z
+UID:944dfe2a4c1de70bda5656873f9d489bfe93e5d2@example.com
+DESCRIPTION:Autumnal Equinox 2033\n2033-09-22 16:52 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20331221T134500Z
+DTEND:20331221T134500Z
+DTSTAMP:20240923T100139Z
+UID:1d4400e9162cd9262b4965aad6646000ae070c0e@example.com
+DESCRIPTION:Winter Solstice 2033\n2033-12-21 13:45 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20340320T131800Z
+DTEND:20340320T131800Z
+DTSTAMP:20240923T100139Z
+UID:7bdc4fc2ef02814a5a5b350e2cf5004c7ebd9a7a@example.com
+DESCRIPTION:Spring Equinox 2034\n2034-03-20 13:18 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20340621T064500Z
+DTEND:20340621T064500Z
+DTSTAMP:20240923T100139Z
+UID:d1762902ffdff88942f108a779c8a816ff2feb12@example.com
+DESCRIPTION:Summer Solstice 2034\n2034-06-21 06:45 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20340922T224100Z
+DTEND:20340922T224100Z
+DTSTAMP:20240923T100139Z
+UID:b539046aa565201ed325b2113bf1b477df78bde1@example.com
+DESCRIPTION:Autumnal Equinox 2034\n2034-09-22 22:41 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20341221T193500Z
+DTEND:20341221T193500Z
+DTSTAMP:20240923T100139Z
+UID:19bda6bfbccef672f97f3ab69bdf21bfeb41e0e1@example.com
+DESCRIPTION:Winter Solstice 2034\n2034-12-21 19:35 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20350320T190300Z
+DTEND:20350320T190300Z
+DTSTAMP:20240923T100139Z
+UID:c1c2523f2a2d4db3c8b943326680556c89db58a4@example.com
+DESCRIPTION:Spring Equinox 2035\n2035-03-20 19:03 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20350621T123300Z
+DTEND:20350621T123300Z
+DTSTAMP:20240923T100139Z
+UID:682c124e9e6a7ec59e9a0bc8dc8a8672d4fa06a9@example.com
+DESCRIPTION:Summer Solstice 2035\n2035-06-21 12:33 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20350923T043900Z
+DTEND:20350923T043900Z
+DTSTAMP:20240923T100139Z
+UID:4daab47b8088a5d1631aacd0a5d54c2d7012f7d9@example.com
+DESCRIPTION:Autumnal Equinox 2035\n2035-09-23 04:39 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20351222T013100Z
+DTEND:20351222T013100Z
+DTSTAMP:20240923T100139Z
+UID:bba9ab418e03de0aa1e23b7c56e361ecc2e872a1@example.com
+DESCRIPTION:Winter Solstice 2035\n2035-12-22 01:31 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20360320T010200Z
+DTEND:20360320T010200Z
+DTSTAMP:20240923T100139Z
+UID:197065dfdb6caade1238902dcf9d150d83f13791@example.com
+DESCRIPTION:Spring Equinox 2036\n2036-03-20 01:02 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20360620T183100Z
+DTEND:20360620T183100Z
+DTSTAMP:20240923T100139Z
+UID:d03d90e8c50cb38ab348157302437667b956f7d5@example.com
+DESCRIPTION:Summer Solstice 2036\n2036-06-20 18:31 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20360922T102300Z
+DTEND:20360922T102300Z
+DTSTAMP:20240923T100139Z
+UID:e7aad9937487cfc50384e090adeeeb09ee24a019@example.com
+DESCRIPTION:Autumnal Equinox 2036\n2036-09-22 10:23 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20361221T071200Z
+DTEND:20361221T071200Z
+DTSTAMP:20240923T100139Z
+UID:6d39a66380b035751f1088fdb7d29f874ec9f4ef@example.com
+DESCRIPTION:Winter Solstice 2036\n2036-12-21 07:12 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20370320T065000Z
+DTEND:20370320T065000Z
+DTSTAMP:20240923T100139Z
+UID:ba3ac28d0b053e7cf64bfbe561136d00f9b934f6@example.com
+DESCRIPTION:Spring Equinox 2037\n2037-03-20 06:50 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20370621T002200Z
+DTEND:20370621T002200Z
+DTSTAMP:20240923T100139Z
+UID:ac24f916ed462ed4693d5c36d2a27ca94b4d6d38@example.com
+DESCRIPTION:Summer Solstice 2037\n2037-06-21 00:22 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20370922T161300Z
+DTEND:20370922T161300Z
+DTSTAMP:20240923T100139Z
+UID:cda4c1d2fcbea8807f0d1deb0b9a2c2bd0910f7e@example.com
+DESCRIPTION:Autumnal Equinox 2037\n2037-09-22 16:13 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20371221T130800Z
+DTEND:20371221T130800Z
+DTSTAMP:20240923T100139Z
+UID:03f2c49bfe8748cd906cd9f4d22af34d7385bd4b@example.com
+DESCRIPTION:Winter Solstice 2037\n2037-12-21 13:08 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20380320T124000Z
+DTEND:20380320T124000Z
+DTSTAMP:20240923T100139Z
+UID:4e5315c7e4ad6e2a011344978194748c0c626a5d@example.com
+DESCRIPTION:Spring Equinox 2038\n2038-03-20 12:40 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20380621T060900Z
+DTEND:20380621T060900Z
+DTSTAMP:20240923T100139Z
+UID:a2851adbe586786316a8a4cd6e898a64f510a63f@example.com
+DESCRIPTION:Summer Solstice 2038\n2038-06-21 06:09 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20380922T220200Z
+DTEND:20380922T220200Z
+DTSTAMP:20240923T100139Z
+UID:165a9283e6e6e6c92d3cd50a16a0c4b4a8677fb2@example.com
+DESCRIPTION:Autumnal Equinox 2038\n2038-09-22 22:02 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20381221T190100Z
+DTEND:20381221T190100Z
+DTSTAMP:20240923T100139Z
+UID:c9f1ee1d7e96b59a95b934a0e5d519e04d13b3c0@example.com
+DESCRIPTION:Winter Solstice 2038\n2038-12-21 19:01 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20390320T183200Z
+DTEND:20390320T183200Z
+DTSTAMP:20240923T100139Z
+UID:b3f57d04466f440e8e2859b3cceb0355fc62dc1f@example.com
+DESCRIPTION:Spring Equinox 2039\n2039-03-20 18:32 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20390621T115800Z
+DTEND:20390621T115800Z
+DTSTAMP:20240923T100139Z
+UID:54ac937210255bd0ed02c2c010b347041008bfab@example.com
+DESCRIPTION:Summer Solstice 2039\n2039-06-21 11:58 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20390923T035000Z
+DTEND:20390923T035000Z
+DTSTAMP:20240923T100139Z
+UID:e39776fa91c79b39e5c6f98c255ca548091872f6@example.com
+DESCRIPTION:Autumnal Equinox 2039\n2039-09-23 03:50 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20391222T004100Z
+DTEND:20391222T004100Z
+DTSTAMP:20240923T100139Z
+UID:0fb2852fa38b94e8f17bc90dbd871ed1d103ff1a@example.com
+DESCRIPTION:Winter Solstice 2039\n2039-12-22 00:41 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20400320T001100Z
+DTEND:20400320T001100Z
+DTSTAMP:20240923T100139Z
+UID:ec18a5845cbc4e5aa9113652b74970ba489160a6@example.com
+DESCRIPTION:Spring Equinox 2040\n2040-03-20 00:11 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20400620T174600Z
+DTEND:20400620T174600Z
+DTSTAMP:20240923T100139Z
+UID:e37c5b9d19a24688c67dad71b52be9026ab69c5f@example.com
+DESCRIPTION:Summer Solstice 2040\n2040-06-20 17:46 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20400922T094400Z
+DTEND:20400922T094400Z
+DTSTAMP:20240923T100139Z
+UID:7da9d26d12c8831952487ca85bff0f154e461168@example.com
+DESCRIPTION:Autumnal Equinox 2040\n2040-09-22 09:44 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20401221T063300Z
+DTEND:20401221T063300Z
+DTSTAMP:20240923T100139Z
+UID:40c911a634025d32d2ac26e216409d3c50163946@example.com
+DESCRIPTION:Winter Solstice 2040\n2040-12-21 06:33 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20410320T060700Z
+DTEND:20410320T060700Z
+DTSTAMP:20240923T100139Z
+UID:2430e066afb8af623c6936e06e840e4d68376d22@example.com
+DESCRIPTION:Spring Equinox 2041\n2041-03-20 06:07 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20410620T233700Z
+DTEND:20410620T233700Z
+DTSTAMP:20240923T100139Z
+UID:a32a8c70a35e32cc15fc1dea4745391c5d71644c@example.com
+DESCRIPTION:Summer Solstice 2041\n2041-06-20 23:37 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20410922T152700Z
+DTEND:20410922T152700Z
+DTSTAMP:20240923T100139Z
+UID:1be041bf927209fd685bba9c0cda82e3edb109d0@example.com
+DESCRIPTION:Autumnal Equinox 2041\n2041-09-22 15:27 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20411221T121900Z
+DTEND:20411221T121900Z
+DTSTAMP:20240923T100139Z
+UID:17c132d25cb29bc35b4fca639df530ef2b77c3ab@example.com
+DESCRIPTION:Winter Solstice 2041\n2041-12-21 12:19 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20420320T115300Z
+DTEND:20420320T115300Z
+DTSTAMP:20240923T100139Z
+UID:bd29fbf5c416bd1f874609b38e81bbe9a1ce232b@example.com
+DESCRIPTION:Spring Equinox 2042\n2042-03-20 11:53 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20420621T051600Z
+DTEND:20420621T051600Z
+DTSTAMP:20240923T100139Z
+UID:5284d2331a9c1771770e9b6c4331e0d726d5256a@example.com
+DESCRIPTION:Summer Solstice 2042\n2042-06-21 05:16 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20420922T211100Z
+DTEND:20420922T211100Z
+DTSTAMP:20240923T100139Z
+UID:794b197b325e9ed54a708fa2c368d1f1ca3cd8c6@example.com
+DESCRIPTION:Autumnal Equinox 2042\n2042-09-22 21:11 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20421221T180400Z
+DTEND:20421221T180400Z
+DTSTAMP:20240923T100139Z
+UID:9ac4f024d0f8c15403c2ca8243c1eddca9709d65@example.com
+DESCRIPTION:Winter Solstice 2042\n2042-12-21 18:04 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20430320T172900Z
+DTEND:20430320T172900Z
+DTSTAMP:20240923T100139Z
+UID:b140eaf94a6da1c829bcce2f67260a028bcb0a93@example.com
+DESCRIPTION:Spring Equinox 2043\n2043-03-20 17:29 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20430621T105900Z
+DTEND:20430621T105900Z
+DTSTAMP:20240923T100139Z
+UID:70a2d29e005918bf92f3fdf95b3b1b87e6d8470e@example.com
+DESCRIPTION:Summer Solstice 2043\n2043-06-21 10:59 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20430923T030700Z
+DTEND:20430923T030700Z
+DTSTAMP:20240923T100139Z
+UID:af648a9176fe7d0bcf7556809e986584c4409832@example.com
+DESCRIPTION:Autumnal Equinox 2043\n2043-09-23 03:07 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20431222T000200Z
+DTEND:20431222T000200Z
+DTSTAMP:20240923T100139Z
+UID:c3ae5ec7dc0d892383874ec8548f13a656ac5e21@example.com
+DESCRIPTION:Winter Solstice 2043\n2043-12-22 00:02 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20440319T232000Z
+DTEND:20440319T232000Z
+DTSTAMP:20240923T100139Z
+UID:791e9338191d95ce05e8f2977730a82cccd65a7f@example.com
+DESCRIPTION:Spring Equinox 2044\n2044-03-19 23:20 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20440620T165000Z
+DTEND:20440620T165000Z
+DTSTAMP:20240923T100139Z
+UID:30d28de76feb73cef6c2d464066e3db8fa581d58@example.com
+DESCRIPTION:Summer Solstice 2044\n2044-06-20 16:50 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20440922T084700Z
+DTEND:20440922T084700Z
+DTSTAMP:20240923T100139Z
+UID:c59e728a0c3349e1d37c2f206b929e9f6af2f650@example.com
+DESCRIPTION:Autumnal Equinox 2044\n2044-09-22 08:47 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20441221T054300Z
+DTEND:20441221T054300Z
+DTSTAMP:20240923T100139Z
+UID:b04a99dae408390916dd74f9d8718242363e650b@example.com
+DESCRIPTION:Winter Solstice 2044\n2044-12-21 05:43 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20450320T050800Z
+DTEND:20450320T050800Z
+DTSTAMP:20240923T100139Z
+UID:9d1dee429d07672d6f5f8ed017a6d278d0422559@example.com
+DESCRIPTION:Spring Equinox 2045\n2045-03-20 05:08 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20450620T223400Z
+DTEND:20450620T223400Z
+DTSTAMP:20240923T100139Z
+UID:7d054878f940f56acc1be8c975da8a239e75ed7d@example.com
+DESCRIPTION:Summer Solstice 2045\n2045-06-20 22:34 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20450922T143300Z
+DTEND:20450922T143300Z
+DTSTAMP:20240923T100139Z
+UID:a74a802ac17cecb38d2ed294278791b8644bae63@example.com
+DESCRIPTION:Autumnal Equinox 2045\n2045-09-22 14:33 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20451221T113600Z
+DTEND:20451221T113600Z
+DTSTAMP:20240923T100139Z
+UID:1b59003a2075513a4643f55f9d24a96056cb8955@example.com
+DESCRIPTION:Winter Solstice 2045\n2045-12-21 11:36 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20460320T105800Z
+DTEND:20460320T105800Z
+DTSTAMP:20240923T100139Z
+UID:6e6ee1d331a933eed6e1369ad4d30aedd3a41ee6@example.com
+DESCRIPTION:Spring Equinox 2046\n2046-03-20 10:58 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20460621T041500Z
+DTEND:20460621T041500Z
+DTSTAMP:20240923T100139Z
+UID:aedb59e327abb9eeb4226dedaa440a1546233882@example.com
+DESCRIPTION:Summer Solstice 2046\n2046-06-21 04:15 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20460922T202200Z
+DTEND:20460922T202200Z
+DTSTAMP:20240923T100139Z
+UID:3c0e09ecab0af1320bb971264dd1f469a11ff38d@example.com
+DESCRIPTION:Autumnal Equinox 2046\n2046-09-22 20:22 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20461221T172800Z
+DTEND:20461221T172800Z
+DTSTAMP:20240923T100139Z
+UID:4be0ad8d24ceece4028a88bcb293cb7fb512ec8a@example.com
+DESCRIPTION:Winter Solstice 2046\n2046-12-21 17:28 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20470320T165200Z
+DTEND:20470320T165200Z
+DTSTAMP:20240923T100139Z
+UID:78a244b313840b288a712bb6b2f7b901988710c6@example.com
+DESCRIPTION:Spring Equinox 2047\n2047-03-20 16:52 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20470621T100200Z
+DTEND:20470621T100200Z
+DTSTAMP:20240923T100139Z
+UID:ef939c0d78666f43b29312ff3c30d639edb04551@example.com
+DESCRIPTION:Summer Solstice 2047\n2047-06-21 10:02 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20470923T020700Z
+DTEND:20470923T020700Z
+DTSTAMP:20240923T100139Z
+UID:07b3226f1db605bad1eef700dcfb786472ed12a4@example.com
+DESCRIPTION:Autumnal Equinox 2047\n2047-09-23 02:07 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20471221T230700Z
+DTEND:20471221T230700Z
+DTSTAMP:20240923T100139Z
+UID:5a1b4e4bcd8d059c24b462ebc077b5477792e325@example.com
+DESCRIPTION:Winter Solstice 2047\n2047-12-21 23:07 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20480319T223400Z
+DTEND:20480319T223400Z
+DTSTAMP:20240923T100139Z
+UID:27987146c2311db426a21958063748e1d26f5cbc@example.com
+DESCRIPTION:Spring Equinox 2048\n2048-03-19 22:34 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20480620T155400Z
+DTEND:20480620T155400Z
+DTSTAMP:20240923T100139Z
+UID:e55fc5a3b5a13fad5e392de56a3fc9536e1a5af4@example.com
+DESCRIPTION:Summer Solstice 2048\n2048-06-20 15:54 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20480922T080100Z
+DTEND:20480922T080100Z
+DTSTAMP:20240923T100139Z
+UID:999f3084ca54a0aa2337b14905c08b9ce9e1f4a8@example.com
+DESCRIPTION:Autumnal Equinox 2048\n2048-09-22 08:01 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20481221T050200Z
+DTEND:20481221T050200Z
+DTSTAMP:20240923T100139Z
+UID:e80aa2c39d6710bcbf891344c38601370ea7b419@example.com
+DESCRIPTION:Winter Solstice 2048\n2048-12-21 05:02 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20490320T042800Z
+DTEND:20490320T042800Z
+DTSTAMP:20240923T100139Z
+UID:4ab9773c7a3b35c6cb73f3edd4c5bb6da565fc00@example.com
+DESCRIPTION:Spring Equinox 2049\n2049-03-20 04:28 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20490620T214700Z
+DTEND:20490620T214700Z
+DTSTAMP:20240923T100139Z
+UID:5d0a1eebc50386496f037f0437dd110a0db982ce@example.com
+DESCRIPTION:Summer Solstice 2049\n2049-06-20 21:47 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20490922T134200Z
+DTEND:20490922T134200Z
+DTSTAMP:20240923T100139Z
+UID:bbc97e43de67a6b81f2fc7d3c5c63475beaef2b9@example.com
+DESCRIPTION:Autumnal Equinox 2049\n2049-09-22 13:42 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20491221T105100Z
+DTEND:20491221T105100Z
+DTSTAMP:20240923T100139Z
+UID:1cd548490883871fd9ae51b6e211ff510a74ff4d@example.com
+DESCRIPTION:Winter Solstice 2049\n2049-12-21 10:51 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20500320T102000Z
+DTEND:20500320T102000Z
+DTSTAMP:20240923T100139Z
+UID:58b16725a26ae95fed79ca44c85b5e2a476e46ab@example.com
+DESCRIPTION:Spring Equinox 2050\n2050-03-20 10:20 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20500621T033300Z
+DTEND:20500621T033300Z
+DTSTAMP:20240923T100139Z
+UID:4802b595b5b2c1521bc2512c3e1e22d849be175e@example.com
+DESCRIPTION:Summer Solstice 2050\n2050-06-21 03:33 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20500922T192900Z
+DTEND:20500922T192900Z
+DTSTAMP:20240923T100139Z
+UID:e7951152d418e76eb981b590162594144fbd1d58@example.com
+DESCRIPTION:Autumnal Equinox 2050\n2050-09-22 19:29 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20501221T163900Z
+DTEND:20501221T163900Z
+DTSTAMP:20240923T100139Z
+UID:21b98cd618d4a5a6679f8019bae6a2e9ec3ed164@example.com
+DESCRIPTION:Winter Solstice 2050\n2050-12-21 16:39 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20510320T155800Z
+DTEND:20510320T155800Z
+DTSTAMP:20240923T100139Z
+UID:79cf10770c765a67640f433393ae60a96caff3a4@example.com
+DESCRIPTION:Spring Equinox 2051\n2051-03-20 15:58 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20510621T091700Z
+DTEND:20510621T091700Z
+DTSTAMP:20240923T100139Z
+UID:8f795e952f6ba7c4d7843110029f79f7c4b1fcf8@example.com
+DESCRIPTION:Summer Solstice 2051\n2051-06-21 09:17 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20510923T012600Z
+DTEND:20510923T012600Z
+DTSTAMP:20240923T100139Z
+UID:7e225862cead28698f161d02e9c9b1bcbb8d9a26@example.com
+DESCRIPTION:Autumnal Equinox 2051\n2051-09-23 01:26 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20511221T223300Z
+DTEND:20511221T223300Z
+DTSTAMP:20240923T100139Z
+UID:b875fe7fdd926413bbe852b656ef705b096a649f@example.com
+DESCRIPTION:Winter Solstice 2051\n2051-12-21 22:33 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20520319T215600Z
+DTEND:20520319T215600Z
+DTSTAMP:20240923T100139Z
+UID:bd61bb0bdb4d7cc108ace05efd57d936efe43a0d@example.com
+DESCRIPTION:Spring Equinox 2052\n2052-03-19 21:56 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20520620T151600Z
+DTEND:20520620T151600Z
+DTSTAMP:20240923T100139Z
+UID:7a5350cdba2eb5b21edd6b198315e957690b4eca@example.com
+DESCRIPTION:Summer Solstice 2052\n2052-06-20 15:16 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20520922T071600Z
+DTEND:20520922T071600Z
+DTSTAMP:20240923T100139Z
+UID:2e67a77eaf9a10551cd8c36b4d6803dde21d6843@example.com
+DESCRIPTION:Autumnal Equinox 2052\n2052-09-22 07:16 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20521221T041800Z
+DTEND:20521221T041800Z
+DTSTAMP:20240923T100139Z
+UID:d7a08f2d300c6193ead1ae572ab3680275222045@example.com
+DESCRIPTION:Winter Solstice 2052\n2052-12-21 04:18 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20530320T034600Z
+DTEND:20530320T034600Z
+DTSTAMP:20240923T100139Z
+UID:96d67f254819245a653de72d62a7a7d84dbb3234@example.com
+DESCRIPTION:Spring Equinox 2053\n2053-03-20 03:46 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20530620T210300Z
+DTEND:20530620T210300Z
+DTSTAMP:20240923T100139Z
+UID:b798f67ea8b1bc16341f436153a5b325bbc615b8@example.com
+DESCRIPTION:Summer Solstice 2053\n2053-06-20 21:03 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20530922T130500Z
+DTEND:20530922T130500Z
+DTSTAMP:20240923T100139Z
+UID:52a3bdb4815578b82353f48e0844f863a308093c@example.com
+DESCRIPTION:Autumnal Equinox 2053\n2053-09-22 13:05 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20531221T100900Z
+DTEND:20531221T100900Z
+DTSTAMP:20240923T100139Z
+UID:d6fd34a7533a64766cf0f22f40c74717f1d8a7e3@example.com
+DESCRIPTION:Winter Solstice 2053\n2053-12-21 10:09 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20540320T093500Z
+DTEND:20540320T093500Z
+DTSTAMP:20240923T100139Z
+UID:0407e77fd82b658334b7729585cf16b8ab6b7ba3@example.com
+DESCRIPTION:Spring Equinox 2054\n2054-03-20 09:35 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20540621T024700Z
+DTEND:20540621T024700Z
+DTSTAMP:20240923T100139Z
+UID:df90c3661319dcc195fbca36184451f890a556cf@example.com
+DESCRIPTION:Summer Solstice 2054\n2054-06-21 02:47 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20540922T190000Z
+DTEND:20540922T190000Z
+DTSTAMP:20240923T100139Z
+UID:20fe69a568c32a71df0c4a42cd87cc1fd5fb9be5@example.com
+DESCRIPTION:Autumnal Equinox 2054\n2054-09-22 19:00 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20541221T161000Z
+DTEND:20541221T161000Z
+DTSTAMP:20240923T100139Z
+UID:3d9cee79423fb57758fb387473a83a4d9eea984a@example.com
+DESCRIPTION:Winter Solstice 2054\n2054-12-21 16:10 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20550320T152800Z
+DTEND:20550320T152800Z
+DTSTAMP:20240923T100139Z
+UID:0fe0fd44806aeb2d48afbce888e49887b89c7d69@example.com
+DESCRIPTION:Spring Equinox 2055\n2055-03-20 15:28 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20550621T083900Z
+DTEND:20550621T083900Z
+DTSTAMP:20240923T100139Z
+UID:49c9efeba5f0419206148fd1c6470d03340e8f12@example.com
+DESCRIPTION:Summer Solstice 2055\n2055-06-21 08:39 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20550923T004800Z
+DTEND:20550923T004800Z
+DTSTAMP:20240923T100139Z
+UID:4924123d61fb71862f77ed0993d9e6ad658a937b@example.com
+DESCRIPTION:Autumnal Equinox 2055\n2055-09-23 00:48 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20551221T215600Z
+DTEND:20551221T215600Z
+DTSTAMP:20240923T100139Z
+UID:98d7fe648e20c831525d7772b335f0950c4e6e95@example.com
+DESCRIPTION:Winter Solstice 2055\n2055-12-21 21:56 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20560319T211100Z
+DTEND:20560319T211100Z
+DTSTAMP:20240923T100139Z
+UID:77b606490c35ae234c0079842b30eb05fd47f2da@example.com
+DESCRIPTION:Spring Equinox 2056\n2056-03-19 21:11 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20560620T142900Z
+DTEND:20560620T142900Z
+DTSTAMP:20240923T100139Z
+UID:6bd3e92f5c35f9516c6597f73c25642760df7d7b@example.com
+DESCRIPTION:Summer Solstice 2056\n2056-06-20 14:29 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20560922T064000Z
+DTEND:20560922T064000Z
+DTSTAMP:20240923T100139Z
+UID:dba93d3867dc16f3f1c3377cc0be97f630cae60e@example.com
+DESCRIPTION:Autumnal Equinox 2056\n2056-09-22 06:40 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20561221T035200Z
+DTEND:20561221T035200Z
+DTSTAMP:20240923T100139Z
+UID:3e3d77427e7f7d4aecb0343fe3a89195f646e6e2@example.com
+DESCRIPTION:Winter Solstice 2056\n2056-12-21 03:52 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20570320T030800Z
+DTEND:20570320T030800Z
+DTSTAMP:20240923T100139Z
+UID:ef7ca51d598d90a51d083b5a054d202b7a0f4cc2@example.com
+DESCRIPTION:Spring Equinox 2057\n2057-03-20 03:08 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20570620T201900Z
+DTEND:20570620T201900Z
+DTSTAMP:20240923T100139Z
+UID:d3ae229b5a04462b115bfbabecdf7eb8264f75e1@example.com
+DESCRIPTION:Summer Solstice 2057\n2057-06-20 20:19 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20570922T122300Z
+DTEND:20570922T122300Z
+DTSTAMP:20240923T100139Z
+UID:a48179448bfedbcb4c0abb54d5a0af8126336c9c@example.com
+DESCRIPTION:Autumnal Equinox 2057\n2057-09-22 12:23 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20571221T094200Z
+DTEND:20571221T094200Z
+DTSTAMP:20240923T100139Z
+UID:8ce52bd0034016aa211853d0abc5424f4660580c@example.com
+DESCRIPTION:Winter Solstice 2057\n2057-12-21 09:42 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20580320T090400Z
+DTEND:20580320T090400Z
+DTSTAMP:20240923T100139Z
+UID:5741bf1fa998a2ff93f056be960c92dba789fd1a@example.com
+DESCRIPTION:Spring Equinox 2058\n2058-03-20 09:04 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20580621T020300Z
+DTEND:20580621T020300Z
+DTSTAMP:20240923T100139Z
+UID:669b1823aa01c9975ed354a1cd31fa0c33525b8d@example.com
+DESCRIPTION:Summer Solstice 2058\n2058-06-21 02:03 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20580922T180700Z
+DTEND:20580922T180700Z
+DTSTAMP:20240923T100139Z
+UID:6dce0ecc9bf10ea8573610f07ff10df9fb042a4e@example.com
+DESCRIPTION:Autumnal Equinox 2058\n2058-09-22 18:07 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20581221T152400Z
+DTEND:20581221T152400Z
+DTSTAMP:20240923T100139Z
+UID:38d16bb4d88cb4a7b9c65be85e240a2c09479e53@example.com
+DESCRIPTION:Winter Solstice 2058\n2058-12-21 15:24 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20590320T144400Z
+DTEND:20590320T144400Z
+DTSTAMP:20240923T100139Z
+UID:8c5a6053c44124cb0c2435bfca4dd13bc8378b41@example.com
+DESCRIPTION:Spring Equinox 2059\n2059-03-20 14:44 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20590621T074700Z
+DTEND:20590621T074700Z
+DTSTAMP:20240923T100139Z
+UID:d12dba8e4195e2dcb668d6876b2d78051020efe6@example.com
+DESCRIPTION:Summer Solstice 2059\n2059-06-21 07:47 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20590923T000300Z
+DTEND:20590923T000300Z
+DTSTAMP:20240923T100139Z
+UID:913856e8659c7cdb97f7e90f09126af0b3cb4262@example.com
+DESCRIPTION:Autumnal Equinox 2059\n2059-09-23 00:03 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20591221T211800Z
+DTEND:20591221T211800Z
+DTSTAMP:20240923T100139Z
+UID:092cc792d876531e977cc3ba148f24e7b65e4f9a@example.com
+DESCRIPTION:Winter Solstice 2059\n2059-12-21 21:18 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20600319T203700Z
+DTEND:20600319T203700Z
+DTSTAMP:20240923T100139Z
+UID:8b746e9f77b12caba36043513b3d739efd28cf44@example.com
+DESCRIPTION:Spring Equinox 2060\n2060-03-19 20:37 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20600620T134400Z
+DTEND:20600620T134400Z
+DTSTAMP:20240923T100139Z
+UID:fb25b2718a33ad96978a66521e2fe7c06e4d196c@example.com
+DESCRIPTION:Summer Solstice 2060\n2060-06-20 13:44 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20600922T054700Z
+DTEND:20600922T054700Z
+DTSTAMP:20240923T100139Z
+UID:a0b1e984d17c4b0df71235fe6501d7d00bb3dec9@example.com
+DESCRIPTION:Autumnal Equinox 2060\n2060-09-22 05:47 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20601221T030000Z
+DTEND:20601221T030000Z
+DTSTAMP:20240923T100139Z
+UID:8c8f9d1229bb39287d14b8a3cc1a9ba5885a9be2@example.com
+DESCRIPTION:Winter Solstice 2060\n2060-12-21 03:00 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20610320T022600Z
+DTEND:20610320T022600Z
+DTSTAMP:20240923T100139Z
+UID:3e1781b91aaa49daec6821ac6f9e3e43ce32025f@example.com
+DESCRIPTION:Spring Equinox 2061\n2061-03-20 02:26 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20610620T193300Z
+DTEND:20610620T193300Z
+DTSTAMP:20240923T100139Z
+UID:6758c58b6ab3215843dba7646ba1d6537db95e61@example.com
+DESCRIPTION:Summer Solstice 2061\n2061-06-20 19:33 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20610922T113100Z
+DTEND:20610922T113100Z
+DTSTAMP:20240923T100139Z
+UID:6ac983534a7ca8c4084431cfdee468615c5a4269@example.com
+DESCRIPTION:Autumnal Equinox 2061\n2061-09-22 11:31 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20611221T084900Z
+DTEND:20611221T084900Z
+DTSTAMP:20240923T100139Z
+UID:c20821dd44b00f7c13e98eb63f21afbaa1124b08@example.com
+DESCRIPTION:Winter Solstice 2061\n2061-12-21 08:49 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20620320T080700Z
+DTEND:20620320T080700Z
+DTSTAMP:20240923T100139Z
+UID:f09ff39113def948ad0e5012f397853bd556073f@example.com
+DESCRIPTION:Spring Equinox 2062\n2062-03-20 08:07 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20620621T011000Z
+DTEND:20620621T011000Z
+DTSTAMP:20240923T100139Z
+UID:52663671896a92fe8a373e1967503d0213ee5e03@example.com
+DESCRIPTION:Summer Solstice 2062\n2062-06-21 01:10 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20620922T171900Z
+DTEND:20620922T171900Z
+DTSTAMP:20240923T100139Z
+UID:f10a5e08c7520001df1ed749b187119b3c9eca58@example.com
+DESCRIPTION:Autumnal Equinox 2062\n2062-09-22 17:19 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20621221T144200Z
+DTEND:20621221T144200Z
+DTSTAMP:20240923T100139Z
+UID:489e3a013a941e0a981fa685d22b18e29ac16695@example.com
+DESCRIPTION:Winter Solstice 2062\n2062-12-21 14:42 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20630320T135900Z
+DTEND:20630320T135900Z
+DTSTAMP:20240923T100139Z
+UID:dcd6c0123817aeabfc688b6961b4966ff59a6975@example.com
+DESCRIPTION:Spring Equinox 2063\n2063-03-20 13:59 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20630621T070200Z
+DTEND:20630621T070200Z
+DTSTAMP:20240923T100139Z
+UID:b2fdba148bc8ca91cc1ea79505b2862606230cc9@example.com
+DESCRIPTION:Summer Solstice 2063\n2063-06-21 07:02 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20630922T230800Z
+DTEND:20630922T230800Z
+DTSTAMP:20240923T100139Z
+UID:81b066fc3dd69d10234bcc6973266ed5fe519aab@example.com
+DESCRIPTION:Autumnal Equinox 2063\n2063-09-22 23:08 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20631221T202200Z
+DTEND:20631221T202200Z
+DTSTAMP:20240923T100139Z
+UID:36e37df8ce90da3f30b1cd7ed41e757f886abe84@example.com
+DESCRIPTION:Winter Solstice 2063\n2063-12-21 20:22 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20640319T194000Z
+DTEND:20640319T194000Z
+DTSTAMP:20240923T100139Z
+UID:7c4896180ddc77955f3bebd66cc4d3b5ba1da5c9@example.com
+DESCRIPTION:Spring Equinox 2064\n2064-03-19 19:40 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20640620T124700Z
+DTEND:20640620T124700Z
+DTSTAMP:20240923T100139Z
+UID:c1765fb9a24c6af25dd270b338bec3cad984a84a@example.com
+DESCRIPTION:Summer Solstice 2064\n2064-06-20 12:47 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20640922T045800Z
+DTEND:20640922T045800Z
+DTSTAMP:20240923T100139Z
+UID:b3b2d1450dfcf9b436d5d9f3a4fd686233df88ae@example.com
+DESCRIPTION:Autumnal Equinox 2064\n2064-09-22 04:58 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20641221T021000Z
+DTEND:20641221T021000Z
+DTSTAMP:20240923T100139Z
+UID:14007a78339204e7de4ebaf594486b73fa92dd23@example.com
+DESCRIPTION:Winter Solstice 2064\n2064-12-21 02:10 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20650320T012700Z
+DTEND:20650320T012700Z
+DTSTAMP:20240923T100139Z
+UID:5fc49aac7e10172aa70be8f0de359235928d59c9@example.com
+DESCRIPTION:Spring Equinox 2065\n2065-03-20 01:27 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20650620T183100Z
+DTEND:20650620T183100Z
+DTSTAMP:20240923T100139Z
+UID:4d4cb788d34091c88b22fba504c07e5454f5719b@example.com
+DESCRIPTION:Summer Solstice 2065\n2065-06-20 18:31 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20650922T104100Z
+DTEND:20650922T104100Z
+DTSTAMP:20240923T100139Z
+UID:f818f433c3296a6fc629650f0e6f80fc4164397f@example.com
+DESCRIPTION:Autumnal Equinox 2065\n2065-09-22 10:41 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20651221T075900Z
+DTEND:20651221T075900Z
+DTSTAMP:20240923T100139Z
+UID:8a20743f66031dd05f57c736d3c144f5fdfff74a@example.com
+DESCRIPTION:Winter Solstice 2065\n2065-12-21 07:59 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20660320T071900Z
+DTEND:20660320T071900Z
+DTSTAMP:20240923T100139Z
+UID:ef2a9ef8878c0589a421b29a1f45ff625686fab5@example.com
+DESCRIPTION:Spring Equinox 2066\n2066-03-20 07:19 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20660621T001600Z
+DTEND:20660621T001600Z
+DTSTAMP:20240923T100139Z
+UID:8b6305d76d500e103fd7ce32308a78dbd8275e61@example.com
+DESCRIPTION:Summer Solstice 2066\n2066-06-21 00:16 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20660922T162700Z
+DTEND:20660922T162700Z
+DTSTAMP:20240923T100139Z
+UID:f051851c5e543b0d22a5c2e5dd636798c4437648@example.com
+DESCRIPTION:Autumnal Equinox 2066\n2066-09-22 16:27 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20661221T134500Z
+DTEND:20661221T134500Z
+DTSTAMP:20240923T100139Z
+UID:67cf2ef4450682e63d4064fed61a31fd0a460756@example.com
+DESCRIPTION:Winter Solstice 2066\n2066-12-21 13:45 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20670320T125500Z
+DTEND:20670320T125500Z
+DTSTAMP:20240923T100139Z
+UID:2b85ca778bd3216c098d1a3411dd9f209347ea30@example.com
+DESCRIPTION:Spring Equinox 2067\n2067-03-20 12:55 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20670621T055600Z
+DTEND:20670621T055600Z
+DTSTAMP:20240923T100139Z
+UID:7807dd2642d4f4efbc9a700ca665172829689c6c@example.com
+DESCRIPTION:Summer Solstice 2067\n2067-06-21 05:56 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20670922T222000Z
+DTEND:20670922T222000Z
+DTSTAMP:20240923T100139Z
+UID:d6642bf08ea40bb3de7bcdee0e3c40e9cc3c1d01@example.com
+DESCRIPTION:Autumnal Equinox 2067\n2067-09-22 22:20 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20671221T194400Z
+DTEND:20671221T194400Z
+DTSTAMP:20240923T100139Z
+UID:904252d3b32293a9f6586052ece45d9fceab6139@example.com
+DESCRIPTION:Winter Solstice 2067\n2067-12-21 19:44 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20680319T185100Z
+DTEND:20680319T185100Z
+DTSTAMP:20240923T100139Z
+UID:8a8c3d5970d139ae000a1efcc7e76f21aed76933@example.com
+DESCRIPTION:Spring Equinox 2068\n2068-03-19 18:51 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20680620T115500Z
+DTEND:20680620T115500Z
+DTSTAMP:20240923T100139Z
+UID:f9eb6d3c48f1e3d13cdf0839b2265750b19bae1e@example.com
+DESCRIPTION:Summer Solstice 2068\n2068-06-20 11:55 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20680922T040900Z
+DTEND:20680922T040900Z
+DTSTAMP:20240923T100139Z
+UID:e3b90894f96872360d62e9c8232e6becb0827098@example.com
+DESCRIPTION:Autumnal Equinox 2068\n2068-09-22 04:09 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20681221T013400Z
+DTEND:20681221T013400Z
+DTSTAMP:20240923T100139Z
+UID:b69a7cedbe0b348785d7af9eef33e36cf8f94b3f@example.com
+DESCRIPTION:Winter Solstice 2068\n2068-12-21 01:34 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20690320T004400Z
+DTEND:20690320T004400Z
+DTSTAMP:20240923T100139Z
+UID:4bbba53ed198f7483d2193aee7d1fa8a17dd5229@example.com
+DESCRIPTION:Spring Equinox 2069\n2069-03-20 00:44 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20690620T174000Z
+DTEND:20690620T174000Z
+DTSTAMP:20240923T100139Z
+UID:1b45ff3c5da955977b2f948a1674b867d54516de@example.com
+DESCRIPTION:Summer Solstice 2069\n2069-06-20 17:40 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20690922T095100Z
+DTEND:20690922T095100Z
+DTSTAMP:20240923T100139Z
+UID:3b32167d3af812fadbed55c5e21faab221468011@example.com
+DESCRIPTION:Autumnal Equinox 2069\n2069-09-22 09:51 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20691221T072100Z
+DTEND:20691221T072100Z
+DTSTAMP:20240923T100139Z
+UID:50618354c20b20a4617cf67746d199f53bbd08b1@example.com
+DESCRIPTION:Winter Solstice 2069\n2069-12-21 07:21 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20700320T063500Z
+DTEND:20700320T063500Z
+DTSTAMP:20240923T100139Z
+UID:487c1d22a01f8753f2e15a6ccd70987b032676ec@example.com
+DESCRIPTION:Spring Equinox 2070\n2070-03-20 06:35 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20700620T232200Z
+DTEND:20700620T232200Z
+DTSTAMP:20240923T100139Z
+UID:12c71b02a42568c1ed9bae5323d545fa1ce9f0c3@example.com
+DESCRIPTION:Summer Solstice 2070\n2070-06-20 23:22 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20700922T154500Z
+DTEND:20700922T154500Z
+DTSTAMP:20240923T100139Z
+UID:a6ebdb65bc54e355e21bf42e39404043334f3c61@example.com
+DESCRIPTION:Autumnal Equinox 2070\n2070-09-22 15:45 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20701221T131900Z
+DTEND:20701221T131900Z
+DTSTAMP:20240923T100139Z
+UID:91b8f25218420553477492463a135c4abe2ce932@example.com
+DESCRIPTION:Winter Solstice 2070\n2070-12-21 13:19 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20710320T123600Z
+DTEND:20710320T123600Z
+DTSTAMP:20240923T100139Z
+UID:d1801e2c91531029f35da490b5acd91e6c782439@example.com
+DESCRIPTION:Spring Equinox 2071\n2071-03-20 12:36 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20710621T052100Z
+DTEND:20710621T052100Z
+DTSTAMP:20240923T100139Z
+UID:05a201d6e9f3c07c53e7af41c18b1a44eb252505@example.com
+DESCRIPTION:Summer Solstice 2071\n2071-06-21 05:21 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20710922T213900Z
+DTEND:20710922T213900Z
+DTSTAMP:20240923T100139Z
+UID:d0d7c04e08b2c2c59839d5b6b10dc06e0d17e4a3@example.com
+DESCRIPTION:Autumnal Equinox 2071\n2071-09-22 21:39 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20711221T190500Z
+DTEND:20711221T190500Z
+DTSTAMP:20240923T100139Z
+UID:d035d1179a08f6b93f8a4d6d9b17942341e8d2fb@example.com
+DESCRIPTION:Winter Solstice 2071\n2071-12-21 19:05 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20720319T181900Z
+DTEND:20720319T181900Z
+DTSTAMP:20240923T100139Z
+UID:61d7e91022447663874776e3fcb67cf510f279b7@example.com
+DESCRIPTION:Spring Equinox 2072\n2072-03-19 18:19 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20720620T111200Z
+DTEND:20720620T111200Z
+DTSTAMP:20240923T100139Z
+UID:136ed59ef0efbc1162acaf9a4fdfc231210c7133@example.com
+DESCRIPTION:Summer Solstice 2072\n2072-06-20 11:12 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20720922T032600Z
+DTEND:20720922T032600Z
+DTSTAMP:20240923T100139Z
+UID:884e540da951673b82933c1a97466a8b14782eae@example.com
+DESCRIPTION:Autumnal Equinox 2072\n2072-09-22 03:26 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20721221T005400Z
+DTEND:20721221T005400Z
+DTSTAMP:20240923T100139Z
+UID:ab44a5247b4e36c64fbd0d8664bec195ae01cc98@example.com
+DESCRIPTION:Winter Solstice 2072\n2072-12-21 00:54 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20730320T001200Z
+DTEND:20730320T001200Z
+DTSTAMP:20240923T100139Z
+UID:d69c74318d98c8164a5d4d7227cebdf4daf8579c@example.com
+DESCRIPTION:Spring Equinox 2073\n2073-03-20 00:12 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20730620T170600Z
+DTEND:20730620T170600Z
+DTSTAMP:20240923T100139Z
+UID:9cdbdffabbc97017be482c9f0735f6c755f8ab1b@example.com
+DESCRIPTION:Summer Solstice 2073\n2073-06-20 17:06 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20730922T091400Z
+DTEND:20730922T091400Z
+DTSTAMP:20240923T100139Z
+UID:6f873e52a63c7ad0211cdaaecc3401b5179a6b1a@example.com
+DESCRIPTION:Autumnal Equinox 2073\n2073-09-22 09:14 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20731221T065000Z
+DTEND:20731221T065000Z
+DTSTAMP:20240923T100139Z
+UID:c312c258885346e6e3cce2a36f6888b90569de02@example.com
+DESCRIPTION:Winter Solstice 2073\n2073-12-21 06:50 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20740320T060900Z
+DTEND:20740320T060900Z
+DTSTAMP:20240923T100139Z
+UID:fa70832f92273eb767c37f7fd6241ec16a77b958@example.com
+DESCRIPTION:Spring Equinox 2074\n2074-03-20 06:09 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20740620T225900Z
+DTEND:20740620T225900Z
+DTSTAMP:20240923T100139Z
+UID:bd025a24719c1554d38c9d832337669a68c31cc3@example.com
+DESCRIPTION:Summer Solstice 2074\n2074-06-20 22:59 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20740922T150400Z
+DTEND:20740922T150400Z
+DTSTAMP:20240923T100139Z
+UID:3657f27376589e6be01bdc610ca1616679c2190f@example.com
+DESCRIPTION:Autumnal Equinox 2074\n2074-09-22 15:04 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20741221T123600Z
+DTEND:20741221T123600Z
+DTSTAMP:20240923T100139Z
+UID:9932102d4268493b517ade254113e687514f8589@example.com
+DESCRIPTION:Winter Solstice 2074\n2074-12-21 12:36 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20750320T114800Z
+DTEND:20750320T114800Z
+DTSTAMP:20240923T100139Z
+UID:630319244240d3394e64ca2f3f8c8f75d1ae3753@example.com
+DESCRIPTION:Spring Equinox 2075\n2075-03-20 11:48 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20750621T044100Z
+DTEND:20750621T044100Z
+DTSTAMP:20240923T100139Z
+UID:cbdbd8d4e9a80535fc54c4e69d9325198ec5ce89@example.com
+DESCRIPTION:Summer Solstice 2075\n2075-06-21 04:41 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20750922T210000Z
+DTEND:20750922T210000Z
+DTSTAMP:20240923T100139Z
+UID:1eb218ef7364df504b3928337848708d74b2a1c4@example.com
+DESCRIPTION:Autumnal Equinox 2075\n2075-09-22 21:00 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20751221T182800Z
+DTEND:20751221T182800Z
+DTSTAMP:20240923T100139Z
+UID:e3d8edc3c4443c88207382938b17944efaf8bacc@example.com
+DESCRIPTION:Winter Solstice 2075\n2075-12-21 18:28 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20760319T173700Z
+DTEND:20760319T173700Z
+DTSTAMP:20240923T100139Z
+UID:2a68b9d4345528c5a72c6e5b31eee19ef448a145@example.com
+DESCRIPTION:Spring Equinox 2076\n2076-03-19 17:37 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20760620T103500Z
+DTEND:20760620T103500Z
+DTSTAMP:20240923T100139Z
+UID:bc8fe658be38a5cbefd08c076cce8740cd7e6992@example.com
+DESCRIPTION:Summer Solstice 2076\n2076-06-20 10:35 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20760922T024800Z
+DTEND:20760922T024800Z
+DTSTAMP:20240923T100139Z
+UID:a4ada65bed1b88519079642295a284e9241b18f1@example.com
+DESCRIPTION:Autumnal Equinox 2076\n2076-09-22 02:48 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20761221T001200Z
+DTEND:20761221T001200Z
+DTSTAMP:20240923T100139Z
+UID:a7a156b04eb396db9a55f2fdfc99ac4d684ce96f@example.com
+DESCRIPTION:Winter Solstice 2076\n2076-12-21 00:12 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20770319T233000Z
+DTEND:20770319T233000Z
+DTSTAMP:20240923T100139Z
+UID:0c971f0b31d88a095ca79711441382dd049db7c3@example.com
+DESCRIPTION:Spring Equinox 2077\n2077-03-19 23:30 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20770620T162300Z
+DTEND:20770620T162300Z
+DTSTAMP:20240923T100139Z
+UID:3e37a6717cad3bec92ce2d555e2dbc915d69840c@example.com
+DESCRIPTION:Summer Solstice 2077\n2077-06-20 16:23 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20770922T083500Z
+DTEND:20770922T083500Z
+DTSTAMP:20240923T100139Z
+UID:3dc4850d3e7a0ad82465a9939e50ccc60eee1858@example.com
+DESCRIPTION:Autumnal Equinox 2077\n2077-09-22 08:35 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20771221T060000Z
+DTEND:20771221T060000Z
+DTSTAMP:20240923T100139Z
+UID:3560569da4728ea54b1d92550f3c76b714517b08@example.com
+DESCRIPTION:Winter Solstice 2077\n2077-12-21 06:00 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20780320T051100Z
+DTEND:20780320T051100Z
+DTSTAMP:20240923T100139Z
+UID:b9539d9e6f8ecfe8ea985a4e1e75d168271e9db4@example.com
+DESCRIPTION:Spring Equinox 2078\n2078-03-20 05:11 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20780620T215800Z
+DTEND:20780620T215800Z
+DTSTAMP:20240923T100139Z
+UID:05c13d0edc19d266327c56486f859c11275a36ec@example.com
+DESCRIPTION:Summer Solstice 2078\n2078-06-20 21:58 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20780922T142500Z
+DTEND:20780922T142500Z
+DTSTAMP:20240923T100139Z
+UID:76e4eeea7639b7c360548ae039d5b62cd9d1d5f0@example.com
+DESCRIPTION:Autumnal Equinox 2078\n2078-09-22 14:25 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20781221T115900Z
+DTEND:20781221T115900Z
+DTSTAMP:20240923T100139Z
+UID:3ecfa2dbdca3a51b6bbd4f3467bef8260a31952c@example.com
+DESCRIPTION:Winter Solstice 2078\n2078-12-21 11:59 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20790320T110300Z
+DTEND:20790320T110300Z
+DTSTAMP:20240923T100139Z
+UID:32943a00cb8d60a253ccece0316d54af7a553bc1@example.com
+DESCRIPTION:Spring Equinox 2079\n2079-03-20 11:03 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20790621T035100Z
+DTEND:20790621T035100Z
+DTSTAMP:20240923T100139Z
+UID:f59b7fb0dafd5bd32bebfd973c61bc516f8d4e85@example.com
+DESCRIPTION:Summer Solstice 2079\n2079-06-21 03:51 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20790922T201500Z
+DTEND:20790922T201500Z
+DTSTAMP:20240923T100139Z
+UID:d613ead2e1e8e4b6eb5c5bafab011f33eefcf426@example.com
+DESCRIPTION:Autumnal Equinox 2079\n2079-09-22 20:15 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20791221T174600Z
+DTEND:20791221T174600Z
+DTSTAMP:20240923T100139Z
+UID:c8db45fd226c13153a2cc833181c91052afb25d4@example.com
+DESCRIPTION:Winter Solstice 2079\n2079-12-21 17:46 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20800319T164300Z
+DTEND:20800319T164300Z
+DTSTAMP:20240923T100139Z
+UID:aa7df258da8fabf8dd27c3a9b40d7853cf6d8356@example.com
+DESCRIPTION:Spring Equinox 2080\n2080-03-19 16:43 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20800620T093300Z
+DTEND:20800620T093300Z
+DTSTAMP:20240923T100139Z
+UID:6f5f8197d57d72ffa8f93459847fc8203a835061@example.com
+DESCRIPTION:Summer Solstice 2080\n2080-06-20 09:33 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20800922T015500Z
+DTEND:20800922T015500Z
+DTSTAMP:20240923T100139Z
+UID:2154442d7e454133a80f974c382c366b183b43a5@example.com
+DESCRIPTION:Autumnal Equinox 2080\n2080-09-22 01:55 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20801220T233100Z
+DTEND:20801220T233100Z
+DTSTAMP:20240923T100139Z
+UID:3370faa22edeb553b17eaa7057a99c970486c8f9@example.com
+DESCRIPTION:Winter Solstice 2080\n2080-12-20 23:31 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20810319T223400Z
+DTEND:20810319T223400Z
+DTSTAMP:20240923T100139Z
+UID:b7fbf061b1b9643db677598bf6401e1d94a453a3@example.com
+DESCRIPTION:Spring Equinox 2081\n2081-03-19 22:34 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20810620T151600Z
+DTEND:20810620T151600Z
+DTSTAMP:20240923T100139Z
+UID:79308b82d09a71592d78306fae797c4d05f56093@example.com
+DESCRIPTION:Summer Solstice 2081\n2081-06-20 15:16 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20810922T073800Z
+DTEND:20810922T073800Z
+DTSTAMP:20240923T100139Z
+UID:8ad196ac20cee1c13a3d7b10d829ec2dbba8515d@example.com
+DESCRIPTION:Autumnal Equinox 2081\n2081-09-22 07:38 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20811221T052200Z
+DTEND:20811221T052200Z
+DTSTAMP:20240923T100139Z
+UID:febd6a585c34a14a655123373bf7dab9d5c19ae9@example.com
+DESCRIPTION:Winter Solstice 2081\n2081-12-21 05:22 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20820320T043200Z
+DTEND:20820320T043200Z
+DTSTAMP:20240923T100139Z
+UID:f53278152cdc2c39aaac521f92245a66aa91754f@example.com
+DESCRIPTION:Spring Equinox 2082\n2082-03-20 04:32 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20820620T210400Z
+DTEND:20820620T210400Z
+DTSTAMP:20240923T100139Z
+UID:8bb8ea0c2258d40ac6e01e1122ca8b88c453e00d@example.com
+DESCRIPTION:Summer Solstice 2082\n2082-06-20 21:04 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20820922T132400Z
+DTEND:20820922T132400Z
+DTSTAMP:20240923T100139Z
+UID:f12f5276e7587e4beaae3fc9e17083440feac30a@example.com
+DESCRIPTION:Autumnal Equinox 2082\n2082-09-22 13:24 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20821221T110600Z
+DTEND:20821221T110600Z
+DTSTAMP:20240923T100139Z
+UID:b5c1205752585c62c4f73c3b77d928194d661f08@example.com
+DESCRIPTION:Winter Solstice 2082\n2082-12-21 11:06 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20830320T100800Z
+DTEND:20830320T100800Z
+DTSTAMP:20240923T100139Z
+UID:25fdfc81680a11af87326cfca0e52a8a5eece580@example.com
+DESCRIPTION:Spring Equinox 2083\n2083-03-20 10:08 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20830621T024100Z
+DTEND:20830621T024100Z
+DTSTAMP:20240923T100139Z
+UID:c173105c489a5c314e5cc64d3bf7fb8ad67d60dc@example.com
+DESCRIPTION:Summer Solstice 2083\n2083-06-21 02:41 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20830922T191000Z
+DTEND:20830922T191000Z
+DTSTAMP:20240923T100139Z
+UID:6fca7b838f0170cd0d6ab221d4d47c410cce7218@example.com
+DESCRIPTION:Autumnal Equinox 2083\n2083-09-22 19:10 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20831221T165100Z
+DTEND:20831221T165100Z
+DTSTAMP:20240923T100139Z
+UID:c83e359dc73b80c7773c3b6fd0a7c98db0b2a53b@example.com
+DESCRIPTION:Winter Solstice 2083\n2083-12-21 16:51 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20840319T155800Z
+DTEND:20840319T155800Z
+DTSTAMP:20240923T100139Z
+UID:9b676b2c897ed9136a3b85bdc4a8eb1c2d30e9af@example.com
+DESCRIPTION:Spring Equinox 2084\n2084-03-19 15:58 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20840620T083900Z
+DTEND:20840620T083900Z
+DTSTAMP:20240923T100139Z
+UID:19cf4d13d30516c6edb3dba957994066c6ea2baf@example.com
+DESCRIPTION:Summer Solstice 2084\n2084-06-20 08:39 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20840922T005800Z
+DTEND:20840922T005800Z
+DTSTAMP:20240923T100139Z
+UID:1320216928590baca1535ada51d76f3bcda0d452@example.com
+DESCRIPTION:Autumnal Equinox 2084\n2084-09-22 00:58 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20841220T224000Z
+DTEND:20841220T224000Z
+DTSTAMP:20240923T100139Z
+UID:e41e544482763dce85101a245a398ff795020ce0@example.com
+DESCRIPTION:Winter Solstice 2084\n2084-12-20 22:40 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20850319T215300Z
+DTEND:20850319T215300Z
+DTSTAMP:20240923T100139Z
+UID:deceff6f0829ffd7ae3552f05acf9e6317f21712@example.com
+DESCRIPTION:Spring Equinox 2085\n2085-03-19 21:53 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20850620T143300Z
+DTEND:20850620T143300Z
+DTSTAMP:20240923T100139Z
+UID:98802a8477b7d65bca39fe5e18ad6e691ad92696@example.com
+DESCRIPTION:Summer Solstice 2085\n2085-06-20 14:33 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20850922T064300Z
+DTEND:20850922T064300Z
+DTSTAMP:20240923T100139Z
+UID:8e2a9227ce4ca8f622b924c6bc31c2acedabfcb4@example.com
+DESCRIPTION:Autumnal Equinox 2085\n2085-09-22 06:43 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20851221T042900Z
+DTEND:20851221T042900Z
+DTSTAMP:20240923T100139Z
+UID:95fa48ccaa4c3af6a0afd33d20fa1710044d1e69@example.com
+DESCRIPTION:Winter Solstice 2085\n2085-12-21 04:29 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20860320T033600Z
+DTEND:20860320T033600Z
+DTSTAMP:20240923T100139Z
+UID:c1b5b6212d23d8cac9893937d312a756401dea20@example.com
+DESCRIPTION:Spring Equinox 2086\n2086-03-20 03:36 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20860620T201100Z
+DTEND:20860620T201100Z
+DTSTAMP:20240923T100139Z
+UID:1c86b2484003696126b2e664712d1514ffbed1a4@example.com
+DESCRIPTION:Summer Solstice 2086\n2086-06-20 20:11 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20860922T123300Z
+DTEND:20860922T123300Z
+DTSTAMP:20240923T100139Z
+UID:0b1b0e2c16fef0a2a712406cfdcb7a30acf833cc@example.com
+DESCRIPTION:Autumnal Equinox 2086\n2086-09-22 12:33 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20861221T102400Z
+DTEND:20861221T102400Z
+DTSTAMP:20240923T100139Z
+UID:e0355fba9ba0072f38c83a67dd29d18c18efb560@example.com
+DESCRIPTION:Winter Solstice 2086\n2086-12-21 10:24 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20870320T092700Z
+DTEND:20870320T092700Z
+DTSTAMP:20240923T100139Z
+UID:7b7f48bd0b2f44b28858382ebb7d526cf170d787@example.com
+DESCRIPTION:Spring Equinox 2087\n2087-03-20 09:27 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20870621T020500Z
+DTEND:20870621T020500Z
+DTSTAMP:20240923T100139Z
+UID:9d7075af64efc64163c21e6c8bfee30d92db2013@example.com
+DESCRIPTION:Summer Solstice 2087\n2087-06-21 02:05 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20870922T182700Z
+DTEND:20870922T182700Z
+DTSTAMP:20240923T100139Z
+UID:4896637dee86263303d11b936b716b376cf9e53f@example.com
+DESCRIPTION:Autumnal Equinox 2087\n2087-09-22 18:27 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20871221T160700Z
+DTEND:20871221T160700Z
+DTSTAMP:20240923T100139Z
+UID:038b4a8b06acd210b90cce246a6eb22512aacdac@example.com
+DESCRIPTION:Winter Solstice 2087\n2087-12-21 16:07 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20880319T151600Z
+DTEND:20880319T151600Z
+DTSTAMP:20240923T100139Z
+UID:11ce9ecf8602df12ed3183f9b96aa027d257ea5d@example.com
+DESCRIPTION:Spring Equinox 2088\n2088-03-19 15:16 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20880620T075700Z
+DTEND:20880620T075700Z
+DTSTAMP:20240923T100139Z
+UID:1632103e9af48bd1eb2e52de9782a4eb002b8188@example.com
+DESCRIPTION:Summer Solstice 2088\n2088-06-20 07:57 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20880922T001800Z
+DTEND:20880922T001800Z
+DTSTAMP:20240923T100139Z
+UID:b0cf5309bfe607646476a0710c342966572357b5@example.com
+DESCRIPTION:Autumnal Equinox 2088\n2088-09-22 00:18 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20881220T215600Z
+DTEND:20881220T215600Z
+DTSTAMP:20240923T100139Z
+UID:8d503f3a15b184e51c4645b4a87fd6b480d494d9@example.com
+DESCRIPTION:Winter Solstice 2088\n2088-12-20 21:56 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20890319T210700Z
+DTEND:20890319T210700Z
+DTSTAMP:20240923T100139Z
+UID:eacdbfed6a15e6c272fca3074ad250ba00840ac0@example.com
+DESCRIPTION:Spring Equinox 2089\n2089-03-19 21:07 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20890620T134300Z
+DTEND:20890620T134300Z
+DTSTAMP:20240923T100139Z
+UID:d37942f7e759defa99bd9b1c2a1fab85569435ac@example.com
+DESCRIPTION:Summer Solstice 2089\n2089-06-20 13:43 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20890922T060700Z
+DTEND:20890922T060700Z
+DTSTAMP:20240923T100139Z
+UID:91b60533639665dffb4463c020f3bf6e7d5b8a38@example.com
+DESCRIPTION:Autumnal Equinox 2089\n2089-09-22 06:07 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20891221T035300Z
+DTEND:20891221T035300Z
+DTSTAMP:20240923T100139Z
+UID:b1be7757171a9dd3b10d0ab4ec15e8503204ba3d@example.com
+DESCRIPTION:Winter Solstice 2089\n2089-12-21 03:53 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20900320T030300Z
+DTEND:20900320T030300Z
+DTSTAMP:20240923T100139Z
+UID:60b5ea75d230883ef13b7a9f7434782fc91a0c2a@example.com
+DESCRIPTION:Spring Equinox 2090\n2090-03-20 03:03 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20900620T193700Z
+DTEND:20900620T193700Z
+DTSTAMP:20240923T100139Z
+UID:b0062fcf0886dbc0a1d373a3193140d48135f616@example.com
+DESCRIPTION:Summer Solstice 2090\n2090-06-20 19:37 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20900922T120100Z
+DTEND:20900922T120100Z
+DTSTAMP:20240923T100139Z
+UID:3905340c271dc6dc1d1ff6c3be023fb0196a40ac@example.com
+DESCRIPTION:Autumnal Equinox 2090\n2090-09-22 12:01 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20901221T094500Z
+DTEND:20901221T094500Z
+DTSTAMP:20240923T100139Z
+UID:fba25091e060a78f5e4bf15735288c10262fcc0d@example.com
+DESCRIPTION:Winter Solstice 2090\n2090-12-21 09:45 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20910320T084000Z
+DTEND:20910320T084000Z
+DTSTAMP:20240923T100139Z
+UID:b13e00f8d6059b43b8a323616f829e46bff7b27a@example.com
+DESCRIPTION:Spring Equinox 2091\n2091-03-20 08:40 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20910621T011700Z
+DTEND:20910621T011700Z
+DTSTAMP:20240923T100139Z
+UID:383465f61c0fd4851b9a421127b21e8e758c49fe@example.com
+DESCRIPTION:Summer Solstice 2091\n2091-06-21 01:17 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20910922T174900Z
+DTEND:20910922T174900Z
+DTSTAMP:20240923T100139Z
+UID:ca592b250ed367619fd7a41a41a050169ce882b6@example.com
+DESCRIPTION:Autumnal Equinox 2091\n2091-09-22 17:49 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20911221T153700Z
+DTEND:20911221T153700Z
+DTSTAMP:20240923T100139Z
+UID:a9ce0623c25d9e60d8306778e88c401921325c0e@example.com
+DESCRIPTION:Winter Solstice 2091\n2091-12-21 15:37 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20920319T143300Z
+DTEND:20920319T143300Z
+DTSTAMP:20240923T100139Z
+UID:ee574f286f34f7d8896620baa105e9892d2612e7@example.com
+DESCRIPTION:Spring Equinox 2092\n2092-03-19 14:33 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20920620T071400Z
+DTEND:20920620T071400Z
+DTSTAMP:20240923T100139Z
+UID:0ed635155eeb19c8919411f2fa5a221ead83d08e@example.com
+DESCRIPTION:Summer Solstice 2092\n2092-06-20 07:14 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20920921T234100Z
+DTEND:20920921T234100Z
+DTSTAMP:20240923T100139Z
+UID:8e5deea7ac924c0dc775d19c17ddf2278e929b4c@example.com
+DESCRIPTION:Autumnal Equinox 2092\n2092-09-21 23:41 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20921220T213100Z
+DTEND:20921220T213100Z
+DTSTAMP:20240923T100139Z
+UID:f2c878c9fd5a11c4be9df72cd39e7c2f4a681cff@example.com
+DESCRIPTION:Winter Solstice 2092\n2092-12-20 21:31 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20930319T203500Z
+DTEND:20930319T203500Z
+DTSTAMP:20240923T100139Z
+UID:a6c112b812f830c6ab285900d74433e3789daa05@example.com
+DESCRIPTION:Spring Equinox 2093\n2093-03-19 20:35 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20930620T130800Z
+DTEND:20930620T130800Z
+DTSTAMP:20240923T100139Z
+UID:ba178b499f463c2ae7afaa08a0b0ca56bd22988d@example.com
+DESCRIPTION:Summer Solstice 2093\n2093-06-20 13:08 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20930922T053000Z
+DTEND:20930922T053000Z
+DTSTAMP:20240923T100139Z
+UID:9e2c7dd67cc7b89c4190c3c3c8d32c3d777710cb@example.com
+DESCRIPTION:Autumnal Equinox 2093\n2093-09-22 05:30 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20931221T032100Z
+DTEND:20931221T032100Z
+DTSTAMP:20240923T100139Z
+UID:086773806ff240b48045b795fc7a3fd3704b4246@example.com
+DESCRIPTION:Winter Solstice 2093\n2093-12-21 03:21 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20940320T022000Z
+DTEND:20940320T022000Z
+DTSTAMP:20240923T100139Z
+UID:6d95f0403e47c486a31496be755278b79baed6e5@example.com
+DESCRIPTION:Spring Equinox 2094\n2094-03-20 02:20 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20940620T184000Z
+DTEND:20940620T184000Z
+DTSTAMP:20240923T100139Z
+UID:45237fe62dc63192e5aee80599cb9dedb71bd45e@example.com
+DESCRIPTION:Summer Solstice 2094\n2094-06-20 18:40 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20940922T111500Z
+DTEND:20940922T111500Z
+DTSTAMP:20240923T100139Z
+UID:81ff77dc26abfedabf52b928de397773b0bd1749@example.com
+DESCRIPTION:Autumnal Equinox 2094\n2094-09-22 11:15 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20941221T091100Z
+DTEND:20941221T091100Z
+DTSTAMP:20240923T100139Z
+UID:8987bd48c16efccf7e37a34cf030ff857e15eaeb@example.com
+DESCRIPTION:Winter Solstice 2094\n2094-12-21 09:11 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20950320T081400Z
+DTEND:20950320T081400Z
+DTSTAMP:20240923T100139Z
+UID:78ebed0ced4f01596942f09e2eeea240cd96e4ab@example.com
+DESCRIPTION:Spring Equinox 2095\n2095-03-20 08:14 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20950621T003800Z
+DTEND:20950621T003800Z
+DTSTAMP:20240923T100139Z
+UID:c557a3e2620ad5bfcef2d73394b215b91eb0678e@example.com
+DESCRIPTION:Summer Solstice 2095\n2095-06-21 00:38 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20950922T171000Z
+DTEND:20950922T171000Z
+DTSTAMP:20240923T100139Z
+UID:88ffc16828c570b9766f642384d5955b1db2c72c@example.com
+DESCRIPTION:Autumnal Equinox 2095\n2095-09-22 17:10 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20951221T150000Z
+DTEND:20951221T150000Z
+DTSTAMP:20240923T100139Z
+UID:f94f836f6c19697cfd6f29cb8046bc43b4d2e896@example.com
+DESCRIPTION:Winter Solstice 2095\n2095-12-21 15:00 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20960319T140300Z
+DTEND:20960319T140300Z
+DTSTAMP:20240923T100139Z
+UID:1aef92a415c1ebd207c4fcf62454ad34fd02e255@example.com
+DESCRIPTION:Spring Equinox 2096\n2096-03-19 14:03 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20960620T063100Z
+DTEND:20960620T063100Z
+DTSTAMP:20240923T100139Z
+UID:936a0fa25640efc56f69f4bd213a2a5a47a8bcd3@example.com
+DESCRIPTION:Summer Solstice 2096\n2096-06-20 06:31 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20960921T225500Z
+DTEND:20960921T225500Z
+DTSTAMP:20240923T100139Z
+UID:fb8be6006e9c1560aab7dd621e024366cb74c0a2@example.com
+DESCRIPTION:Autumnal Equinox 2096\n2096-09-21 22:55 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20961220T204600Z
+DTEND:20961220T204600Z
+DTSTAMP:20240923T100139Z
+UID:dfb0c972fdfa49046b1d58788e0a33ae34a3768a@example.com
+DESCRIPTION:Winter Solstice 2096\n2096-12-20 20:46 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20970319T194900Z
+DTEND:20970319T194900Z
+DTSTAMP:20240923T100139Z
+UID:f737b1947c77e223c27df135ed8439387b1c53b9@example.com
+DESCRIPTION:Spring Equinox 2097\n2097-03-19 19:49 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20970620T121400Z
+DTEND:20970620T121400Z
+DTSTAMP:20240923T100139Z
+UID:e8d2c6076c8e94aab5edf3d7e4ffbc6f34c78df3@example.com
+DESCRIPTION:Summer Solstice 2097\n2097-06-20 12:14 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20970922T043700Z
+DTEND:20970922T043700Z
+DTSTAMP:20240923T100139Z
+UID:a1c766cdcb68f9a92881499b8114226b88a54ad5@example.com
+DESCRIPTION:Autumnal Equinox 2097\n2097-09-22 04:37 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20971221T023800Z
+DTEND:20971221T023800Z
+DTSTAMP:20240923T100139Z
+UID:d3bc85b0384fa1e52e5d09d47c30fcf5c5385bb0@example.com
+DESCRIPTION:Winter Solstice 2097\n2097-12-21 02:38 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20980320T013800Z
+DTEND:20980320T013800Z
+DTSTAMP:20240923T100139Z
+UID:1783fb1f114c165ab5766af258240cc8ab6b04dd@example.com
+DESCRIPTION:Spring Equinox 2098\n2098-03-20 01:38 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20980620T180100Z
+DTEND:20980620T180100Z
+DTSTAMP:20240923T100139Z
+UID:09d9be1ad3340d30ceb7f4fd55ce960da2aff391@example.com
+DESCRIPTION:Summer Solstice 2098\n2098-06-20 18:01 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20980922T102200Z
+DTEND:20980922T102200Z
+DTSTAMP:20240923T100139Z
+UID:c001372747b5db34de4e1829f67c7cda5eaed27c@example.com
+DESCRIPTION:Autumnal Equinox 2098\n2098-09-22 10:22 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20981221T081900Z
+DTEND:20981221T081900Z
+DTSTAMP:20240923T100139Z
+UID:78f53a4559595c6fee9b7d008f8698001a7a6454@example.com
+DESCRIPTION:Winter Solstice 2098\n2098-12-21 08:19 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:20990320T071700Z
+DTEND:20990320T071700Z
+DTSTAMP:20240923T100139Z
+UID:fba1bbf6d238ac3647db155d9cea01747f0c12b6@example.com
+DESCRIPTION:Spring Equinox 2099\n2099-03-20 07:17 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:20990620T234100Z
+DTEND:20990620T234100Z
+DTSTAMP:20240923T100139Z
+UID:b51954de9cf96416ca989983f74aab0a47b8dcba@example.com
+DESCRIPTION:Summer Solstice 2099\n2099-06-20 23:41 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:20990922T161000Z
+DTEND:20990922T161000Z
+DTSTAMP:20240923T100139Z
+UID:2527e1a9f32d496a0156ba2cf001756a428e8851@example.com
+DESCRIPTION:Autumnal Equinox 2099\n2099-09-22 16:10 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:20991221T140400Z
+DTEND:20991221T140400Z
+DTSTAMP:20240923T100139Z
+UID:11e09bf0795bd099818eae216eaf0c111d9d0d95@example.com
+DESCRIPTION:Winter Solstice 2099\n2099-12-21 14:04 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Spring Equinox
+DTSTART:21000320T130400Z
+DTEND:21000320T130400Z
+DTSTAMP:20240923T100139Z
+UID:6dc5946550d6c7f1c2dd26da02cb81412fc6720e@example.com
+DESCRIPTION:Spring Equinox 2100\n2100-03-20 13:04 UTC\n\nWikipedia: https:
+ //en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.co
+ m/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Summer Solstice
+DTSTART:21000621T053200Z
+DTEND:21000621T053200Z
+DTSTAMP:20240923T100139Z
+UID:b92fdd2c12d526eab74fe63fa61af581f92bde4d@example.com
+DESCRIPTION:Summer Solstice 2100\n2100-06-21 05:32 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Autumnal Equinox
+DTSTART:21000922T220000Z
+DTEND:21000922T220000Z
+DTSTAMP:20240923T100139Z
+UID:4a93dd7eef344e3951b70768e2af9621d38cb363@example.com
+DESCRIPTION:Autumnal Equinox 2100\n2100-09-22 22:00 UTC\n\nWikipedia: http
+ s://en.wikipedia.org/wiki/Equinox\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Equinox
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Winter Solstice
+DTSTART:21001221T195100Z
+DTEND:21001221T195100Z
+DTSTAMP:20240923T100139Z
+UID:166b19abdc03637084784e96e68b7305a9eddefb@example.com
+DESCRIPTION:Winter Solstice 2100\n2100-12-21 19:51 UTC\n\nWikipedia: https
+ ://en.wikipedia.org/wiki/Solstice\n\nData Source: https://www.astropixels.
+ com/ephemeris/soleq2001.html
+LOCATION:Earth
+URL;VALUE=URI:https://en.wikipedia.org/wiki/Solstice
+END:VEVENT
+END:VCALENDAR
